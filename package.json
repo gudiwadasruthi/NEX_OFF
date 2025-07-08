@@ -1,0 +1,18 @@
+{
+  "name": "chatbot",
+  "version": "1.0.0",
+  "description": "AI Chatbot with Groq integration",
+  "main": "offline/main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^28.3.3",
+    "pdf-lib": "^1.17.1",
+    "pdf-parse": "^1.1.1",
+    "pdf-text-extract": "^1.5.0",
+    "pdf2json": "^3.1.6"
+  }
+}

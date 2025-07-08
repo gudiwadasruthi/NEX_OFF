@@ -1,0 +1,26 @@
+{
+  "title": "Hypertension",
+  "description": "A chronic medical condition where the force of the blood against artery walls is consistently too high, increasing the risk of heart disease and stroke.",
+  "sections": [
+    {
+      "heading": "Definition",
+      "content": "Hypertension, or high blood pressure, occurs when blood flows through the arteries at a higher-than-normal pressure. A reading consistently above 130/80 mmHg is generally considered hypertensive. It is a major risk factor for heart attack, stroke, and kidney failure. The condition often has no symptoms, earning the nickname 'the silent killer.' Long-term hypertension damages blood vessels and organs. It's categorized into primary (essential) hypertension, with no known cause, and secondary hypertension, which results from another condition. Lifestyle changes and medications are the main treatments. Early detection and control are key to avoiding complications."
+    },
+    {
+      "heading": "Causes",
+      "content": "The exact cause of primary hypertension is unknown but is linked to genetics, poor diet (especially high salt intake), obesity, stress, and lack of physical activity. Secondary hypertension may result from kidney disease, thyroid problems, certain medications, or sleep apnea. Alcohol consumption and tobacco use also elevate risk. Aging increases the likelihood of developing hypertension. Family history is a strong predictor. Hormonal imbalances and pregnancy can also contribute. Monitoring and addressing underlying causes is essential in treatment."
+    },
+    {
+      "heading": "Symptoms",
+      "content": "Hypertension is often asymptomatic, especially in early stages. Some individuals may experience headaches, nosebleeds, dizziness, or blurred vision. Severe or prolonged hypertension can lead to complications like heart failure, stroke, or kidney damage. Sudden spikes in pressure may cause shortness of breath, anxiety, or chest pain. Silent progression means many are unaware they have it until serious damage occurs. Regular blood pressure monitoring is crucial. Early detection prevents long-term complications. Symptoms may vary and should not be ignored."
+    },
+    {
+      "heading": "Diagnosis",
+      "content": "Diagnosis involves measuring blood pressure using a cuff and stethoscope or digital device. Multiple readings across days confirm persistent elevation. Ambulatory monitoring may be used for borderline cases. Blood tests assess kidney function and cholesterol. Urine tests may detect protein or glucose, indicating organ damage. ECG and echocardiograms evaluate heart health. Secondary hypertension may require imaging like CT or MRI of the kidneys. Accurate diagnosis guides treatment choices. Regular screening is recommended for adults."
+    },
+    {
+      "heading": "Medications",
+      "content": "**ACE inhibitors** like **Lisinopril** and **Enalapril** help relax blood vessels. **Angiotensin II receptor blockers (ARBs)** such as **Losartan** and **Valsartan** work similarly but are often better tolerated. **Beta-blockers** (e.g., **Atenolol**, **Metoprolol**) reduce heart rate and cardiac output. **Calcium channel blockers** like **Amlodipine** relax and widen arteries. **Thiazide diuretics** such as **Hydrochlorothiazide** lower fluid volume and pressure. **Aldosterone antagonists** like **Spironolactone** are used in resistant hypertension. Combination therapy is common when a single drug is insufficient. Side effects should be monitored. Medication adherence is vital for blood pressure control."
+    }
+  ]
+}

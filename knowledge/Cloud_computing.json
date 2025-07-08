@@ -1,0 +1,30 @@
+{
+  "title": "Cloud Computing",
+  "description": "Delivery of computing services over the internet with pay-as-you-go pricing.",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "content": "Cloud computing provides on-demand access to shared computing resources. It eliminates the need for on-premises infrastructure maintenance. Services are delivered through three main models: IaaS, PaaS, and SaaS. Leading providers include AWS, Microsoft Azure, and Google Cloud. Cloud enables global scalability and business agility. Security remains a top concern for cloud adoption. Hybrid and multi-cloud strategies are gaining popularity. Edge computing extends cloud capabilities to data sources."
+    },
+    {
+      "heading": "Key Features",
+      "content": "Resource pooling enables multi-tenant architecture. Rapid elasticity scales resources up or down automatically. Measured service allows pay-per-use billing models. Broad network access works across devices and locations. On-demand self-service via web portals and APIs. Automated management reduces administrative overhead. Global infrastructure with regional availability zones. Built-in disaster recovery and backup capabilities."
+    },
+    {
+      "heading": "Subfields",
+      "content": "Infrastructure as a Service (IaaS): Virtualized computing resources. Platform as a Service (PaaS): Development environments. Software as a Service (SaaS): Ready-to-use applications. Serverless Computing: Event-driven execution. Cloud Storage: Object, block, and file storage. Cloud Networking: Virtual networks and CDNs. Cloud Security: Shared responsibility model. Cloud AI Services: Pre-trained ML models."
+    },
+    {
+      "heading": "Applications",
+      "content": "Startups leverage cloud for rapid scaling without large upfront costs. Enterprises migrate legacy systems to reduce data center expenses. Developers use cloud platforms for CI/CD pipelines. Data scientists access cloud GPUs for model training. Media companies stream content via cloud CDNs. Healthcare organizations use cloud for telemedicine platforms. Educational institutions provide virtual learning environments. Government agencies implement secure cloud solutions."
+    },
+    {
+      "heading": "Challenges",
+      "content": "Vendor lock-in concerns with proprietary services. Data residency and compliance requirements. Unexpected costs from unoptimized resource usage. Performance variability in shared environments. Security risks from misconfigurations. Limited control over underlying infrastructure. Skills gap in cloud architecture and security. Integration complexity with existing systems."
+    },
+    {
+      "heading": "Advantages",
+      "content": "Reduces capital expenditures on hardware. Enables global deployment in minutes. Provides access to cutting-edge technologies. Supports remote work and collaboration. Offers high availability and fault tolerance. Simplifies IT infrastructure management. Accelerates time-to-market for applications. Scales seamlessly with business growth."
+    }
+  ]
+}

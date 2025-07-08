@@ -1,0 +1,26 @@
+{
+  "title": "Urinary Tract Infection (UTI)",
+  "description": "UTIs are infections affecting any part of the urinary system, commonly the bladder and urethra.",
+  "sections": [
+    {
+      "heading": "Definition",
+      "content": "A urinary tract infection occurs when bacteria enter and multiply in the urinary tract, causing inflammation and discomfort. UTIs are more common in women due to anatomical differences. They range from uncomplicated cystitis to complicated infections involving kidneys (pyelonephritis). UTIs cause significant morbidity but rarely lead to serious complications if treated promptly. Risk factors include sexual activity, catheter use, diabetes, and urinary tract abnormalities. Recurrent UTIs require evaluation. Hygiene practices and hydration help prevent infections."
+    },
+    {
+      "heading": "Causes",
+      "content": "The most common cause of UTI is Escherichia coli from the intestinal flora. Other bacteria include Klebsiella, Proteus, and Staphylococcus saprophyticus. Catheterization and urinary stasis increase infection risk. Sexual activity facilitates bacterial entry. Hormonal changes, especially in postmenopausal women, contribute. Urinary tract abnormalities and kidney stones can predispose to infections. Antibiotic resistance is a growing concern. Identifying the causative agent helps tailor therapy. Preventive measures focus on hygiene and voiding habits."
+    },
+    {
+      "heading": "Symptoms",
+      "content": "Typical symptoms include burning sensation during urination, frequent urge to urinate, cloudy or foul-smelling urine, pelvic pain, and lower abdominal discomfort. Fever and chills suggest kidney involvement. Some patients have asymptomatic bacteriuria, especially elderly or diabetics. Early treatment prevents progression. Symptoms may overlap with other conditions like sexually transmitted infections or interstitial cystitis. Urgency and dysuria are hallmark symptoms. Prompt medical consultation ensures proper diagnosis."
+    },
+    {
+      "heading": "Diagnosis",
+      "content": "Diagnosis relies on urine analysis and culture to identify causative bacteria and antibiotic sensitivity. Dipstick tests detect leukocytes and nitrites. Urinalysis helps differentiate infection from contamination. Imaging studies may be required for recurrent or complicated UTIs. Patient history and physical examination guide diagnosis. Differential diagnosis includes vaginitis and prostatitis. Timely diagnosis ensures effective treatment. Laboratory confirmation is important in recurrent or resistant cases."
+    },
+    {
+      "heading": "Medications",
+      "content": "Treatment includes antibiotics such as **Nitrofurantoin**, **Trimethoprim-Sulfamethoxazole (TMP-SMX)**, **Fosfomycin**, and **Ciprofloxacin** depending on sensitivity. Symptomatic relief may involve analgesics like **Phenazopyridine**. For recurrent UTIs, low-dose prophylactic antibiotics may be prescribed. Hydration and frequent urination aid recovery. Resistance patterns influence drug choice. Completing the full course is essential to prevent relapse. Patient education on hygiene and voiding habits supports prevention."
+    }
+  ]
+}

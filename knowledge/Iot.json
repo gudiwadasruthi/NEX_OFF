@@ -1,0 +1,30 @@
+{
+  "title": "Internet of Things (IoT)",
+  "description": "Network of physical objects embedded with sensors, software, and connectivity to exchange data.",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "content": "IoT connects everyday objects to the internet, enabling data collection/control. Originated from RFID and wireless sensor networks. Now encompasses 30B+ devices globally. Combines hardware (sensors), networks (5G), and cloud platforms. Key sectors include smart homes, cities, and Industry 4.0. Edge computing reduces latency for critical applications. Challenges include security and interoperability. AI integration enables predictive analytics."
+    },
+    {
+      "heading": "Key Features",
+      "content": "Sensors measure temperature, motion, etc. Connectivity via WiFi, Bluetooth, LPWAN. Low-power designs for battery operation. Cloud platforms store/analyze data (AWS IoT). Edge computing processes data locally. Over-the-air (OTA) updates maintain devices. Digital twins simulate physical counterparts. Security frameworks (Matter) combat vulnerabilities. Energy harvesting extends device lifespans."
+    },
+    {
+      "heading": "Subfields",
+      "content": "Industrial IoT (IIoT): Factory automation. Consumer IoT: Smart home devices. Wearables: Health trackers (Fitbit). Smart Cities: Traffic management. Agricultural IoT: Precision farming. Medical IoT: Remote patient monitoring. Automotive: Connected vehicles. Energy: Smart grids."
+    },
+    {
+      "heading": "Applications",
+      "content": "Manufacturing: Predictive equipment maintenance. Healthcare: Continuous glucose monitoring. Retail: Smart shelves with inventory tracking. Utilities: Leak detection in water systems. Logistics: Asset tracking with GPS/RFID. Home: Voice-controlled appliances (Alexa). Agriculture: Soil moisture optimization. Disaster Management: Early warning systems."
+    },
+    {
+      "heading": "Challenges",
+      "content": "Security vulnerabilities (Mirai botnet). Lack of universal standards. Power constraints for remote devices. Data privacy concerns. High deployment costs. Skill gaps in implementation. Network congestion from massive devices. Short device lifespans create e-waste."
+    },
+    {
+      "heading": "Advantages",
+      "content": "Real-time monitoring of assets. Operational efficiency gains. New business models (product-as-service). Energy savings through automation. Improved safety in hazardous environments. Data-driven decision making. Enhanced customer experiences. Sustainability benefits (smart energy)."
+    }
+  ]
+}

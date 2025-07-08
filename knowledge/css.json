@@ -1,0 +1,30 @@
+{
+  "title": "CSS Fundamentals",
+  "description": "CSS (Cascading Style Sheets) is a stylesheet language used to describe the presentation and formatting of a document written in HTML or XML. CSS controls the layout, colors, fonts, spacing, and overall visual appearance of web pages, enabling separation of content (HTML) from design (CSS).",
+  "sections": [
+    {
+      "heading": "Definition",
+      "content": "CSS (Cascading Style Sheets) is a stylesheet language used to describe the presentation and formatting of a document written in HTML or XML. CSS controls the layout, colors, fonts, spacing, and overall visual appearance of web pages, enabling separation of content (HTML) from design (CSS).\n"
+    },
+    {
+      "heading": "Key Features",
+      "content": "Styling Language: CSS defines how HTML elements should be displayed on screen, paper, or other media.\nSelectors: Patterns used to select the HTML elements you want to style (eg, element selectors, class selectors, ID selectors, attribute selectors).\nProperties and Values: CSS styles are made up of properties (eg, color, font-size, margin) and values (eg, red, 16px, 10px).\nCascading and Specificity: Multiple CSS rules can apply to the same element; rules cascade and specificity determines which rule takes precedence.\nBox Model: Every HTML element is considered a box with content, padding, border, and margin areas controlling layout and spacing.\nResponsive Design: CSS allows layouts to adapt to different screen sizes using media queries and flexible units.\nInheritance: Some CSS properties inherit values from parent elements, simplifying styling.\nPseudo-classes and Pseudo-elements: Special selectors that define a special state of an element (eg, :hover, :focus) or parts of elements (eg, ::before, ::after).\nAnimation & Transitions: CSS supports animations and smooth property changes over time without JavaScript.\n"
+    },
+    {
+      "heading": "Types / Subfields",
+      "content": "Inline CSS: Styles written directly inside an HTML element’s style attribute.\nInternal CSS: Styles defined within a style tag inside the HTML document’s head.\nExternal CSS: Styles written in separate .css files and linked to HTML pages. This is the preferred approach for maintainability.\nSelectors:\nElement Selector: Selects all elements of a type (eg, p).\nClass Selector: Selects elements with a specific class attribute (eg, .container).\nID Selector: Selects a unique element by ID (eg, #header).\nAttribute Selector: Selects elements based on attribute values (eg, [type=\"text\"]).\nBox Model Components: Content, Padding, Border, Margin.\nPositioning: Static, Relative, Absolute, Fixed, Sticky.\nFlexbox: A CSS3 layout module for creating flexible and responsive layouts.\nGrid: CSS Grid Layout module for two-dimensional layout control.\nMedia Queries: Techniques for making designs responsive to screen size and device type.\n"
+    },
+    {
+      "heading": "Advantages",
+      "content": "Separation of Content and Presentation: Keeps HTML clean and improves maintainability.\nConsistency: Apply styles site-wide by changing one stylesheet.\nFlexibility: Supports a wide range of styling and layout options.\nResponsiveness: Easily create designs that work across devices and screen sizes.\nPerformance: External CSS files are cached by browsers, improving page load speeds.\nEnhanced User Experience: Controls typography, colors, spacing, and animations for better usability.\n"
+    },
+    {
+      "heading": "Limitations / Challenges",
+      "content": "Browser Compatibility: Some CSS features may behave differently or be unsupported in older browsers.\nSpecificity Conflicts: Complex specificity rules can cause unexpected style overrides and debugging difficulties.\nLearning Curve: Advanced layouts like Flexbox and Grid require time to master.\nLack of Logic: CSS is declarative and does not support programming logic, although preprocessors like SASS add this.\nPerformance Impact: Overusing complex selectors or large stylesheets can affect rendering speed.\nAccessibility: Improper use of CSS (eg, color contrast) can hinder accessibility.\n"
+    },
+    {
+      "heading": "Applications",
+      "content": "Website Styling: Controls fonts, colors, backgrounds, borders, spacing, and layout of web pages.\nResponsive Web Design: Makes websites usable on desktops, tablets, and mobile devices.\nUser Interface Design: Enhances navigation menus, buttons, forms, and interactive elements.\nAnimations and Transitions: Adds dynamic visual effects without JavaScript.\nPrint Styles: CSS can define how pages are formatted for printing.\nTheming: Allows changing the visual theme by swapping CSS files or variables.\n"
+    }
+  ]
+}

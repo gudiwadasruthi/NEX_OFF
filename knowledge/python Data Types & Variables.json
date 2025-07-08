@@ -1,0 +1,34 @@
+{
+  "title": "Data Types & Variables",
+  "description": "Data types define the kind of data a variable can store, while variables are symbolic names that reference memory locations holding data during program execution.",
+  "sections": [
+    {
+      "heading": "Definition",
+      "content": "Data types define the kind of data a variable can store, while variables are symbolic names that reference memory locations holding data during program execution."
+    },
+    {
+      "heading": "Key Features",
+      "content": "Data types categorize data (eg, numbers, text, collections).\nVariables act as containers for data, holding values that can be changed or accessed.\nIn dynamically typed languages like Python, variables do not require explicit type declarations.\nMemory allocation for variables depends on the data type stored."
+    },
+    {
+      "heading": "Limitations",
+      "content": "Dynamic typing can lead to type-related runtime errors.\nImplicit type conversions may introduce subtle bugs if not managed carefully."
+    },
+    {
+      "heading": "Challenges",
+      "content": "Understanding the behavior of mutable versus immutable data types.\nMaintaining type consistency in complex applications.\nEfficient memory usage when working with large datasets."
+    },
+    {
+      "heading": "Advantages",
+      "content": "Flexibility to store various types of data without strict declarations.\nSimplifies development and enables rapid prototyping.\nSupports diverse operations through rich data type options."
+    },
+    {
+      "heading": "Types/Subfields (Common Python Data Types)",
+      "content": "Numeric types (integers, floats, complex numbers).\nSequence types (lists, tuples, ranges).\nText type (strings).\nMapping type (dictionaries).\nSet types (sets, frozensets).\nBoolean type (True/False).\nBinary types (bytes, bytearrays, memory views)."
+    },
+    {
+      "heading": "Applications",
+      "content": "Storing and manipulating user inputs.\nPerforming arithmetic and logical operations.\nOrganizing data collections for processing.\nControlling program flow based on conditions.\nRepresenting structured data for complex tasks."
+    }
+  ]
+}

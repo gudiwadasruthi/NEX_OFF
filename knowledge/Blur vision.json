@@ -1,0 +1,34 @@
+{
+  "title": "Blurred Vision",
+  "description": "Blurred vision is when your eyesight becomes unclear, making it difficult to see fine details or objects clearly. It can affect one or both eyes and can range from mild to severe.",
+  "sections": [
+    {
+      "heading": "Common Symptoms",
+      "content": "Difficulty seeing fine details (eg, reading small text or seeing far-away objects).\n\nObjects appearing fuzzy or unclear.\n\nDouble vision (seeing two images instead of one).\n\nLoss of sharpness or focus in one or both eyes.\n\nEye strain or tiredness when trying to focus."
+    },
+    {
+      "heading": "Common Causes",
+      "content": "**1) Refractive Errors:**\nNearsightedness (Myopia): Difficulty seeing objects far away.\n\nFarsightedness (Hyperopia): Difficulty seeing objects up close.\n\nAstigmatism: Uneven curvature of the cornea, causing blurry vision.\n\nPresbyopia: Age-related loss of the ability to focus on close objects.\n\n\n**2) Eye Conditions:**\nCataracts: Clouding of the eye’s lens, leading to blurry vision (common with aging).\n\nGlaucoma: Increased pressure in the eye that damages the optic nerve, leading to vision problems.\n\nMacular degeneration: Damage to the central part of the retina, causing blurred vision or blind spots.\n\nDiabetic retinopathy: Damage to the blood vessels in the retina due to diabetes, leading to blurry vision.\n\nDry eyes: Lack of moisture in the eyes causing discomfort and blurry vision.\n\nConjunctivitis (Pink eye): Inflammation of the eye’s lining, often causing temporary blurriness.\n\n\n**3) Systemic Health Conditions:**\nDiabetes: High blood sugar can cause changes in the lens of the eye, leading to blurred vision.\n\nHigh blood pressure: Can lead to damage to the blood vessels in the eyes.\n\nMigraines: Vision problems, such as blurriness, can occur before or during a migraine.\n\nStroke: Blurred or lost vision can occur if a stroke affects the parts of the brain responsible for vision.\n\n\n**4) Injuries or Trauma:**\nEye injury: Any trauma to the eye, such as a scratch or blunt force, can lead to blurry vision.\n\nCorneal abrasion: A scratch on the surface of the eye (cornea) can cause blurred vision.\n\n\n**5) Medications and Drug Effects:**\nCertain medications (eg, antihistamines, blood pressure drugs, or steroids) can cause blurry vision as a side effect.\n\nDrug use (eg, alcohol, recreational drugs) can impair vision.\n\n\n**6) Eye Fatigue:**\nExtended screen time: Staring at a computer, phone, or TV screen for long periods can strain the eyes and cause blurry vision (often referred to as digital eye strain)."
+    },
+    {
+      "heading": "Precautions & Tips",
+      "content": "Regular eye checkups: Visit an optometrist or ophthalmologist regularly to check for refractive errors or underlying eye conditions.\n\nWear corrective lenses: If prescribed, wear eyeglasses or contact lenses to correct refractive errors.\n\nUse artificial tears: If you have dry eyes, using over-the-counter eye drops can help lubricate your eyes and reduce blurriness.\n\nTake breaks: If you’re working on a computer or reading for long periods, follow the 20-20-20 rule: Every 20 minutes, take a 20-second break and look at something 20 feet away.\n\nWear sunglasses: Protect your eyes from UV rays when outdoors, as prolonged exposure can contribute to cataracts or other eye conditions.\n\nManage underlying health issues: Keep blood sugar levels under control if you have diabetes, and manage high blood pressure to reduce eye-related complications."
+    },
+    {
+      "heading": "When to See a Doctor",
+      "content": "Sudden blurry vision or vision loss (especially if it occurs in one eye) that lasts more than a few minutes.\n\nGradual worsening of vision over time.\n\nEye pain, headaches, or other discomfort along with blurred vision.\n\nDifficulty seeing at night or in low light.\n\nChanges in vision after an injury or trauma to the eye.\n\nVision problems associated with a health condition, like uncontrolled diabetes or high blood pressure."
+    },
+    {
+      "heading": "Emergency Signs – Go to the ER If:",
+      "content": "Sudden loss of vision or a blind spot in your field of vision (could indicate a stroke or retinal detachment).\n\nSevere eye pain with blurred vision (could indicate an infection or glaucoma).\n\nVision changes after an injury or trauma to the eye (eg, a blow to the eye or chemical exposure).\n\nDouble vision along with other neurological symptoms (eg, weakness, confusion), which could indicate a serious condition."
+    },
+    {
+      "heading": "Treatment from a Doctor",
+      "content": "Eyeglasses or contact lenses: If refractive errors are the cause, prescription lenses can correct blurry vision.\n\nMedications: Eye drops or oral medications may be prescribed for conditions like glaucoma, dry eyes, or infection.\n\nSurgery: In some cases, surgeries like cataract surgery or laser eye surgery may be necessary.\n\nDiabetic management: If your blurred vision is related to diabetes, managing your blood sugar levels can help improve vision.\n\nRetina treatment: If conditions like macular degeneration or diabetic retinopathy are detected, your doctor may recommend specific treatments like injections or laser therapy."
+    },
+    {
+      "heading": "What Not to Do",
+      "content": "Don’t ignore sudden vision changes—if your vision suddenly becomes blurry, it could be a sign of a serious condition.\n\nDon’t attempt to self-diagnose—blurred vision could be a symptom of a wide range of conditions, so it’s important to see a doctor for proper diagnosis.\n\nDon’t strain your eyes—take breaks and reduce screen time to avoid worsening digital eye strain."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "title": "C++ Object-Oriented Programming (OOP) Concepts",
+  "description": "Object-Oriented Programming (OOP) in C++ is a programming paradigm based on the concept of 'objects,' which are instances of classes that bundle data and functions together. OOP aims to model real-world entities and relationships, promoting code reusability, scalability, and modularity.",
+  "sections": [
+    {
+      "heading": "Definition",
+      "content": "Object-Oriented Programming (OOP) in C++ is a programming paradigm based on the concept of 'objects,' which are instances of classes that bundle data and functions together. OOP aims to model real-world entities and relationships, promoting code reusability, scalability, and modularity."
+    },
+    {
+      "heading": "Key Features / Core Concepts",
+      "content": "Class and Object:\nA Class is a blueprint or template defining attributes (data members) and behaviors (member functions).\nAn Object is an instance of a class representing an entity with state and behavior.\n\nEncapsulation:\nThe mechanism of hiding internal data and restricting direct access from outside the class. Achieved through access specifiers: private, protected, and public. Enhances security and integrity by exposing only necessary interfaces.\n\nAbstraction:\nFocuses on exposing essential features while hiding complex implementation details. Allows users to interact with objects at a high level without knowing inner workings.\n\nInheritance:\nEnables a new class (derived class) to inherit properties and behaviors from an existing class (base class). Promotes code reuse and establishes hierarchical relationships. Supports different types: single, multiple, multilevel, hierarchical, and hybrid inheritance.\n\nPolymorphism:\nThe ability of different classes to respond to the same function call in different ways. Two types:\nCompile-time Polymorphism (Function overloading and Operator overloading)\nRun-time Polymorphism (Using virtual functions and pointers/references to base class)\n\nConstructor and Destructor:\nConstructor: Special member function invoked automatically when an object is created, used for initialization.\nDestructor: Special member function invoked when an object is destroyed, used for cleanup.\n\nData Members and Member Functions:\nData members store the state of an object.\nMember functions define behaviors and can access and modify data members.\n\nFriend Functions and Classes:\nFunctions or classes declared as friends can access private and protected members of a class.\n\nStatic Members:\nStatic data members are shared across all objects of a class.\nStatic member functions can access only static data members."
+    },
+    {
+      "heading": "Advantages",
+      "content": "Modularity: Code organized into classes simplifies development and maintenance.\nReusability: Inheritance promotes reuse of existing code.\nFlexibility: Polymorphism enables flexible and extensible software design.\nMaintainability: Encapsulation protects data integrity and reduces complexity.\nReal-world Modeling: OOP reflects real-world entities and interactions clearly."
+    },
+    {
+      "heading": "Limitations / Challenges",
+      "content": "Complexity: Learning curve is steeper than procedural programming.\nPerformance Overhead: Due to features like dynamic dispatch (virtual functions), some performance cost occurs.\nDesign Difficulties: Poorly designed class hierarchies can lead to rigid or fragile systems.\nMemory Consumption: Objects might consume more memory than equivalent procedural code.\nMultiple Inheritance Issues: Ambiguity and complexity (diamond problem) can arise."
+    },
+    {
+      "heading": "Applications",
+      "content": "Developing large-scale software systems like GUI applications, games, simulations, and operating systems.\nDesigning frameworks and libraries that require extensibility and modularity.\nReal-time systems and embedded software benefiting from abstraction and encapsulation.\nAny software project where modeling complex entities and relationships is essential."
+    }
+  ]
+}

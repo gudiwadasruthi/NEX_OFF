@@ -1,0 +1,30 @@
+{
+  "title": "Headache",
+  "description": "A severe headache is intense pain that can be a symptom of a more serious condition such as migraine, cluster headache, stroke, or brain aneurysm. Recognizing emergency signs is crucial.",
+  "sections": [
+    {
+      "heading": "Symptoms of a Severe Headache",
+      "content": "Severe, sudden headache (often described as the worst headache ever), sharp or throbbing pain usually on one side, nausea or vomiting, visual disturbances (blurred vision, spots or flashes), sensitivity to light and sound, neck stiffness, loss of balance or confusion, fever or seizures (in some cases), speech difficulties, weakness, or numbness (possible stroke signs)."
+    },
+    {
+      "heading": "When to Seek Emergency Help",
+      "content": "If headache is sudden, extremely severe, or the worst headache ever.\nIf accompanied by confusion, seizures, difficulty speaking or seeing.\nIf numbness or weakness on one side of the body occurs.\nIf following a head injury.\nIf associated with fever, stiff neck, or rash (possible meningitis).\nIf not relieved by usual painkillers and headache is new or unusual."
+    },
+    {
+      "heading": "Steps for Severe Headache Emergency Care",
+      "content": "1) Seek medical help immediately by calling emergency services.\n2) Rest in a quiet, dark room to reduce symptoms.\n3) Hydrate by drinking water; avoid alcohol and caffeine.\n4) Take OTC pain relief like ibuprofen or acetaminophen if appropriate; avoid aspirin if stroke suspected.\n5) Monitor symptoms for changes or worsening."
+    },
+    {
+      "heading": "When to Go to the Hospital",
+      "content": "Persistent or worsening sudden headache unresponsive to painkillers.\nStroke symptoms like difficulty speaking, weakness, confusion, or loss of coordination.\nSigns of brain infection such as stiff neck, fever, light sensitivity.\nHeadache after any head injury.\nNew severe headache if never experienced before."
+    },
+    {
+      "heading": "Potential Causes of Severe Headaches That Need Immediate Attention",
+      "content": "Migraine: severe one-sided headache with nausea and light sensitivity.\nCluster headache: intense pain around one eye with tearing or nasal congestion.\nStroke: sudden headache with neurological symptoms.\nBrain aneurysm: sudden worst headache, nausea, loss of consciousness.\nMeningitis: headache with fever and stiff neck.\nBrain tumor: persistent worsening headache with neurological signs."
+    },
+    {
+      "heading": "What NOT to Do",
+      "content": "Do not ignore severe headaches or delay medical help.\nDo not self-diagnose; seek professional evaluation.\nAvoid medications like blood thinners if brain hemorrhage or stroke is suspected."
+    }
+  ]
+}

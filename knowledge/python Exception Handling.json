@@ -1,0 +1,30 @@
+{
+  "title": "Python Exception Handling",
+  "description": "Exception handling in Python allows the program to catch and respond to errors or exceptions during runtime, ensuring smooth execution even in the case of errors. This feature provides a way to handle unexpected situations and prevent abrupt termination of the program.",
+  "sections": [
+    {
+      "heading": "Definition",
+      "content": "Exception handling in Python is a mechanism that allows a program to respond to runtime errors (exceptions) gracefully, without abruptly terminating the program. It provides a structured way to detect errors, manage them, and execute alternative code paths.\n"
+    },
+    {
+      "heading": "Key Features",
+      "content": "Try-Except Blocks: The core construct to catch and handle exceptions.\nElse Block: Optional block executed if no exception occurs.\nFinally Block: Code in this block always runs, whether an exception occurs or not. Useful for cleanup actions.\nRaising Exceptions: Ability to manually trigger exceptions using raise keyword.\nCustom Exceptions: Users can define their own exception types by subclassing Exception.\nMultiple Except Clauses: Handle different exceptions separately.\nException Propagation: If an exception is not caught locally, it propagates up the call stack.\nBuilt-in Exception Hierarchy: Organized hierarchy of exception classes for categorizing errors.\n"
+    },
+    {
+      "heading": "Types/Subfields of Exceptions",
+      "content": "Built-in Exceptions: Python includes many standard exceptions like ValueError, TypeError, IndexError, KeyError, ZeroDivisionError, FileNotFoundError, etc.\nSyntaxError vs RuntimeError: Syntax errors are detected before execution, while runtime errors occur during program execution.\nChecked vs Unchecked Exceptions: Python treats all exceptions as unchecked (unlike some languages like Java).\nUser-Defined Exceptions: Custom classes inheriting from Exception to represent domain-specific errors.\n"
+    },
+    {
+      "heading": "Advantages",
+      "content": "Improves Program Robustness: Prevents crashes by handling unforeseen errors.\nSeparates Error Handling Logic: Keeps main logic clean by isolating error management.\nAllows Resource Cleanup: Via finally block, ensuring resources (files, network) are properly released.\nSupports Graceful Degradation: Lets programs recover or inform users meaningfully.\nDebugging Aid: Tracebacks provide detailed information on where errors occurred.\n"
+    },
+    {
+      "heading": "Limitations / Challenges",
+      "content": "Overuse Can Mask Bugs: Catching exceptions broadly without proper handling can hide programming errors.\nPerformance Overhead: Exception handling adds some runtime cost, though often negligible.\nComplexity in Nested Exceptions: Managing multiple exceptions or nested try-except blocks can complicate code.\nUncaught Exceptions: If exceptions aren’t handled, they terminate the program abruptly.\n"
+    },
+    {
+      "heading": "Applications",
+      "content": "File I/O Operations: Handling missing files, permission issues.\nUser Input Validation: Managing invalid inputs without program crash.\nNetwork Programming: Handling connection errors, timeouts.\nDatabase Operations: Managing database connection failures and query errors.\nWeb Applications: Managing HTTP errors and request exceptions.\nAny Program Requiring Robustness: Ensuring smooth user experience despite runtime anomalies.\n"
+    }
+  ]
+}

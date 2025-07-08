@@ -1,0 +1,26 @@
+{
+  "title": "Tuberculosis",
+  "description": "Tuberculosis (TB) is a contagious bacterial infection primarily affecting the lungs but can involve other organs.",
+  "sections": [
+    {
+      "heading": "Definition",
+      "content": "Tuberculosis is caused by the bacterium Mycobacterium tuberculosis. It spreads through airborne droplets when an infected person coughs or sneezes. TB can be latent, where the bacteria remain inactive, or active, causing symptoms and transmission. Pulmonary TB affects the lungs, while extrapulmonary TB can affect lymph nodes, bones, or the brain. TB remains a major global health issue, especially in low-income countries. Diagnosis and treatment are crucial to prevent spread and complications. Vaccination with BCG provides partial protection. TB requires long-term treatment due to the bacteria’s slow growth."
+    },
+    {
+      "heading": "Causes",
+      "content": "TB infection results from inhaling airborne droplets containing Mycobacterium tuberculosis. Risk factors include close contact with infected individuals, weakened immune systems (HIV/AIDS), malnutrition, smoking, and crowded living conditions. Healthcare workers are at higher risk. Latent TB can reactivate during immunosuppression. Drug-resistant TB strains complicate treatment. TB bacteria can survive inside macrophages, evading immune responses. Public health efforts focus on reducing transmission through screening and isolation. Addressing social determinants like poverty reduces TB incidence."
+    },
+    {
+      "heading": "Symptoms",
+      "content": "Common symptoms include persistent cough lasting more than two weeks, chest pain, coughing up blood, fever, night sweats, and weight loss. Fatigue and loss of appetite are common. Extrapulmonary TB symptoms vary by affected organ and may include swelling or neurological signs. Symptoms may develop slowly over weeks to months. Latent TB shows no symptoms but can be detected by skin or blood tests. Early symptom recognition improves outcomes. Delayed diagnosis increases transmission risk. TB can cause severe lung damage if untreated."
+    },
+    {
+      "heading": "Diagnosis",
+      "content": "Diagnosis involves chest X-rays, sputum smear microscopy, and culture tests to detect Mycobacterium tuberculosis. Molecular tests like GeneXpert provide rapid results and identify drug resistance. Tuberculin skin test (Mantoux test) and interferon-gamma release assays (IGRAs) detect latent infection. Symptom screening and contact tracing aid case finding. Drug susceptibility testing guides treatment. Differential diagnosis includes lung cancer and pneumonia. Accurate diagnosis is vital for effective therapy and public health control."
+    },
+    {
+      "heading": "Medications",
+      "content": "TB treatment involves combination antibiotic therapy over 6-9 months to prevent resistance. First-line drugs include **Isoniazid**, **Rifampicin**, **Ethambutol**, and **Pyrazinamide**. Drug-resistant TB requires second-line agents like **Bedaquiline** and **Linezolid**. Adherence to treatment is critical to cure and prevent spread. Directly Observed Therapy (DOT) ensures compliance. Side effects like liver toxicity are monitored. Treatment success depends on early diagnosis and uninterrupted therapy. Preventive therapy with **Isoniazid** is used for latent TB."
+    }
+  ]
+}

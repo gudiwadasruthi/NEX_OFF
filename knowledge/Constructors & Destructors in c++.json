@@ -1,0 +1,30 @@
+{
+  "title": "Constructors & Destructors in C++",
+  "description": "Special member functions in a class that handle object initialization and cleanup. Constructors initialize objects when they are created, while destructors clean up resources when objects go out of scope or are deleted.",
+  "sections": [
+    {
+      "heading": "Definition",
+      "content": "Constructor: A special member function automatically invoked when an object is created, used for initializing the object.\nDestructor: A special member function automatically invoked when an object is destroyed, used for releasing resources and memory cleanup."
+    },
+    {
+      "heading": "Key Features",
+      "content": "Constructor:\n- Same name as the class\n- No return type\n- Automatically called on object creation\n- Can be overloaded and have default arguments\n\nDestructor:\n- Same name as class prefixed with a tilde (~)\n- No return type or arguments\n- Automatically called at object destruction\n- Cannot be overloaded"
+    },
+    {
+      "heading": "Advantages",
+      "content": "Automatic Initialization and Cleanup: Ensures resources are handled properly.\nOverloading Support (Constructors): Enables different ways of object initialization.\nImproves Code Safety: Reduces uninitialized states and memory leaks.\nEncapsulation: Keeps object lifecycle logic within the class."
+    },
+    {
+      "heading": "Limitations / Challenges",
+      "content": "Complexity with Deep Copying: Risks of shallow copying if copy constructors aren’t defined correctly.\nManual Memory Management: Improper destructors can lead to memory leaks.\nNo Overloading for Destructors: Only one allowed per class.\nOrder of Destruction: Important in inheritance or with dynamic memory."
+    },
+    {
+      "heading": "Types / Subfields",
+      "content": "Constructors:\n- Default Constructor: No parameters, provided by compiler if not defined.\n- Parameterized Constructor: Accepts arguments.\n- Copy Constructor: Takes a reference to another object of the same class.\n- Dynamic Constructor: Allocates memory during object creation.\n- Delegating Constructor (C++11): Calls another constructor in the same class.\n- Explicit Constructor (C++11): Prevents implicit type conversions.\n- Move Constructor (C++11): Transfers ownership of resources.\n\nDestructor:\n- Only one per class.\n- Virtual Destructor: Used with inheritance for correct polymorphic behavior."
+    },
+    {
+      "heading": "Applications",
+      "content": "Object Initialization: Simplifies consistent and safe object setup.\nResource Management: Opens resources in constructor and releases in destructor.\nDynamic Memory Handling: Creates and destroys objects at runtime.\nClass-Based Designs: Fundamental to all object-oriented code.\nFile Handling: Useful for automatic file closing.\nGame/Real-Time Systems: Manages lifecycle of fast-changing entities."
+    }
+  ]
+}

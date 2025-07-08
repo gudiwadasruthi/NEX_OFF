@@ -1,0 +1,38 @@
+{
+  "title": "Food Poisoning",
+  "description": "Food poisoning happens when you eat food or drink liquids contaminated with harmful bacteria, viruses, parasites, or toxins. It usually causes stomach discomfort, vomiting, diarrhea, and other symptoms.",
+  "sections": [
+    {
+      "heading": "Common Causes",
+      "content": "Bacteria: Salmonella (found in raw poultry, eggs), E- coli (found in undercooked meat, unwashed produce), Listeria (found in dairy, deli meats), Campylobacter (found in poultry, unpasteurized milk). Viruses: Norovirus (found in contaminated water, food handlers), Hepatitis A (found in contaminated water or food). Parasites: Giardia (found in contaminated water), Cryptosporidium (found in contaminated water). Toxins: Toxins from bacteria (eg, Staphylococcus aureus) or mold (eg, aflatoxins). Contaminated water or food handling: Food can become contaminated when not cooked, stored, or handled properly."
+    },
+    {
+      "heading": "Symptoms",
+      "content": "Stomach cramps or pain, diarrhea (sometimes bloody), nausea and vomiting, fever, headache, dehydration (dry mouth, dark urine, dizziness), loss of appetite, weakness or fatigue. Symptoms can start from a few hours to several days after consuming contaminated food or water."
+    },
+    {
+      "heading": "What to Do Immediately (First Aid)",
+      "content": "Stay Hydrated: Drink small sips of water or oral rehydration solutions (ORS). Avoid sugary, caffeinated, or alcoholic drinks. Rest: Your body needs time to recover, so rest is essential. Eat Lightly: Once the vomiting stops, eat bland foods like bananas, rice, applesauce, and toast (BRAT diet). Avoid spicy, fatty, or dairy foods until you feel better. Avoid Medications: Do not take anti-diarrheal medications (like Imodium) unless advised by a doctor, as they can make some infections worse."
+    },
+    {
+      "heading": "When to Go to the Doctor or ER",
+      "content": "Severe symptoms: Continuous vomiting, severe abdominal pain, or diarrhea. Blood in stool or vomit. High fever (above 101.5°F or 38.6°C). Signs of dehydration: Dry mouth, little or no urine, dizziness, or extreme weakness. Symptoms last more than 3 days or worsen over time. Vulnerable groups: Pregnant women, children under 5, elderly people, or those with weakened immune systems should seek medical help even for mild symptoms."
+    },
+    {
+      "heading": "Treatment (By Doctor)",
+      "content": "Hydration therapy: Intravenous fluids (IV) for severe dehydration. Antibiotics: If the food poisoning is caused by bacterial infection and is severe. Antiemetic medication: To control vomiting (like Ondansetron). Probiotics: Sometimes given to help restore gut bacteria balance after food poisoning. Anti-parasitic treatment: For parasitic infections."
+    },
+    {
+      "heading": "Prevention",
+      "content": "Wash hands before cooking or eating, especially after using the toilet. Cook food thoroughly, especially meat, to the right temperature. Avoid raw or undercooked eggs, meats, or seafood. Refrigerate perishable food promptly (within 2 hours of cooking). Separate raw and cooked foods to avoid cross-contamination. Check expiration dates on food and beverages. Drink safe, clean water — if unsure, boil water or use purified water."
+    },
+    {
+      "heading": "What Not to Do",
+      "content": "Don’t ignore symptoms: If they’re severe or last long, seek help. Don’t self-medicate with antibiotics unless prescribed, as they might not work for viral or parasitic infections. Don’t eat the same food that caused the illness."
+    },
+    {
+      "heading": "Emergency Medicines",
+      "content": "Oral rehydration solutions (ORS) to replace lost fluids and electrolytes. Antibiotics (if prescribed) for bacterial infections. Antiemetics (prescribed by the doctor) to control vomiting."
+    }
+  ]
+}

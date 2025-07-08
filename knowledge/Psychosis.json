@@ -1,0 +1,26 @@
+{
+  "title": "Psychosis",
+  "description": "Psychosis is a mental health condition characterized by a loss of contact with reality, leading to hallucinations, delusions, and impaired thinking.",
+  "sections": [
+    {
+      "heading": "Definition",
+      "content": "Psychosis involves disruptions to a person’s thoughts and perceptions, making it difficult to distinguish between what is real and what is not. It can manifest as hallucinations (seeing or hearing things that aren’t there) or delusions (strong false beliefs). Psychosis may be part of conditions like schizophrenia, bipolar disorder, or severe depression. It can also result from substance abuse, brain injuries, or infections. Early onset often occurs in late adolescence or early adulthood. Psychosis can severely impact daily functioning, relationships, and safety. Prompt diagnosis and treatment are crucial for recovery. Stigma and misunderstanding often surround this condition, affecting patient care."
+    },
+    {
+      "heading": "Causes",
+      "content": "Psychosis can arise from genetic predisposition, brain chemistry imbalances, and environmental stressors. Substance use, especially cannabis, hallucinogens, and stimulants, can trigger psychotic episodes. Medical conditions like brain tumors, infections, or neurological disorders also contribute. Trauma and extreme stress can precipitate symptoms. Dopamine dysregulation in the brain is a key factor. Family history increases risk. Sometimes psychosis is temporary, such as during acute medical illness. The condition’s complexity requires thorough evaluation to identify underlying causes. Multidisciplinary care is often needed."
+    },
+    {
+      "heading": "Symptoms",
+      "content": "Symptoms include hallucinations, delusions, disorganized speech, and confused thinking. Individuals may withdraw socially or display inappropriate emotions. Reduced motivation and difficulty concentrating are common. Some experience paranoia or suspicion of others. Sleep disturbances and agitation may appear. Psychotic episodes vary in intensity and duration. Insight into illness is often limited, complicating treatment adherence. Behavioral changes can cause distress to families. Early symptom recognition improves outcomes. Comprehensive assessment helps differentiate psychosis from other mental or physical illnesses."
+    },
+    {
+      "heading": "Diagnosis",
+      "content": "Diagnosis involves clinical interviews, mental status examination, and ruling out medical causes. Psychiatrists assess symptoms, history, and functioning. Blood tests and brain imaging may be used to exclude infections, toxins, or neurological issues. Standardized rating scales can track severity. Collateral information from family helps clarify onset and course. Differential diagnosis includes mood disorders with psychotic features, delirium, and substance-induced psychosis. Early diagnosis enables timely intervention. Ongoing monitoring is required to adjust treatment plans. Patient engagement and education are vital components."
+    },
+    {
+      "heading": "Medications",
+      "content": "Antipsychotic medications are the cornerstone of treatment. First-generation antipsychotics like **Haloperidol** and **Chlorpromazine** reduce positive symptoms but may cause movement side effects. Second-generation (atypical) antipsychotics such as **Risperidone**, **Olanzapine**, and **Aripiprazole** are preferred for better side effect profiles. Mood stabilizers like **Lithium** may be used if psychosis occurs with bipolar disorder. Benzodiazepines like **Lorazepam** may manage agitation short-term. Medication adherence is crucial to prevent relapse. Side effects, including weight gain and sedation, require monitoring. Psychosocial interventions complement pharmacotherapy for recovery."
+    }
+  ]
+}

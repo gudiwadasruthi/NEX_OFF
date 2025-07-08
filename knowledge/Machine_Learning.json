@@ -1,0 +1,30 @@
+{
+  "title": "Machine Learning",
+  "description": "A subset of AI that enables systems to learn from data patterns without explicit programming.",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "content": "Machine Learning (ML) focuses on developing algorithms that improve automatically through experience. It evolved from pattern recognition and computational learning theory in AI. ML systems learn from historical data to make predictions or decisions. Three main types exist: supervised, unsupervised, and reinforcement learning. Applications range from email filtering to complex medical diagnoses. The field combines computer science, statistics, and domain expertise. Key challenges include overfitting and data quality issues. Popular tools include scikit-learn, TensorFlow, and PyTorch."
+    },
+    {
+      "heading": "Key Features",
+      "content": "ML algorithms adapt through exposure to new data (training). Feature engineering is crucial for model performance. Models require large, clean datasets for effective learning. Deep learning uses neural networks with multiple layers. Explainability remains challenging for complex models. AutoML tools now automate parts of the ML pipeline. Edge ML enables on-device processing for privacy. Models can suffer from bias if training data is skewed."
+    },
+    {
+      "heading": "Subfields",
+      "content": "Supervised Learning: Uses labeled data (e.g., spam detection). Unsupervised Learning: Finds hidden patterns (clustering). Reinforcement Learning: Learns through rewards (game AI). Computer Vision: Image/video analysis. Natural Language Processing: Text understanding. Time Series Analysis: Forecasting trends. Transfer Learning: Applies knowledge across domains. Federated Learning: Decentralized model training."
+    },
+    {
+      "heading": "Applications",
+      "content": "Healthcare: Early disease detection from medical scans. Finance: Credit scoring and fraud prevention. Retail: Personalized product recommendations. Manufacturing: Predictive maintenance of equipment. Transportation: Self-driving vehicle navigation. Agriculture: Crop yield prediction. Entertainment: Content recommendation engines. Cybersecurity: Anomaly detection in networks."
+    },
+    {
+      "heading": "Challenges",
+      "content": "Data scarcity in specialized domains limits model training. Model drift occurs when data patterns change over time. Computational costs for training large models are significant. Ethical concerns arise from biased decision-making. Black-box nature of some models reduces transparency. Data privacy regulations constrain data sharing. Maintaining model performance in production is difficult. Talent shortage for ML engineering roles persists."
+    },
+    {
+      "heading": "Advantages",
+      "content": "Automates complex decision-making processes. Improves over time with more data exposure. Handles high-dimensional data better than humans. Enables personalization at scale. Reduces human bias in some applications. Can process unstructured data (images, text). Accelerates scientific discovery through pattern recognition. Democratizes access to advanced analytics."
+    }
+  ]
+}

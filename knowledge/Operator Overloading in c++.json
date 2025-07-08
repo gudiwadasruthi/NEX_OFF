@@ -1,0 +1,42 @@
+{
+  "title": "Operator Overloading in C++",
+  "description": "Operator Overloading is a feature in C++ that allows developers to redefine or 'overload' the behavior of built-in operators (such as +, -, *, ==, etc.) for user-defined data types (classes or structs). This enables operators to work intuitively with objects, making code more readable and expressive.",
+  "sections": [
+    {
+      "heading": "Definition",
+      "content": "Operator Overloading is a feature in C++ that allows developers to redefine or 'overload' the behavior of built-in operators for user-defined data types. This allows objects to be manipulated using standard operator syntax."
+    },
+    {
+      "heading": "Key Features",
+      "content": "Operators can be overloaded to work with class objects.\nOverloaded operators can be member or non-member (friend) functions.\nSome operators (like ::, sizeof) cannot be overloaded.\nThe syntax uses the keyword 'operator' followed by the symbol.\nAllows customizing arithmetic, relational, logical, assignment, and more."
+    },
+    {
+      "heading": "Commonly Overloaded Operators",
+      "content": "Arithmetic: +, -, *, /, %\nComparison: ==, !=, <, >, <=, >=\nAssignment: =, +=, -=, *=, /=\nIncrement/Decrement: ++, --\nLogical: &&, ||, !\nSubscript: []\nFunction call: ()\nStream insertion/extraction: <<, >>"
+    },
+    {
+      "heading": "How Operator Overloading Works",
+      "content": "The compiler invokes the corresponding overloaded function when an operator is used with objects.\nThe function defines the behavior using object data.\nMember functions usually take one argument (RHS); non-member functions take two (LHS and RHS)."
+    },
+    {
+      "heading": "Advantages",
+      "content": "Improves Code Readability: Enables natural syntax.\nEnhances Expressiveness: Makes custom types act like primitives.\nSupports Custom Types: Useful for complex data structures.\nEncapsulates Logic: Keeps operator logic within the class."
+    },
+    {
+      "heading": "Limitations / Challenges",
+      "content": "Potential for Misuse: Non-intuitive overloading can confuse.\nComplexity: Requires careful design.\nCannot Create New Operators: Only existing ones can be overloaded.\nPerformance: May be less efficient than built-in types.\nAmbiguity: Can cause confusion with implicit conversions."
+    },
+    {
+      "heading": "Types / Methods of Operator Overloading",
+      "content": "Member Function Overloading:\nDeclared inside the class.\nSyntax: ReturnType operatorOp (Parameters)\n\nNon-Member (Friend) Function Overloading:\nDeclared outside the class but with friend access.\nUseful when left-hand operand isn’t an object of the class."
+    },
+    {
+      "heading": "Rules for Operator Overloading",
+      "content": "You cannot change precedence, associativity, or operand count.\nAt least one operand must be user-defined.\nUnary operators use no or one parameter.\nBinary operators use one (member) or two (non-member) parameters.\nSome operators (eg, ::, ., ?:, sizeof) cannot be overloaded."
+    },
+    {
+      "heading": "Applications",
+      "content": "Mathematical classes: Complex numbers, matrices, vectors.\nCustom container classes: Strings, lists.\nStream operators: << and >> for input/output.\nLibrary interfaces: Domain-specific syntax.\nEnhancing clarity and usability in APIs."
+    }
+  ]
+}

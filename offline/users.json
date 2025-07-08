@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "username": "sai sankar",
+      "email": "saisankaryandamuri@gmail.com",
+      "password": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+      "createdAt": "2025-05-24T22:22:54.904Z"
+    },
+    {
+      "username": "sruthi",
+      "email": "gudiwadasruthi@gmail.com",
+      "password": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+      "createdAt": "2025-05-25T07:27:04.461Z"
+    },
+    {
+      "username": "keerthi",
+      "email": "keerthitadikonda62@gmail.com",
+      "password": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+      "createdAt": "2025-05-29T09:30:20.061Z"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "title": "Skin Infection",
+  "description": "Skin infections are caused by bacteria, viruses, fungi, or parasites, affecting the skin and underlying tissues.",
+  "sections": [
+    {
+      "heading": "Definition",
+      "content": "Skin infections occur when harmful microorganisms invade the skin, causing inflammation, redness, and sometimes pus or ulcers. Common types include bacterial infections like cellulitis, viral infections like herpes simplex, fungal infections such as ringworm, and parasitic infestations like scabies. These infections vary in severity from mild to life-threatening. Skin infections can affect any age group and often result from cuts, insect bites, or compromised immunity. Proper hygiene and wound care prevent many infections. Early treatment reduces complications. Chronic skin infections may indicate underlying health problems."
+    },
+    {
+      "heading": "Causes",
+      "content": "Bacterial skin infections are often caused by Staphylococcus aureus and Streptococcus pyogenes. Viral causes include herpes simplex virus and varicella-zoster virus. Fungal infections are due to dermatophytes or yeasts like Candida. Parasites such as mites cause scabies. Poor hygiene, skin trauma, and chronic conditions like diabetes increase susceptibility. Overuse of antibiotics can lead to resistant strains. Environmental factors like humidity promote fungal growth. Insect bites can introduce pathogens. Immunosuppression and chronic skin conditions like eczema increase infection risk."
+    },
+    {
+      "heading": "Symptoms",
+      "content": "Symptoms typically include redness, swelling, warmth, pain, and sometimes pus formation. Viral infections may cause blisters or ulcers. Fungal infections often present with itching, scaling, and discoloration. Parasitic infections cause intense itching and rash. Systemic symptoms like fever can occur with severe infections. Chronic infections may lead to scarring or pigmentation changes. Early signs include tenderness and skin breakdown. Recurrent infections suggest immune compromise. Timely medical evaluation prevents progression. Symptoms vary based on the causative agent and site."
+    },
+    {
+      "heading": "Diagnosis",
+      "content": "Diagnosis involves clinical examination and laboratory testing. Swabs, scrapings, or biopsies may identify pathogens. Blood tests and imaging are used for systemic infections. Fungal infections often require microscopy or culture. PCR tests help detect viral DNA. Patient history including exposure and immune status guides diagnosis. Differential diagnosis includes allergic reactions and autoimmune diseases. Timely and accurate diagnosis ensures targeted treatment. Monitoring response to therapy is essential. In some cases, referral to dermatology or infectious disease specialists is needed."
+    },
+    {
+      "heading": "Medications",
+      "content": "Bacterial infections are treated with antibiotics like **Cephalexin**, **Dicloxacillin**, or **Clindamycin**. MRSA infections may require **Vancomycin** or **Linezolid**. Viral infections like herpes are managed with **Acyclovir** or **Valacyclovir**. Fungal infections use topical or oral antifungals such as **Clotrimazole**, **Terbinafine**, or **Fluconazole**. Parasitic infestations like scabies are treated with **Permethrin** cream or **Ivermectin**. Proper wound care and hygiene complement medication. Treatment duration depends on severity and response. Adherence to full course prevents resistance and relapse."
+    }
+  ]
+}

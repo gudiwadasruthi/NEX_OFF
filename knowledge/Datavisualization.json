@@ -1,0 +1,30 @@
+{
+  "title": "Data Visualization",
+  "description": "Graphical representation of information to reveal patterns, trends, and insights in complex datasets.",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "content": "Data visualization transforms raw data into visual formats for human comprehension. Combines statistics, design, and storytelling. Historical roots in 18th-century charts (William Playfair). Modern tools include Tableau, D3.js, and Power BI. Used across science, business, and journalism. Effective visuals follow Gestalt principles of perception. Interactive dashboards enable real-time exploration. Challenges include misleading representations and cognitive overload."
+    },
+    {
+      "heading": "Key Features",
+      "content": "Visual encodings map data to shapes/colors. Hierarchical displays show part-whole relationships. Temporal visuals reveal trends over time. Geospatial maps display location-based patterns. Multivariate techniques compare >3 dimensions. Animation shows data evolution. Interactivity allows user-driven exploration. Accessibility features aid colorblind users. Tools range from Excel to custom Python libraries (Matplotlib)."
+    },
+    {
+      "heading": "Subfields",
+      "content": "Information Design: Static infographics. Scientific Visualization: 3D renderings (MRI scans). Business Intelligence: Interactive dashboards. GeoVisualization: GIS mapping. Network Graphs: Social/media analysis. Time Series: Stock market trends. High-Dimensional: PCA/t-SNE reductions. Artistic Visualization: Creative data art."
+    },
+    {
+      "heading": "Applications",
+      "content": "Healthcare: Epidemic curve tracking (COVID-19). Finance: Portfolio risk heatmaps. Journalism: Interactive election results. Sports: Player performance analytics. Climate Science: CO2 emission maps. Education: Student progress dashboards. Retail: Customer segmentation charts. Social Media: Viral content network graphs."
+    },
+    {
+      "heading": "Challenges",
+      "content": "Misleading scales distort interpretations. Overplotting obscures dense data points. Color misuse creates confusion. Cognitive biases influence perception. Big data requires aggregation strategies. Tool complexity creates skill barriers. Dynamic data needs real-time rendering. Balancing aesthetics with accuracy."
+    },
+    {
+      "heading": "Advantages",
+      "content": "Accelerates insight discovery versus raw data. Reveals hidden patterns and outliers. Enhances memory retention of information. Facilitates data-driven decision making. Democratizes access to complex analytics. Engages audiences more effectively than tables. Supports hypothesis generation in research. Cross-cultural understanding through universal visuals."
+    }
+  ]
+}

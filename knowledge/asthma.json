@@ -1,0 +1,30 @@
+{
+  "title": "Asthma Attack",
+  "description": "An asthma attack occurs when the airways in the lungs become narrowed, swollen, and filled with extra mucus, making it difficult to breathe. This sudden worsening of symptoms can be life-threatening if not treated promptly. Recognizing the symptoms and taking immediate action can prevent serious complications.",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "content": "Asthma is a chronic respiratory condition that affects the airways in the lungs. During an asthma attack, these airways become inflamed and constricted, reducing airflow and causing difficulty in breathing. Triggers such as allergens, cold air, smoke, or exercise can provoke an attack. Asthma varies in severity and frequency from person to person, and while it can be managed with medication, emergency situations may arise unexpectedly. Early recognition and immediate treatment are key to preventing complications. People with asthma should always carry their prescribed medications and avoid known triggers to minimize the risk of an attack."
+    },
+    {
+      "heading": "Common Symptoms",
+      "content": "Symptoms of an asthma attack may include wheezing (a whistling sound while breathing), shortness of breath, tightness in the chest, and persistent coughing—especially at night or early morning. Breathing may become faster than normal, and the person might feel anxious or panicked due to difficulty in breathing. These symptoms often come on suddenly and worsen quickly without proper treatment."
+    },
+    {
+      "heading": "Danger Signs (Emergency)",
+      "content": "During a severe asthma attack, a person may show warning signs that indicate a medical emergency. These include blue or pale lips and face, a very fast or weak pulse, inability to speak more than a few words, and no relief even after using a reliever inhaler. A 'silent chest'—where no airflow can be heard—is especially dangerous. These symptoms require immediate emergency medical attention."
+    },
+    {
+      "heading": "Precautions",
+      "content": "To prevent asthma attacks, individuals should avoid known triggers such as dust, smoke, strong odors, and cold air. If allergic, staying away from pets or pollen is advised. Taking daily controller medications as prescribed, getting vaccinated against flu and pneumonia, and wearing a mask in polluted areas can also reduce the risk of attacks. It is crucial to carry a reliever inhaler at all times and use it as needed."
+    },
+    {
+      "heading": "Emergency Medicine",
+      "content": "The primary emergency treatment for asthma attacks is the blue reliever inhaler, typically containing Salbutamol or Albuterol. Two puffs should be taken during an attack, and repeated every 20 minutes up to three times if necessary. Spacers can improve medication delivery, especially for children or those experiencing severe symptoms. Oral steroids may also be prescribed by doctors in serious cases to reduce inflammation."
+    },
+    {
+      "heading": "What to Do in an Emergency",
+      "content": "If someone is having an asthma attack, sit them upright—do not let them lie down. Give them 2 puffs of their reliever inhaler immediately. If there is no improvement after a few minutes, continue giving 2 puffs every 2–3 minutes, up to a maximum of 10 puffs. Call emergency services (112) if the person’s condition does not improve, they are struggling to breathe, or their skin turns pale or blue. Stay calm and with the person until help arrives."
+    }
+  ]
+}

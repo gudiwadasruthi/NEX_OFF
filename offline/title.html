@@ -1,0 +1,87 @@
+title
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Responsive Video Resize with Auto Navigation</title>
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+  
+    html, body {
+      height: 100%;
+      width: 100%;
+      overflow: hidden; /* Completely prevents scrollbars */
+      background: #000;
+      cursor: pointer;
+      position: relative;
+    }
+  
+    .video-container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 40%;
+      transition: width 0.3s linear;
+      max-width: 100vw; /* prevent overflow */
+    }
+  
+    video {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+  </style>  
+</head>
+<body>
+  <div class="video-container" id="videoContainer">
+    <video id="myVideo" autoplay muted>
+      <source src="../3Drunnerexe/NEXOFF.mp4" type="video/mp4">
+      Your browser does not support HTML5 video.
+    </video>
+  </div>
+
+  <script>
+    const video = document.getElementById('myVideo');
+    const container = document.getElementById('videoContainer');
+    let enableRedirect = false;
+
+    const animateWidth = () => {
+      const time = video.currentTime;
+
+      if (time >= 2 && time <= 4) {
+        // 40% → 100% over 4 seconds
+        const progress = (time / 4);
+        const width = 40 + progress * 60; // 40% + (0-60%)
+        container.style.width = `${width}%`;  
+      } else if (time > 4 && time <= 6) {
+        // 100% → 60% over 2 seconds
+        const progress = (time - 4) / 2;
+        const width = 100 - progress * 40; // 100% - (0-40%)
+        container.style.width = `${width}%`;
+      } else if (time > 6) {
+        container.style.width = '60%';
+        enableRedirect = true;
+      }
+
+      requestAnimationFrame(animateWidth);
+    };
+
+    video.addEventListener('play', () => {
+      requestAnimationFrame(animateWidth);
+    });
+
+    document.body.addEventListener('click', () => {
+      if (enableRedirect) {
+        window.location.href = 'login.html'; // Change this to your target page
+      }
+    });
+  </script>
+   <script src="assets/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

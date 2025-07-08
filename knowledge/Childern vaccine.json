@@ -1,0 +1,34 @@
+{
+  "title": "Children's Vaccines",
+  "description": "Vaccines are safe and effective shots that help protect children from serious illnesses and diseases. Vaccines work by stimulating the body's immune system to recognize and fight infections, without causing the disease itself.",
+  "sections": [
+    {
+      "heading": "Why Are Vaccines Important?",
+      "content": "Prevent diseases: Vaccines protect children from severe diseases like measles, polio, and whooping cough.\n\nProtect the community: When many people are vaccinated, the spread of diseases is limited, helping to protect vulnerable individuals who cannot be vaccinated.\n\nReduce the risk of complications: Some diseases can cause lifelong damage or even death. Vaccines help reduce these risks."
+    },
+    {
+      "heading": "Common Childhood Vaccines & Schedule",
+      "content": "Here’s a general guideline for vaccines recommended for children. Note that the exact schedule may vary by country, so it’s important to consult your doctor.\n\n**At Birth:**\n- Hepatitis B (HepB): First dose given at birth to protect against Hepatitis B, a liver infection.\n\n**2 Months:**\n- Diphtheria, Tetanus, and Pertussis (DTaP): Protects against whooping cough, tetanus, and diphtheria.\n- Polio (IPV): Protects against poliomyelitis, a disease that can cause paralysis.\n- Haemophilus influenzae type b (Hib): Prevents a bacterial infection that can lead to meningitis.\n- Hepatitis B (HepB): Second dose.\n- Pneumococcal conjugate vaccine (PCV13): Protects against pneumonia and meningitis caused by pneumococcal bacteria.\n- Rotavirus (RV): Protects against a common cause of severe diarrhea in infants.\n- Meningococcal (MenB): Protects against meningitis caused by Neisseria meningitidis bacteria (not universally given at this stage in all regions).\n\n**4 Months:**\n- DTaP: Second dose.\n- IPV: Second dose.\n- Hib: Second dose.\n- PCV13: Second dose.\n- RV: Second dose.\n\n**6 Months:**\n- DTaP: Third dose.\n- IPV: Third dose.\n- Hib: Third dose (if required).\n- PCV13: Third dose (if required).\n- Hepatitis B (HepB): Third dose.\n- Flu (influenza): Annual flu vaccine begins at 6 months.\n\n**12–15 Months:**\n- Measles, Mumps, and Rubella (MMR): First dose to protect against these viral infections.\n- Varicella (chickenpox): First dose.\n- Hib: Final dose.\n- PCV13: Final dose.\n- Hepatitis A (HepA): First dose.\n- Meningococcal (MenB): If required.\n\n**18 Months:**\n- DTaP: Fourth dose.\n- Hepatitis A (HepA): Second dose (given 6 months after the first).\n\n**4–6 Years:**\n- DTaP: Fifth dose.\n- IPV: Fourth dose.\n- MMR: Second dose.\n- Varicella: Second dose.\n\n**11–12 Years:**\n- Human papillomavirus (HPV): Protects against certain types of HPV that can cause cancer (given in 2 doses).\n- Meningococcal (MenACWY): First dose, with a second dose at 16 years.\n- Tetanus, Diphtheria, and Pertussis (Tdap): Boosts immunity to pertussis, tetanus, and diphtheria.\n\n**16–18 Years:**\n- Meningococcal (MenACWY): Second dose."
+    },
+    {
+      "heading": "When Should You Consult a Doctor?",
+      "content": "If you miss a dose: Talk to your pediatrician to reschedule vaccinations.\n\nIf your child has an allergic reaction: Rare but possible reactions to vaccines might include rashes, swelling, or difficulty breathing.\n\nFor any questions: If you are unsure about the vaccines or have concerns regarding your child’s health, ask your doctor."
+    },
+    {
+      "heading": "Precautions After Vaccines",
+      "content": "Mild fever: This can occur after vaccines, and it typically goes away within a couple of days.\n\nRedness or swelling at the injection site: Apply a cool compress to reduce discomfort.\n\nRest: Allow your child to rest after the vaccine if they feel tired or irritable.\n\nAvoid overexertion: Your child may feel a little off after the vaccine but should gradually return to their normal activities."
+    },
+    {
+      "heading": "Emergency Signs – Go to the ER If:",
+      "content": "Severe allergic reaction (eg, difficulty breathing, swelling of the face or throat) after a vaccine. This is rare but requires immediate medical attention.\n\nHigh fever (above 104°F or 40°C) that doesn’t go down with medication.\n\nSevere rash, bruising, or unusual behavior after vaccination."
+    },
+    {
+      "heading": "What Not to Do",
+      "content": "Don’t skip vaccines: Vaccines are crucial for your child's health and the health of the community.\n\nDon’t delay appointments: Stay on track with the vaccination schedule to ensure your child is protected at the right time."
+    },
+    {
+      "heading": "Vaccine Myths vs. Facts",
+      "content": "Myth: Vaccines can cause the diseases they protect against.\n\nFact: Vaccines do not cause the diseases. They contain inactivated parts of the virus or bacteria that stimulate the immune system without causing illness.\n\nMyth: Vaccines are only for children.\n\nFact: Vaccines are important at every age, from infancy to adulthood, to prevent diseases like flu, pneumonia, and shingles."
+    }
+  ]
+}

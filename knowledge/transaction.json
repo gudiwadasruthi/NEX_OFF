@@ -1,0 +1,38 @@
+{
+  "title": "Transactions in DBMS",
+  "description": "A transaction is a single unit of work that reads or updates data in a database. It may include multiple operations like inserting, deleting, updating, or retrieving data, but is treated as one complete task. Transactions ensure data consistency, reliability, and integrity even in concurrent and failure-prone environments.",
+  "sections": [
+    {
+      "heading": "What is a Transaction?",
+      "content": "A transaction is a sequence of operations performed as a single logical unit of work. It ensures that either all operations within it are completed successfully or none at all.\n\n Example: Transferring money from one bank account to another:\n- Debit $500 from Account A\n- Credit $500 to Account B\n\nThis entire operation must succeed or fail as a whole to maintain data integrity."
+    },
+    {
+      "heading": "ACID Properties of a Transaction",
+      "content": "**Atomicity** – Ensures the entire transaction is completed or none of it. If one part fails, the transaction is rolled back.\nThink: “All or Nothing”\n\n**Consistency** – Ensures that the database remains in a valid state and obeys all rules before and after the transaction.\nThink: “Rules are always followed”\n\n**Isolation** – Ensures that multiple transactions can occur independently without interfering with each other.\nThink: “Safe from other transactions”\n\n**Durability** – Once a transaction is committed, its effects are permanent, even in the event of a system crash.\nThink: “It will last”"
+    },
+    {
+      "heading": "Types of Transactions",
+      "content": "Read-only Transaction – Only retrieves data (eg, checking bank balance).\n\nUpdate Transaction – Modifies data (eg, depositing money).\n\nSingle-user Transaction – Only one user involved.\n\nMulti-user Transaction – Multiple users accessing or modifying data simultaneously."
+    },
+    {
+      "heading": "States of a Transaction",
+      "content": "**Active** – The transaction has started.\n\n**Partially Committed** – All operations are completed but not yet finalized.\n\n**Committed** – All changes are saved permanently.\n\n**Failed** – An error occurred, and the transaction cannot proceed.\n\n**Aborted** – The transaction is rolled back and undone."
+    },
+    {
+      "heading": "Advantages of Transactions",
+      "content": " Ensures data integrity\n Supports concurrent access safely\n Enables automatic error recovery\n Treats complex operations as a single, manageable unit"
+    },
+    {
+      "heading": "Common Issues in Transactions",
+      "content": "**Dirty Read** – One transaction reads data written by another transaction that hasn't been committed.\n\n**Lost Update** – Two transactions overwrite each other’s changes unknowingly.\n\n**Non-repeatable Read** – A value read once changes when read again in the same transaction.\n\n**Phantom Read** – New rows are added by another transaction and appear when a query is rerun."
+    },
+    {
+      "heading": "Control Techniques",
+      "content": " Locking Mechanisms – Shared or exclusive locks to manage access.\n\n Timestamp Ordering – Orders transactions by time to prevent conflicts.\n\n Multiversion Concurrency Control (MVCC) – Keeps multiple versions of data for read consistency.\n\n Two-phase Commit – Ensures all nodes in a distributed system agree to commit or abort a transaction."
+    },
+    {
+      "heading": "Real-World Applications",
+      "content": "Banking – Transfers, withdrawals, deposits\n E-commerce – Order placement and payment\n Airline bookings – Seat reservation\n Inventory systems – Stock updates\n Healthcare – Updating patient records"
+    }
+  ]
+}

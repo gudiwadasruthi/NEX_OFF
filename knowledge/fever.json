@@ -1,0 +1,34 @@
+{
+  "title": "Fever",
+  "description": "A fever is when your body temperature rises above normal (usually over 100.4°F or 38°C). It’s often a sign that your body is fighting an infection.",
+  "sections": [
+    {
+      "heading": "Common Symptoms",
+      "content": "High body temperature (feeling hot to the touch)\n\nShivering or chills\n\nSweating\n\nHeadache\n\nBody aches\n\nFatigue (feeling tired or weak)\n\nLoss of appetite\n\nDehydration (feeling thirsty or dry mouth)\n\nFlushed or pale skin"
+    },
+    {
+      "heading": "Common Causes",
+      "content": "**1) Infections:**\n\nViral infections (eg, flu, cold, COVID-19)\n\nBacterial infections (eg, strep throat, pneumonia, urinary tract infection)\n\nFungal infections\n\nEar infections\n\n\n**2) Inflammatory Conditions:**\n\nRheumatoid arthritis or other autoimmune diseases\n\nInflammation due to injury or surgery\n\n\n**3) Other Causes:**\n\nHeatstroke (overheating)\n\nMedication side effects\n\nTeething (in babies)\n\nVaccinations (sometimes cause mild fever)\n\nCancer (rarely)"
+    },
+    {
+      "heading": "Precautions & Home Care",
+      "content": "Rest: Get plenty of rest to help your body recover.\n\nStay hydrated: Drink lots of fluids (water, soups, or clear liquids).\n\nWear light clothes and use a fan to keep cool.\n\nCool compress: Apply a cool, damp cloth to your forehead, neck, and wrists.\n\nOver-the-counter medications: Take paracetamol or ibuprofen to reduce fever (follow dosage instructions).\n\nMonitor temperature: Keep track of body temperature using a thermometer."
+    },
+    {
+      "heading": "When to See a Doctor",
+      "content": "Fever lasts more than 3 days or gets higher than 103°F (39.4°C).\n\nSevere headache, stiff neck, or rash along with fever.\n\nDifficulty breathing, chest pain, or confusion.\n\nPersistent vomiting or unable to keep fluids down.\n\nChildren with a fever higher than 100.4°F (38°C) for newborns, or 102°F (38.9°C) for older children."
+    },
+    {
+      "heading": "Emergency Signs – Go to the ER If:",
+      "content": "High fever (above 104°F/40°C) that doesn’t come down with medicine\n\nSevere headache with fever, or stiff neck\n\nSeizures or convulsions\n\nDifficulty breathing\n\nConfusion or delirium\n\nPersistent vomiting or unable to stay hydrated\n\nFor infants: any fever in babies under 3 months should be treated as an emergency"
+    },
+    {
+      "heading": "Treatment from a Doctor",
+      "content": "Blood tests to check for infections or other conditions\n\nAntibiotics (if bacterial infection is present)\n\nAntiviral medications for specific viral infections\n\nIV fluids to treat dehydration if necessary\n\nAntipyretics (medications to lower fever) in case over-the-counter options don’t work"
+    },
+    {
+      "heading": "What Not to Do",
+      "content": "Don’t ignore a high fever (over 103°F or 39.4°C)\n\nDon’t bundle up under blankets if you have a fever — it can make it worse.\n\nDon’t give aspirin to children under 18 years old due to the risk of Reye’s syndrome."
+    }
+  ]
+}

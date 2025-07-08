@@ -1,0 +1,19 @@
+{
+    "title": "Common Cold",
+    "description": "The common cold is a viral infection that affects the upper respiratory tract.",
+    "sections": [
+      {
+        "heading": "Remedies",
+        "content": "Rest, fluids, warm soups, and humidifiers can help ease symptoms."
+      },
+      {
+        "heading": "OTC Drugs",
+        "content": "Over-the-counter medications like decongestants, antihistamines, and cough suppressants can provide relief."
+      },
+      {
+        "heading": "Symptom Duration",
+        "content": "Cold symptoms usually resolve within 7–10 days but can linger longer in some cases."
+      }
+    ]
+  }
+  

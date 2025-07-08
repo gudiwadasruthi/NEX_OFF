@@ -1,0 +1,31 @@
+{
+  "title": "Electrocuted",
+  "description": "Electrocution is injury or death caused by electric shock when a person comes into contact with an electrical current. It can cause burns, cardiac arrest, and other serious health complications requiring immediate emergency care.",
+  "sections": [
+    {
+      "heading": "Ensure Your Own Safety First",
+      "content": "Turn off the power source if possible by unplugging the device or switching off the breaker. Do NOT touch the person if they are still in contact with electricity to avoid getting shocked yourself. Use a non-conductive object like a wooden broom or plastic chair to push the person away from the source."
+    },
+    {
+      "heading": "Call for Help",
+      "content": "Call 112 or your local emergency number immediately. Inform them that the person has been electrocuted and provide your location."
+    },
+    {
+      "heading": "Check for Breathing and Pulse",
+      "content": "If the person is unresponsive and not breathing, start CPR immediately: perform chest compressions (push hard and fast in the center of the chest) and give rescue breaths (2 breaths after 30 compressions) if trained. If they are breathing, keep them calm and still until help arrives."
+    },
+    {
+      "heading": "Treat Burns",
+      "content": "Look for burns where electricity entered or exited the body. Cool burns with running cold water for at least 10 minutes if the skin is intact. Cover burns with a clean, non-stick bandage or cloth. Do NOT apply ice, ointments, or creams."
+    },
+    {
+      "heading": "Stay with the Person",
+      "content": "Stay with the victim and monitor their condition. Even if they seem fine, they must be checked by a doctor due to possible internal injuries or heart issues. Do NOT let them walk if they feel weak or dizzy."
+    },
+    {
+      "heading": "Do Not Give the Person Anything to Eat or Drink",
+      "content": "Avoid giving food, drink, or medication, especially if the person is unconscious or semi-conscious."
+    }
+  ],
+  "importantNotes": "Electrical shocks can cause internal injuries or heart problems even if the victim appears fine. Small shocks can lead to serious injuries. Always seek medical attention after electrocution."
+}

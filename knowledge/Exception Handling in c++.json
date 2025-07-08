@@ -1,0 +1,30 @@
+{
+  "title": "Exception Handling in C++",
+  "description": "Mechanism for detecting and managing runtime errors using structured blocks (`try`, `catch`, and `throw`). It separates normal logic from error-handling logic to enhance code robustness and maintainability.",
+  "sections": [
+    {
+      "heading": " Definition",
+      "content": "Exception Handling in C++ is a mechanism to detect, handle, and recover from runtime errors or exceptional conditions during program execution using `try`, `catch`, and `throw` keywords."
+    },
+    {
+      "heading": " Key Features",
+      "content": "Robust Error Management: Structured error detection and handling.\nSeparation of Concerns: Keeps logic and error-handling separate.\nKeyword-Based: `try`, `catch`, and `throw` control exception flow.\nCustom Exceptions: User-defined error types supported.\nException Propagation: Exceptions can be passed up the call stack."
+    },
+    {
+      "heading": " Advantages",
+      "content": "Improved Readability: Clean code structure.\nFlexible Handling: Works for system and custom errors.\nCrash Prevention: Prevents abrupt program termination.\nReusable Code: General error-handling blocks can be reused.\nNested Support: Handles complex flows with nested try-catch."
+    },
+    {
+      "heading": " Limitations / Challenges",
+      "content": "Performance Overhead: Potential runtime impact.\nImproper Catching: Catching base class may hide specific issues.\nCode Complexity: Too many handlers reduce clarity.\nUncatchable Errors: Low-level faults (eg, segmentation faults).\nPlatform Dependency: Behavior may vary across systems."
+    },
+    {
+      "heading": " Types / Subfields",
+      "content": "Standard Exceptions:\n- Built-in types like `std::exception`, `std::bad_alloc`, `std::out_of_range`, `std::runtime_error`.\n\nUser-Defined Exceptions:\n- Custom classes inheriting from `std::exception` or defined manually.\n\nNested Try-Catch Blocks:\n- Inner try blocks within outer ones for precise control.\n\nRe-Throwing Exceptions:\n- Use `throw;` to pass the exception up the call stack.\n\nFunction Exception Specification (Deprecated):\n- Old syntax `void f() throw(int);` now replaced by `noexcept`.\n\nNo-Throw Guarantee (`noexcept`):\n- Marks functions that are guaranteed not to throw exceptions."
+    },
+    {
+      "heading": " Applications",
+      "content": "File Handling: Detect file I/O errors.\nMemory Allocation: Handle allocation failures like `std::bad_alloc`.\nClass Methods: Provide error recovery in object-oriented design.\nNetworking: Manage disconnections, timeouts, and transmission errors.\nInput Validation: Catch invalid user inputs or formats.\nAPI Design: Exceptions signal failures in reusable libraries or APIs."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "title": "Stomach Flu (Gastroenteritis)",
+  "description": "Gastroenteritis, commonly known as stomach flu, is inflammation of the stomach and intestines caused by infection.",
+  "sections": [
+    {
+      "heading": "Definition",
+      "content": "Gastroenteritis is an inflammation of the gastrointestinal tract, particularly the stomach and intestines, resulting in symptoms like diarrhea, vomiting, and abdominal pain. It is typically caused by viral infections such as norovirus and rotavirus, but bacteria and parasites can also be responsible. It spreads through contaminated food, water, or contact with infected individuals. The illness is usually self-limiting but can cause dehydration, especially in children and the elderly. Proper hydration and hygiene are important in management. It can spread rapidly in crowded settings like schools and nursing homes. Prevention through sanitation and vaccination is key."
+    },
+    {
+      "heading": "Causes",
+      "content": "Viral gastroenteritis is most commonly caused by norovirus and rotavirus. Bacterial causes include Salmonella, Escherichia coli, and Campylobacter. Parasites like Giardia lamblia also cause gastroenteritis. Transmission occurs via fecal-oral route, contaminated food or water, and close contact with infected individuals. Poor hand hygiene and improper food handling increase risk. Outbreaks are common in daycare centers and cruise ships. Seasonal variations are seen, with viral cases peaking in winter. Immunocompromised individuals and young children are particularly vulnerable."
+    },
+    {
+      "heading": "Symptoms",
+      "content": "Symptoms include watery diarrhea, nausea, vomiting, abdominal cramps, and sometimes fever. Dehydration signs include dry mouth, dizziness, and decreased urine output. Symptoms usually start within 1-3 days of infection and last 1-10 days. Severe cases can lead to electrolyte imbalances and hospitalization. Stool may be bloody or mucous in bacterial infections. Symptom severity varies with pathogen and host immunity. Fatigue and weakness are common. Early recognition of dehydration is critical for appropriate care."
+    },
+    {
+      "heading": "Diagnosis",
+      "content": "Diagnosis is usually clinical based on symptoms and history. Stool cultures or antigen tests identify specific pathogens in severe or prolonged cases. Blood tests assess dehydration and electrolyte status. Rapid tests exist for viruses like rotavirus. Travel history and food exposure help narrow diagnosis. Differential diagnosis includes food poisoning and inflammatory bowel disease. Most cases resolve without extensive testing. Prompt diagnosis prevents unnecessary antibiotics use. In outbreaks, public health notification is important."
+    },
+    {
+      "heading": "Medications",
+      "content": "Treatment mainly involves supportive care with oral rehydration solutions to prevent dehydration. Antiemetics like **Ondansetron** may be used for severe vomiting. Antibiotics are reserved for confirmed bacterial infections such as **Ciprofloxacin** or **Azithromycin**. Antiparasitic agents like **Metronidazole** treat parasitic causes. Antidiarrheal medications are generally avoided in children and infections suspected to be invasive. Nutritional support and electrolyte management are important. Preventive vaccines for rotavirus reduce incidence. Patient education on hygiene and hydration is essential."
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "title": "Data Structures",
+  "description": "A data structure is a special way of organizing and storing data so that it can be used efficiently. Think of it like a toolbox — different tools (structures) are best for different jobs.",
+  "sections": [
+    {
+      "heading": "Why Are Data Structures Important?",
+      "content": "They help process, search, and manage data efficiently, improve the performance of algorithms and programs, and are essential in software development, databases, AI, and more."
+    },
+    {
+      "heading": "Types of Data Structures",
+      "content": "1) Linear Data Structures\nData is arranged in a sequence, one after the other.\n\na) Array\n- Fixed-size list of elements (same type)\n- Example: [10, 20, 30]\n-  Fast access using index\n-  Hard to insert/delete\n\nb) Linked List\n- Chain of nodes with data + pointer to next node\n- Types: Singly, Doubly, Circular\n-  Dynamic size\n-  Slower access than arrays\n\nc) Stack\n- LIFO (Last In, First Out)\n- Operations: push, pop\n-  Used in undo operations, recursion\n-  Limited access (only top item)\n\nd) Queue\n- FIFO (First In, First Out)\n- Operations: enqueue, dequeue\n-  Used in printers, task scheduling\n-  Can fill up quickly (in static arrays)\n\ne) Deque (Double-Ended Queue)\n- Insert/remove from both front and back\n\n2) Non-Linear Data Structures\n\na) Tree\n- Hierarchical structure of nodes\n- Types: Binary Tree, Binary Search Tree (BST), AVL Tree, Heap\n-  Fast search, insert, sort\n-  More complex\n\nb) Graph\n- Collection of nodes (vertices) and edges (links)\n- Types: Directed, Undirected, Weighted\n-  Models networks like roads, social networks\n-  Complex operations and memory use\n\n3) Hashing & Hash Table\n- Key-value pair storage\n- Fast access using a hash function\n-  Used in dictionaries, caches\n-  Collisions can occur"
+    },
+    {
+      "heading": "Advantages of Data Structures",
+      "content": "Organize large data efficiently, make data processing faster, enable advanced algorithms, improve memory usage."
+    },
+    {
+      "heading": "Disadvantages",
+      "content": "Some are complex to implement (e.g., graphs, trees), wrong structure can slow down performance, may use more memory (eg, linked lists vs arrays)."
+    },
+    {
+      "heading": "Common Real-World Applications",
+      "content": "Web browser back button: Stack\nPrinter queue: Queue\nContact list/search: Hash Table, Array\nSocial media friends: Graph\nFile system structure: Tree\nMap routing (GPS): Graph with weights"
+    },
+    {
+      "heading": "How to Choose a Data Structure",
+      "content": "Ask yourself:\n- Do I need fast searching or sorting? → Use trees or hash tables\n- Do I need ordered data? → Use arrays or linked lists\n- Do I need to process items in order? → Use queues or stacks\n- Do items have complex relationships? → Use graphs"
+    }
+  ]
+}

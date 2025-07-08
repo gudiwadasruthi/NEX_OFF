@@ -1,0 +1,34 @@
+{
+  "title": "Skin Rash",
+  "description": "A rash is a change in the skin’s appearance, texture, or color. It can appear anywhere on the body and may be red, bumpy, dry, itchy, or painful. Rashes can be mild or a sign of a more serious issue.",
+  "sections": [
+    {
+      "heading": "Common Symptoms",
+      "content": "Redness or pink patches. Itching or burning. Bumps, blisters, or pimples. Dry or flaky skin. Swelling or tenderness. Cracked or peeling skin. Sometimes, fever if infection or allergy is involved."
+    },
+    {
+      "heading": "Common Causes",
+      "content": "Allergic Reaction – to food, medicines, soaps, or skincare products. Irritants – like harsh soaps, chemicals, or plants (eg, poison ivy). Heat Rash – from sweat trapped in skin during hot weather. Infections – bacterial (impetigo), viral (measles, chickenpox), or fungal (ringworm). Eczema (atopic dermatitis) – chronic, dry, itchy skin. Psoriasis – autoimmune condition with thick, scaly patches. Insect Bites or Stings. Drug Reactions – some medicines can cause rashes as a side effect."
+    },
+    {
+      "heading": "Precautions & Prevention",
+      "content": "Avoid known allergens or irritants (like harsh chemicals, new creams, or detergents). Use gentle, fragrance-free soaps and moisturizers. Stay cool and dry in hot weather to prevent heat rash. Wear loose, breathable clothing. Use insect repellent when outdoors. Do a patch test before using new skincare products or medications. Keep skin clean and moisturized, especially if prone to eczema."
+    },
+    {
+      "heading": "Home Care for Mild Rashes",
+      "content": "Wash the area with mild soap and cool water. Apply a cold compress to reduce itching or swelling. Use calamine lotion or anti-itch creams (like hydrocortisone). Take antihistamines (like cetirizine or loratadine) if itching is from an allergy. Keep nails trimmed to avoid scratching and infection. Do not use strong creams or ointments without a doctor’s advice."
+    },
+    {
+      "heading": "Emergency Medicine (prescribed by doctor)",
+      "content": "Topical corticosteroids (eg, hydrocortisone, betamethasone) – for inflammation. Oral antihistamines – for allergic rashes or hives. Antibiotics – if rash becomes infected. Antifungal or antiviral creams – if caused by infection. Immunosuppressants – for severe eczema or psoriasis (under specialist care). Note: Always use these under medical supervision."
+    },
+    {
+      "heading": "When to See a Doctor or Go to the ER",
+      "content": "Rash is spreading rapidly. Blisters, open wounds, or yellow discharge appear. Fever with rash. Rash around eyes, mouth, or genitals. Painful rash or rash with swelling. No improvement in 2–3 days with home care. Breathing difficulty or swelling of face/lips (emergency – could be anaphylaxis). Rash after taking new medication."
+    },
+    {
+      "heading": "What NOT to Do",
+      "content": "Don’t scratch: It can lead to infection and worsen rash. Don’t apply random creams: Especially strong steroids without knowing the cause. Avoid hot water: Can irritate the skin more. Don’t delay treatment if rash worsens or spreads."
+    }
+  ]
+}

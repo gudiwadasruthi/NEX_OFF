@@ -1,0 +1,26 @@
+{
+  "title": "File Organization in DBMS",
+  "description": "File organization refers to the way data is stored and arranged in a file so that it can be accessed efficiently. Like a library organizes books for easy searching, file organization arranges data in storage for fast and efficient access.",
+  "sections": [
+    {
+      "heading": "Types of File Organization",
+      "content": "1) Sequential File Organization: Records are stored one after another in a fixed order, usually sorted by key. To access a record, search starts from the beginning. Best for batch processing like payroll.\n\nPros: Simple, easy to implement, efficient for reading all data.\nCons: Slow for searching individual records, inefficient insert/delete.\n\n2) Heap (Unordered) File Organization: Records stored in no particular order, new records appended at the end.\n\nPros: Fast inserts, simple structure.\nCons: Slow search and updates, no sorting or indexing.\n\n3) Hashed File Organization: Uses a hash function to compute the exact location of records for direct access by key.\n\nPros: Very fast access for exact key searches.\nCons: Collisions can occur, poor for range queries.\n\n4) Indexed File Organization: Uses an index (like a book’s index) to locate records quickly. Data may be stored sequentially or unordered.\n\nPros: Fast search and access, supports range queries.\nCons: Index requires storage, updates slow because index must be updated.\n\n5) Clustered File Organization: Stores related records physically together (eg, all orders for a customer).\n\nPros: Better performance for accessing grouped data.\nCons: Complex to maintain, less flexible."
+    },
+    {
+      "heading": "Key Features of File Organization",
+      "content": "Defines how records are placed, searched, updated, or deleted. Affects storage space, speed, and data retrieval efficiency. Often works alongside indexing to boost performance."
+    },
+    {
+      "heading": "Advantages",
+      "content": "Efficient data access, organized structure aids fast search and retrieval, handles large volumes of data effectively, supports multiple access methods."
+    },
+    {
+      "heading": "Disadvantages",
+      "content": "Some file organizations are inflexible for frequent updates, indexing adds storage overhead, complexity grows with advanced file organizations."
+    },
+    {
+      "heading": "Applications of File Organization",
+      "content": "Banking Transactions: Hashed or Indexed\nLibrary System: Sequential or Indexed\nE-commerce Orders: Clustered or Indexed\nStudent Records: Hashed (for quick ID search)\nPayroll Processing: Sequential"
+    }
+  ]
+}

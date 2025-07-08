@@ -1,0 +1,34 @@
+{
+  "title": "Animal Bite",
+  "description": "An animal bite occurs when an animal’s teeth puncture the skin, potentially causing injury or infection. These bites can come from domestic pets such as dogs and cats, or from wild animals.",
+  "sections": [
+    {
+      "heading": "Symptoms of an Animal Bite",
+      "content": "Pain and swelling at the bite site, bleeding from the puncture wound, redness or warmth around the area, bruising or tenderness, pus or discharge if infected, and fever if infection develops."
+    },
+    {
+      "heading": "Steps for Animal Bite Treatment",
+      "content": "1) Clean the wound immediately with soap and water, rinsing under running water for several minutes.\n2) Stop bleeding by applying gentle pressure with a clean cloth; elevate the injured area if bleeding is severe.\n3) Apply an antiseptic solution like iodine or hydrogen peroxide to prevent infection.\n4) Cover the wound with a sterile bandage, ensuring it’s not too tight; change bandage daily or when dirty.\n5) Monitor the wound for signs of infection such as redness, swelling, or pus."
+    },
+    {
+      "heading": "Precautions to Prevent Infection",
+      "content": "Keep the wound clean by washing daily.\nChange bandages regularly.\nAvoid squeezing pus or popping the wound.\nSeek medical care immediately for rabies or tetanus vaccination if the animal’s health status is unknown."
+    },
+    {
+      "heading": "When to Seek Emergency Care",
+      "content": "If bleeding is severe and won’t stop after pressure.\nBites from wild or sick-appearing animals.\nDeep puncture wounds or large bites.\nSigns of infection including fever.\nBites to the face or neck.\nPotential rabies exposure from abnormal animals like bats, raccoons, or foxes."
+    },
+    {
+      "heading": "Emergency Treatment for Animal Bites",
+      "content": "Tetanus vaccination for deep or dirty wounds.\nPost-exposure rabies vaccination if needed.\nAntibiotics for infection treatment or prevention.\nProfessional wound cleaning or stitches for severe injuries."
+    },
+    {
+      "heading": "What Not to Do",
+      "content": "Do NOT ignore deep or large bites.\nDo NOT attempt serious bite treatment at home if the wound is severe or animal unknown.\nSeek medical attention immediately in such cases."
+    },
+    {
+      "heading": "Preventing Animal Bites",
+      "content": "Avoid provoking animals and stay calm.\nKeep pets vaccinated, especially dogs and cats.\nSupervise children around animals.\nExercise caution with wild animals or stray pets."
+    }
+  ]
+}

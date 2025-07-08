@@ -1,0 +1,18 @@
+{
+  "title": "First Aid Kit Essentials",
+  "description": "This simplified first aid list is perfect for kids, families, or anyone new to first aid. It includes easy-to-understand tools and medicines to help with small accidents or emergencies until help arrives.",
+  "sections": [
+    {
+      "heading": "Basic Things",
+      "content": "Band-aids – Cover small cuts or wounds.\n\nGauze pads – Cover bigger cuts to stop bleeding.\n\nTape – Stick gauze or bandages in place.\n\nCleaning wipes/liquid – Clean cuts so they don’t get infected.\n\nCotton – Clean wounds or apply medicine.\n\nTweezers – Remove small things like splinters or glass.\n\nScissors – Cut bandages or clothes if needed.\n\nSafety pins – Hold bandages or slings.\n\nThermometer – Check if someone has a fever.\n\nGloves – Keep your hands clean when helping someone.\n\nHand sanitizer – Clean hands without water.\n\nFace mask – Stop spreading germs.\n\nFirst aid guide – Tells you what to do in an emergency."
+    },
+    {
+      "heading": "Medicines",
+      "content": "Paracetamol/Ibuprofen – Help with pain or fever.\n\nAllergy medicine (Antihistamine) – Help with itching, rashes, or sneezing.\n\nAntacid – Helps with stomach pain or gas.\n\nORS (Oral Rehydration) – Replace water and salts after diarrhea or vomiting.\n\nAnti-diarrhea medicine – Stop loose motion.\n\nAntiseptic cream – Helps wounds heal and stops infection.\n\nBurn cream – Helps treat small burns.\n\nCough syrup/drops – Soothe sore throat or coughing."
+    },
+    {
+      "heading": "Other Helpful Things",
+      "content": "Cold pack – Helps reduce swelling or pain.\n\nElastic bandage – Wrap around sprains or sore joints.\n\nEye wash – Clean your eyes if something gets in.\n\nCPR shield – Protect yourself while giving mouth-to-mouth.\n\nTorch (flashlight) – Use if there’s no light.\n\nImportant phone numbers – So you can call for help fast.\n\nPen and paper – Write down important information."
+    }
+  ]
+}

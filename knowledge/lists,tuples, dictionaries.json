@@ -1,0 +1,30 @@
+{
+  "title": "Lists, Tuples, Dictionaries in Python",
+  "description": "Lists, Tuples, and Dictionaries are fundamental data structures in Python. Lists are mutable ordered collections, Tuples are immutable ordered collections, and Dictionaries are unordered collections of key-value pairs.",
+  "sections": [
+    {
+      "heading": " Definitions",
+      "content": "List: A mutable, ordered collection of items in Python, which can contain elements of different types (integers, strings, objects).\nTuple: An immutable, ordered collection of items, similar to a list, but its contents cannot be changed after creation.\nDictionary: An unordered, mutable collection of key-value pairs, where each key must be unique and is used to access its corresponding value."
+    },
+    {
+      "heading": " Key Features",
+      "content": "🔹 Lists:\n- Ordered sequence\n- Elements can be added, removed, or modified\n- Supports indexing and slicing\n- Can store heterogeneous data types\n- Allows duplicate values\n\n🔹 Tuples:\n- Ordered and fixed-length\n- Immutable (cannot be changed after creation)\n- Supports indexing and slicing\n- Generally faster than lists for iteration\n- Often used for read-only data or fixed collections\n\n🔹 Dictionaries:\n- Stores data in key-value format\n- Keys must be unique and immutable\n- Values can be any data type\n- Fast lookup using keys\n- Keys are unordered in versions < 3-7, ordered by insertion in Python 3-7+"
+    },
+    {
+      "heading": " Types / Subfields",
+      "content": "🔹 Lists:\n- Nested Lists (lists within lists)\n- List of different data types\n- List comprehension (used for creating new lists with logic)\n\n🔹 Tuples:\n- Nested Tuples\n- Tuple packing and unpacking\n- Named tuples (from collections module)\n\n🔹 Dictionaries:\n- Nested Dictionaries\n- Dictionary comprehension\n- Default dictionaries (from collections)\n- Ordered dictionaries (maintain order explicitly)\n- Mutable values, immutable keys"
+    },
+    {
+      "heading": " Advantages",
+      "content": " Lists:\n- Flexibility in storing and modifying data\n- Dynamic sizing\n- Easily sortable and searchable\n- Built-in methods for manipulation\n\n Tuples:\n- More memory efficient than lists\n- Can be used as keys in dictionaries\n- Ensures data integrity (no accidental modification)\n- Slightly faster performance than lists\n\n Dictionaries:\n- Extremely fast key-based access\n- Excellent for mappings, indexing, and lookups\n- Flexible storage of structured data\n- Reduces complexity in real-world applications like JSON parsing"
+    },
+    {
+      "heading": " Limitations / Challenges",
+      "content": " Lists:\n- Can consume more memory compared to tuples\n- Modifications can lead to bugs in large or shared data structures\n\n Tuples:\n- Cannot be modified, limiting flexibility\n- No methods like append(), remove(), or pop()\n\n Dictionaries:\n- No order guarantee before Python 3-7\n- Keys must be immutable\n- Potential key collisions if not handled properly\n- Slightly more memory usage than lists or tuples"
+    },
+    {
+      "heading": " Applications",
+      "content": " Lists:\n- Maintaining a list of items (eg, shopping cart, tasks)\n- Queue and stack implementation\n- Data storage and transformation\n- Storing tabular data in a linear form\n\n Tuples:\n- Fixed configuration values (eg, database connections, coordinates)\n- Function argument returns (multiple values)\n- Read-only data structures\n- Dictionary keys\n\n Dictionaries:\n- Representing JSON data\n- Lookup tables\n- Caching and indexing\n- Data aggregation and frequency counting"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "title": "3D Printing & Additive Manufacturing",
+  "description": "Processes that create three-dimensional objects by layering materials based on digital models, transforming traditional manufacturing.",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "content": "3D printing, or additive manufacturing, builds objects layer by layer from digital designs. It contrasts with subtractive methods like machining. This technology enables rapid prototyping, customization, and complex geometries unachievable by traditional means. Materials used include plastics, metals, ceramics, and composites. Industries such as aerospace, healthcare, automotive, and consumer products widely adopt it. 3D printing reduces waste and shortens production cycles. It also supports decentralized manufacturing and on-demand production. Advances in multi-material and bioprinting expand possibilities. Challenges include speed, size limitations, and material properties. Overall, additive manufacturing is reshaping manufacturing paradigms globally."
+    },
+    {
+      "heading": "Key Features",
+      "content": "Layer-by-layer material deposition. Use of digital 3D CAD models. Wide variety of printable materials. Rapid prototyping and iterative design. Ability to produce complex geometries. Reduced material waste compared to subtractive methods. Potential for mass customization. Integration with other manufacturing processes. Post-processing requirements for finish. Scalability for small to medium production runs."
+    },
+    {
+      "heading": "Applications",
+      "content": "Prototyping and product development. Customized medical implants and prosthetics. Aerospace parts with complex internal structures. Automotive components and tooling. Architectural models and construction. Consumer goods like jewelry and footwear. Educational models and research tools. Bioprinting of tissues and organs. Tooling and molds for manufacturing. Art and design projects."
+    },
+    {
+      "heading": "Challenges",
+      "content": "Material limitations affecting strength and durability. Speed constraints for large parts. High cost of industrial-grade printers. Post-processing and finishing needs. Quality control and repeatability issues. Intellectual property and copyright concerns. Regulatory hurdles for medical and aerospace parts. Limited availability of multi-material printing. Environmental impact of some materials. Skill requirements for design and operation."
+    },
+    {
+      "heading": "Advantages",
+      "content": "Enables rapid design iteration and innovation. Supports personalized and on-demand production. Reduces inventory and logistics costs. Minimizes material waste and environmental footprint. Allows creation of complex and lightweight structures. Facilitates distributed manufacturing networks. Enhances supply chain flexibility. Opens new possibilities in healthcare and aerospace. Encourages creativity and customization. Reduces time to market for new products."
+    }
+  ]
+}

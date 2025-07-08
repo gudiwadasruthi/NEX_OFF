@@ -1,0 +1,30 @@
+{
+  "title": "Arrays & Strings in C",
+  "description": "Arrays and strings are fundamental data structures in C. Arrays store collections of elements of the same type, while strings are arrays of characters ending with a null terminator.",
+  "sections": [
+    {
+      "heading": "Definition",
+      "content": "Array: A collection of elements of the same data type stored in contiguous memory and accessed via indices.\n\nString: A sequence of characters terminated by a null character '\\0'; implemented as character arrays in C."
+    },
+    {
+      "heading": "Key Features",
+      "content": "Static Structure: Size is defined at compile time.\nIndexed Access: Elements are accessed using indices (eg, arr[0]).\nHomogeneous Data: All elements in an array must be of the same data type.\nContiguous Memory: Stored sequentially in memory for fast access.\nCharacter Manipulation: C provides built-in functions for handling strings."
+    },
+    {
+      "heading": " Types / Subfields",
+      "content": "10 Arrays:\n- One-Dimensional Arrays: Linear list (eg, int arr[5];)\n- Two-Dimensional Arrays: Matrix-like (eg, int mat[3][3];)\n- Multi-Dimensional Arrays: More than two dimensions (eg, int cube[3][3][3];)\n- Character Arrays: Special arrays used for strings\n\n2) Strings:\n- Character Arrays: Arrays of type `char` ending in '\\0'\n- String Literals: Defined using double quotes (eg, char s[] = \"hello\";)\n- Standard String Functions (from `<string.h>`):\n  - `strlen()` – get length\n  - `strcpy()` – copy\n  - `strcmp()` – compare\n  - `strcat()` – concatenate"
+    },
+    {
+      "heading": " Advantages",
+      "content": "Efficient Access: Direct access to elements via index.\nData Grouping: Manage related data using a single name.\nString Handling: Built-in support for basic string operations.\nLoop Friendly: Easily iterated for processing or transformation."
+    },
+    {
+      "heading": " Limitations / Challenges",
+      "content": "Fixed Size: Size must be known at compile time.\nMemory Wastage: Risk of over/under-allocating memory.\nNo Bounds Checking: Accessing invalid indices leads to undefined behavior.\nManual Management: Strings require careful handling (eg, null termination)."
+    },
+    {
+      "heading": " Applications",
+      "content": "Data Storage: Useful for storing structured data like scores or names.\nMatrix Operations: Used in mathematical and scientific applications.\nString Processing: For user input, commands, parsing.\nAlgorithms: Used in sorting, searching, and manipulation operations.\nText-Based Programs: Useful for input validation, command-line tools, and parsers."
+    }
+  ]
+}

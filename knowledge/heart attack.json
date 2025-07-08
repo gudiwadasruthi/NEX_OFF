@@ -1,0 +1,26 @@
+{
+  "title": "Heart Attack",
+  "description": "A heart attack, or myocardial infarction, occurs when blood flow to a part of the heart muscle is blocked, causing damage to the heart. This is usually due to a blocked artery and requires immediate medical attention to prevent serious complications or death.",
+  "sections": [
+    {
+      "heading": "Common Symptoms of a Heart Attack",
+      "content": "Symptoms include chest pain or discomfort (pressure, squeezing, fullness), pain spreading to the arms, jaw, neck, back, or stomach, shortness of breath, cold sweat, dizziness or lightheadedness, nausea or vomiting, fatigue, and feelings of indigestion or heartburn."
+    },
+    {
+      "heading": "Warning Signs to Watch For",
+      "content": "Warning signs include pain or discomfort lasting more than a few minutes or that goes away and returns, chest pain spreading to other areas like arms or neck, sweating and feeling unwell, and sudden difficulty breathing."
+    },
+    {
+      "heading": "Precautions to Prevent Heart Attack",
+      "content": "Preventative measures include eating a healthy low salt, fat, and sugar diet; exercising regularly (30 minutes, 5 days a week); quitting smoking and avoiding secondhand smoke; maintaining a healthy weight; controlling blood pressure, cholesterol, and blood sugar; managing stress and getting enough sleep; limiting alcohol; and regular doctor check-ups, especially if there is a family history."
+    },
+    {
+      "heading": "Emergency Medicine for a Heart Attack",
+      "content": "If conscious and not allergic, give 1 aspirin (325 mg) to chew slowly to thin the blood. Nitroglycerin, if prescribed, helps relax blood vessels. Oxygen may be provided if available. Medical professionals may use morphine for pain relief and thrombolytic drugs to dissolve clots."
+    },
+    {
+      "heading": "What to Do in an Emergency",
+      "content": "Call emergency services immediately (112 or local number). Keep calm and have the person sit or lie down. If conscious, give aspirin to chew slowly. If unconscious and not breathing, start CPR with chest compressions and rescue breaths (if trained). Do not give food or drink or move the person if they are in pain."
+    }
+  ]
+}

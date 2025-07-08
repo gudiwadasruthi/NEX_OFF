@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NEX OFF - Login</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background: #111;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: #fff;
+        }
+
+        .main-flex {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            gap: 120px;
+            height: 100vh;
+        }
+
+        .login-container {
+            background: rgba(20, 20, 20, 0.95);
+            padding: 32px;
+            border: 1px solid #fff;
+            border-radius: 12px;
+            box-shadow: 0 0 24px 2px #fff;
+            text-align: center;
+            width: 240px;
+            margin-left: -32px;
+            animation: fadeIn 0.5s ease;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .logo h1 {
+            margin: 0;
+            font-size: 28px;
+            color: #fff;
+            text-shadow: 0 0 12px #fff;
+        }
+
+        .logo p {
+            font-size: 12px;
+            color: #ccc;
+            margin-bottom: 30px;
+        }
+
+        .login-form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .input-container {
+            position: relative;
+            margin: 20px 0;
+            width: 90%;
+        }
+
+        .login-form input {
+            width: 100%;
+            padding: 12px 15px;
+            font-size: 15px;
+            background: rgba(255, 255, 255, 0.05);
+            border: 2px solid #808080;
+            border-radius: 8px;
+            color: #fff;
+            transition: all 0.3s ease;
+            box-sizing: border-box;
+        }
+
+        .login-form input:focus {
+            outline: none;
+            border: 2px solid #808080;
+            box-shadow: 0 0 8px rgba(128, 128, 128, 0.5);
+        }
+
+        .login-form input::placeholder {
+            color: transparent;
+        }
+
+        .input-container label {
+            position: absolute;
+            top: 50%;
+            left: 15px;
+            transform: translateY(-50%);
+            color: #ccc;
+            font-size: 15px;
+            pointer-events: none;
+            transition: all 0.3s ease;
+        }
+
+        .login-form input:focus + label,
+        .login-form input:not(:placeholder-shown) + label {
+            top: -10px;
+            left: 10px;
+            font-size: 12px;
+            color: #ced2d7;
+            background: rgba(20, 20, 20, 0.95);
+            padding: 0 5px;
+        }
+
+        button {
+            width: 90%;
+            padding: 12px;
+            margin-top: 16px;
+            font-size: 15px;
+            background: linear-gradient(135deg, #2962ff, #0039cb);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(41, 98, 255, 0.3);
+        }
+
+        .form-toggle {
+            margin-top: 10px;
+            text-align: center;
+            color: #ccc;
+            font-size: 14px;
+        }
+
+        .form-toggle a {
+            color: #3bb6f4;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        .form-toggle a:hover {
+            text-decoration: underline;
+        }
+
+        .hidden {
+            display: none;
+        }
+  
+     
+
+        .robot-container {
+  position: relative;
+  width: 700px;
+  height: 620px;
+}
+
+.speech-bubble {
+  display: none;
+  position: absolute;
+  top: 20%;
+  right: 85%;
+  transform: translateY(-50%);
+  margin-right: 20px;
+  background: rgba(20, 20, 20, 0.95);
+  padding: 12px 20px;
+  border-radius: 8px;
+  border: 1px solid #fff;
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.2);
+  font-size: 14px;
+  color: #fff;
+  animation: fadeIn 0.3s ease;
+  z-index: 1000;
+}
+
+.speech-bubble::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: -8px;
+  transform: translateY(-50%);
+  border-width: 8px 0 8px 8px;
+  border-style: solid;
+  border-color: transparent transparent transparent rgba(20, 20, 20, 0.95);
+}
+
+        spline-viewer::part(branding) {
+            display: none !important;
+        }
+
+        spline-viewer::part(branding) {
+            right: 10px !important;
+            left: auto !important;
+            bottom: 10px !important;
+            top: auto !important;
+        }
+
+    </style>
+</head>
+<body>
+     <div class="main-flex">
+        <div class="robot-container">
+            <div class="speech-bubble">Hello, User!</div>
+          
+            <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.96/build/spline-viewer.js"></script>
+            <spline-viewer url="https://prod.spline.design/X3P3pLMkHGhTc1YZ/scene.splinecode"></spline-viewer>
+          </div>
+          
+        <div class="login-container">
+            <div class="logo">
+                <h1>Coding Crew</h1>
+                <p>AI Chat, Anytime. Anywhere, Offline ding ding</p>
+            </div>
+
+            <form id="login-form" class="login-form">
+                <div class="input-container">
+                    <input type="text" name="username" placeholder=" " required />
+                    <label>Username</label>
+                </div>
+                <div class="input-container">
+                    <input type="password" placeholder=" " required />
+                    <label>Password</label>
+                </div>
+                <button type="submit">Login</button>
+                <p class="form-toggle">Don't have an account? <a onclick="toggleForm('signup')">Sign Up</a></p>
+            </form>
+
+            <form id="signup-form" class="login-form hidden">
+                <div class="input-container">
+                    <input type="text" placeholder=" " required />
+                    <label>Username</label>
+                </div>
+                <div class="input-container">
+                    <input type="email" placeholder=" " required />
+                    <label>Email</label>
+                </div>
+                <div class="input-container">
+                    <input type="password" placeholder=" " required />
+                    <label>Password</label>
+                </div>
+                <div class="input-container">
+                    <input type="password" placeholder=" " required />
+                    <label>Confirm Password</label>
+                </div>
+                <button type="submit">Sign Up</button>
+                <p class="form-toggle">Already have an account? <a onclick="toggleForm('login')">Login</a></p>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        const { ipcRenderer } = require('electron');
+
+        function toggleForm(formType) {
+            const loginForm = document.getElementById('login-form');
+            const signupForm = document.getElementById('signup-form');
+            const speechBubble = document.querySelector('.speech-bubble');
+
+            if (formType === 'signup') {
+                loginForm.classList.add('hidden');
+                signupForm.classList.remove('hidden');
+                speechBubble.textContent = 'Create your account!';
+            } else {
+                signupForm.classList.add('hidden');
+                loginForm.classList.remove('hidden');
+                speechBubble.textContent = 'Welcome back!';
+            }
+            speechBubble.style.display = 'block';
+        }
+
+        function updateSpeechBubble(username, isTyping) {
+            const speechBubble = document.querySelector('.speech-bubble');
+            if (isTyping) {
+                speechBubble.style.display = 'block';
+                speechBubble.textContent = 'Hello, User!';
+            } else if (username.trim()) {
+                speechBubble.style.display = 'block';
+                speechBubble.textContent = `Hello, ${username}!`;
+            } else {
+                speechBubble.style.display = 'none';
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const loginForm = document.getElementById('login-form');
+            const signupForm = document.getElementById('signup-form');
+            const loginUsernameInput = document.querySelector('#login-form input[type="text"]');
+            const signupUsernameInput = document.querySelector('#signup-form input[type="text"]');
+            let typingTimeout;
+
+            function handleTyping(e, input) {
+                clearTimeout(typingTimeout);
+                updateSpeechBubble('', true);
+                typingTimeout = setTimeout(() => {
+                    updateSpeechBubble(input.value, false);
+                }, 1000);
+            }
+
+            loginUsernameInput.addEventListener('input', (e) => handleTyping(e, loginUsernameInput));
+            signupUsernameInput.addEventListener('input', (e) => handleTyping(e, signupUsernameInput));
+
+            [loginUsernameInput, signupUsernameInput].forEach(input => {
+                input.addEventListener('blur', () => {
+                    if (!input.value.trim()) {
+                        updateSpeechBubble('', false);
+                    }
+                });
+            });
+
+            loginForm.addEventListener('submit', (e) => {
+                e.preventDefault();
+                const username = loginUsernameInput.value;
+                const password = loginForm.querySelector('input[type="password"]').value;
+                
+                // Send login request to main process
+                ipcRenderer.send('login-attempt', { username, password });
+            });
+
+            signupForm.addEventListener('submit', (e) => {
+                e.preventDefault();
+                const username = signupUsernameInput.value;
+                const email = signupForm.querySelector('input[type="email"]').value;
+                const password = signupForm.querySelectorAll('input[type="password"]')[0].value;
+                const confirmPassword = signupForm.querySelectorAll('input[type="password"]')[1].value;
+
+                if (password !== confirmPassword) {
+                    alert('Passwords do not match!');
+                    return;
+                }
+
+                // Send signup request to main process
+                ipcRenderer.send('signup-attempt', { username, email, password });
+            });
+        });
+
+        // Listen for authentication response
+        ipcRenderer.on('auth-response', (event, { success, message }) => {
+            if (success) {
+                // Redirect to main chat interface
+                window.location.href = 'index.html';
+            } else {
+                alert(message);
+            }
+        });
+    </script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

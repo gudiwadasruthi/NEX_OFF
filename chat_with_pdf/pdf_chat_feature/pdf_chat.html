@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat with PDF</title>
+    <link rel="stylesheet" href="../../assets/css/bootstrap.min.css/bootstrap.min.css">
+    <link rel="stylesheet" href="pdf_chat.css">
+</head>
+<body>
+    <button class="menu-toggle" id="menuToggleBtn" title="Toggle menu">☰</button>
+    <div class="pdf-flex-row" id="pdfFlexRow">
+        <!-- Sidebar/Menu -->
+        <div class="pdf-sidebar" id="pdfSidebar">
+            <button class="btn btn-outline-primary back-btn" onclick="window.location.href='../../offline/index.html'">&larr; Back to Main Chat</button>
+            <div style="font-size:1.5rem; font-weight:600; margin-bottom:24px;">Menu:</div>
+            <div style="margin-bottom:24px;">
+                <div style="font-size:1rem; font-weight:500; margin-bottom:8px;">Upload PDF files</div>
+                <div id="pdf-drop-area" class="pdf-drop-area">
+                    <div>Drag and drop files here</div>
+                    <div style="font-size:0.9rem; color:#888;">Limit 200MB per file</div>
+                    <button id="pdf-browse-btn" style="margin-top:10px;" class="btn btn-outline-secondary btn-sm">Browse files</button>
+                    <input type="file" id="pdf-file-input" accept="application/pdf" multiple style="display:none;" />
+                </div>
+                <div id="pdf-file-list" class="pdf-file-list"></div>
+            </div>
+            <button id="pdf-submit-btn" class="btn btn-outline-danger" style="margin-bottom:12px;">Submit & Process</button>
+            <div id="pdf-status" style="color:green; font-weight:500; display:none;">Done</div>
+        </div>
+        <div class="drag-handle" id="sidebarResizer"></div>
+        <!-- PDF Viewer Panel -->
+        <div class="pdf-panel" id="pdfPanel">
+            <div id="pdf-viewer"></div>
+        </div>
+        <div class="drag-handle" id="pdfResizer"></div>
+        <!-- Chat Panel -->
+        <div class="chat-panel" id="chatPanel">
+            <div style="font-size:2rem; font-weight:700; margin-bottom:12px; text-align:center;">Chat with PDF<span>🧑‍🏫</span></div>
+            <div style="font-size:1.1rem; color:#888; text-align:center; margin-bottom:24px;">Ask a question about your PDF</div>
+            <div style="margin-bottom:20px;">
+                <input type="text" id="pdf-chat-input" placeholder="Ask a question about your PDF" style="width:100%; padding:16px; border-radius:8px; border:1px solid #ccc; font-size:1.1rem; margin-bottom:10px;" />
+                <button id="ask-question-btn" class="btn btn-primary" style="width:100%; padding:12px; font-size:1.1rem;">Ask Question</button>
+            </div>
+            <div id="answer-display" style="display:none; background:#f8f9fa; padding:20px; border-radius:8px; margin-top:20px; white-space:pre-wrap; max-height:400px; overflow-y:auto;">
+                <div id="answer-content"></div>
+            </div>
+        </div>
+    </div>
+    <button class="theme-toggle" id="themeToggle" title="Toggle light/dark mode">🌙</button>
+    <script src="../../lib/pdfjs/pdf.js"></script>
+    <script src="pdf_chat.js"></script>
+    <script src="../../assets/js/bootstrap.bundle.min.js/bootstrap.bundle.min.js"></script>
+</body>
+</html> 

@@ -1,0 +1,18 @@
+{
+  "title": "help numbers or Emergency",
+  "description": "India has a range of emergency contact numbers to provide immediate assistance during crises. These helplines cover various services including police, fire, medical emergencies, women's safety, child protection, and disaster response. The centralized helpline 112 integrates multiple services for faster and coordinated response.",
+  "sections": [
+    {
+      "heading": "All-in-One Emergency Helpline",
+      "content": "112 is the national emergency number in India that integrates services like Police, Fire, Ambulance, Women's Safety, and Disaster Management. Citizens can dial 112 from mobile or landline phones for immediate help. It serves as a one-stop solution for most emergency situations, ensuring quicker response times and efficient resource allocation."
+    },
+    {
+      "heading": "Specific Emergency Services",
+      "content": "While 112 covers multiple emergency needs, specific numbers are still active and serve dedicated purposes:.\n\n100 – Police.\n\n101 – Fire.\n\n102 – Ambulance.\n\n108 – Emergency Disaster Management / Medical / Fire / Police.\n\n1091 – Women’s Helpline.\n\n1098 – Child Helpline.\n\n1075 – COVID-19 Helpline."
+    },
+    {
+      "heading": "Railway Emergency Services",
+      "content": "Indian Railways offers specialized emergency services to assist passengers:\n\n198 – Railway Helpline (Indian Railways).\n\n139 – Passenger Train Enquiry (IRCTC).\n\nThese helplines assist with safety concerns, travel inquiries, and real-time updates related to railway services."
+    }
+  ]
+}

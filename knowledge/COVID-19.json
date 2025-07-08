@@ -1,0 +1,26 @@
+{
+  "title": "COVID-19",
+  "description": "An infectious respiratory disease caused by the SARS-CoV-2 virus, leading to a global pandemic with wide-ranging health, social, and economic impacts.",
+  "sections": [
+    {
+      "heading": "Definition",
+      "content": "COVID-19, or coronavirus disease 2019, is caused by the novel coronavirus SARS-CoV-2. It was first identified in December 2019 in Wuhan, China, and rapidly spread worldwide, becoming a global pandemic. The disease affects the respiratory system but can also impact other organs. While many people experience mild symptoms, others develop severe respiratory illness requiring hospitalization. It spreads mainly through respiratory droplets and contact with contaminated surfaces. Asymptomatic transmission is also possible. COVID-19 has led to significant changes in global health practices and policies. Variants of the virus have emerged, affecting transmissibility and vaccine effectiveness. Public health measures have included lockdowns, mask mandates, and social distancing. It has also emphasized the importance of global preparedness for infectious diseases."
+    },
+    {
+      "heading": "Causes",
+      "content": "COVID-19 is caused by the SARS-CoV-2 virus, a type of coronavirus that jumped from animals to humans, likely through a wet market. It spreads primarily via respiratory droplets when an infected person coughs, sneezes, or talks. The virus can also spread via aerosols in enclosed spaces and by touching contaminated surfaces and then touching the face. High population density and global travel accelerated its spread. Poor ventilation increases the risk of transmission indoors. Super-spreader events have significantly contributed to outbreaks. Asymptomatic and pre-symptomatic individuals can unknowingly spread the virus. Vaccination significantly reduces the risk of transmission and severe illness. Mutations in the virus have led to new variants with different characteristics. Understanding transmission routes is vital for controlling spread."
+    },
+    {
+      "heading": "Symptoms",
+      "content": "COVID-19 symptoms range from mild to severe and may appear 2–14 days after exposure. Common symptoms include fever, cough, fatigue, and shortness of breath. Loss of taste or smell is a distinctive feature in many cases. Some people also experience muscle aches, headache, sore throat, congestion, nausea, or diarrhea. Severe symptoms include difficulty breathing, chest pain, confusion, and bluish lips or face. Older adults and those with underlying conditions like diabetes, heart disease, or obesity are at higher risk of complications. Long COVID refers to symptoms that persist weeks or months after recovery. Children may show different or milder symptoms, though rare conditions like MIS-C can occur. Regular symptom monitoring is critical for early detection. Prompt isolation can prevent further spread."
+    },
+    {
+      "heading": "Diagnosis",
+      "content": "COVID-19 is diagnosed through viral tests that detect active infection. The gold standard is the RT-PCR test, which detects viral genetic material. Rapid antigen tests provide quicker results but are less sensitive. Testing may also include antibody tests, which show past infection, though they are not used for diagnosing active cases. Self-test kits are widely available for home use. Laboratory testing is crucial for surveillance and contact tracing. Imaging like chest X-rays or CT scans may be used in hospitalized patients. A positive test result confirms infection, while a negative test does not always rule it out. Mass testing programs have played a major role in pandemic response. Timely testing supports effective isolation and treatment strategies."
+    },
+    {
+      "heading": "Treatment",
+      "content": "Most mild COVID-19 cases are treated with rest, fluids, and over-the-counter medications for symptom relief. Moderate to severe cases may require hospitalization and oxygen therapy. Antiviral drugs such as remdesivir have been approved for certain hospitalized patients. Corticosteroids like dexamethasone reduce mortality in severe cases by controlling inflammation. Monoclonal antibodies and immune modulators are used in specific patients. Supportive care, including managing fever, hydration, and nutrition, is essential. Intensive care may involve mechanical ventilation for patients with respiratory failure. Treatment approaches evolve with new research and emerging variants. Vaccination remains the most effective tool in preventing severe illness. Rehabilitation may be needed for long COVID recovery."
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "title": "Snake Bite",
+  "description": "A snake bite occurs when a snake’s fangs puncture the skin, releasing venom into the bloodstream if the snake is venomous. Snake bites can cause serious injuries or death if not treated promptly.",
+  "sections": [
+    {
+      "heading": "Symptoms of a Snake Bite",
+      "content": "Two puncture wounds usually from fangs, pain or swelling at the bite site, redness or bruising around the bite, nausea or vomiting, difficulty breathing, dizziness or fainting, blurred vision, rapid heart rate or low blood pressure, and fever or chills if infection occurs."
+    },
+    {
+      "heading": "Steps for Snake Bite First Aid",
+      "content": "1) Stay calm and keep the victim calm to prevent venom spread.\n2) Call emergency services immediately and provide location and snake description if possible.\n3) Keep the victim still and position the bitten limb below heart level.\n4) Apply a loose bandage above the bite to slow venom spread without cutting off circulation.\n5) Avoid sucking out venom, applying ice or tourniquets, catching or killing the snake, and giving alcohol or stimulants.\n6) Monitor victim's condition and keep them as still as possible."
+    },
+    {
+      "heading": "What to Do While Waiting for Help",
+      "content": "Keep the wound clean by gently washing with soap and water without scrubbing.\nMark the time the bite occurred to inform medical staff."
+    },
+    {
+      "heading": "When to Seek Emergency Medical Care",
+      "content": "Seek immediate medical attention if the snake is venomous or unknown.\nIf symptoms like difficulty breathing, blurred vision, or intense swelling occur.\nGet to the nearest healthcare facility promptly if help is delayed."
+    },
+    {
+      "heading": "Treatment at the Hospital",
+      "content": "Administration of antivenom to neutralize venom.\nWound cleaning and infection monitoring.\nSupportive care including pain management, fluids, and breathing support.\nObservation for several hours for complications."
+    },
+    {
+      "heading": "Precautions to Prevent Snake Bites",
+      "content": "Wear protective clothing such as boots and long pants in snake-prone areas.\nBe cautious around rocks, logs, and tall grass where snakes hide.\nDo not disturb snakes; back away slowly if encountered.\nTeach children to avoid playing with snakes or unknown animals."
+    }
+  ]
+}

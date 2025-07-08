@@ -1,0 +1,30 @@
+{
+  "title": "Database Management System (DBMS)",
+  "description": "A Database Management System (DBMS) is software that helps store, manage, retrieve, and update data in databases efficiently. It acts as a bridge between the user and the data stored in a structured way.",
+  "sections": [
+    {
+      "heading": "Key Features of DBMS",
+      "content": "Data Storage & Retrieval – Efficiently stores large amounts of data and retrieves it on request.\n\nData Integrity – Ensures data is accurate and consistent.\n\nSecurity – Allows user access control and data protection.\n\nBackup & Recovery – Restores data in case of failure or crash.\n\nConcurrency Control – Multiple users can access data at the same time safely.\n\nData Independence – Application programs remain unaffected by changes in data structure.\n\nQuery Processing – Supports languages like SQL to interact with the database."
+    },
+    {
+      "heading": "Types / Subfields of DBMS",
+      "content": "Relational DBMS (RDBMS): Stores data in tables. Example: MySQL, PostgreSQL, Oracle.\n\nHierarchical DBMS: Data is organized in a tree-like structure. Example: IBM's IMS.\n\nNetwork DBMS: Uses a graph-like structure with many-to-many relationships. Example: Integrated Data Store (IDS).\n\nObject-oriented DBMS (OODBMS): Stores data as objects (like in OOP). Example: db4o, ObjectDB.\n\nNoSQL DBMS: Designed for unstructured or semi-structured data. Example: MongoDB, Cassandra.\n\nCloud-based DBMS: Managed and accessed via the cloud. Example: Amazon RDS, Firebase."
+    },
+    {
+      "heading": "Advantages of DBMS",
+      "content": "Improved data sharing and security\n\nReduced data redundancy and inconsistency\n\nEasier backup and recovery\n\nBetter data access with queries\n\nEnhanced data integrity\n\nSupports multi-user environments\n\nScalable and flexible"
+    },
+    {
+      "heading": "Limitations",
+      "content": "High setup and maintenance cost\n\nRequires skilled personnel\n\nPerformance can degrade with very large data\n\nComplexity in managing very large distributed databases\n\nSoftware and hardware requirements can be high"
+    },
+    {
+      "heading": "Common Challenges",
+      "content": "Ensuring data security and privacy\n\nHandling big data and real-time processing\n\nDatabase migration from one system to another\n\nBackup failures or data loss\n\nManaging concurrent access efficiently\n\nAdapting to changing technologies (eg, cloud or NoSQL systems)"
+    },
+    {
+      "heading": "Real-World Applications or examples",
+      "content": "Banking Systems – Transaction management and customer records.\n\nHospital Management – Patient records, treatment data, billing.\n\nE-commerce – Product catalogs, orders, user accounts.\n\nEducation Systems – Student records, attendance, results.\n\nTelecommunications – Call records, user data, billing.\n\nSocial Media Platforms – User profiles, messages, posts.\n\nGovernment Agencies – Citizen data, taxes, ID management."
+    }
+  ]
+}

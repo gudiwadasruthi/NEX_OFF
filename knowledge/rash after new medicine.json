@@ -1,0 +1,34 @@
+{
+  "title": "rash after new medicine(Drug Rash)",
+  "description": "A drug rash is a skin reaction caused by a medication. It can range from mild itching to serious allergic reactions. It may appear hours, days, or even weeks after starting a new drug.",
+  "sections": [
+    {
+      "heading": "Common Symptoms",
+      "content": "Red spots or bumps\n\nItchy skin\n\nHives (raised, itchy welts)\n\nPeeling or blistering skin\n\nSwelling (face, lips, or throat in serious cases)\n\nFever (in more severe reactions)"
+    },
+    {
+      "heading": "Common Causes",
+      "content": "Antibiotics (e.g. penicillin, sulfa drugs)\n\nAnticonvulsants (for seizures)\n\nAnti-inflammatory drugs (like ibuprofen or aspirin)\n\nChemotherapy drugs\n\nAllergy medications\n\nReaction can also occur due to interaction between two drugs."
+    },
+    {
+      "heading": "Precautions",
+      "content": "Always inform your doctor of any allergies or past drug reactions.\n\nWhen starting a new medicine:\n- Monitor for rashes, especially in the first 7–10 days.\n- Start with a low dose if advised by your doctor.\n- Avoid self-medicating with antibiotics or painkillers.\n- Tell your doctor if you’re on multiple medications – some may interact."
+    },
+    {
+      "heading": "What to Do If Rash Appears",
+      "content": "Mild Rash (no fever or swelling):\n- Stop the medication (only after confirming with your doctor)\n- Take an antihistamine (eg, cetirizine or loratadine)\n- Apply calamine lotion or mild hydrocortisone cream to reduce itch\n- Drink water and avoid hot showers or skin irritants\n\nSerious Rash or Allergic Reaction:\nCall emergency services if you have:\n- Swelling of face, lips, tongue\n- Breathing difficulty\n- High fever\n- Blisters, peeling skin\n- Purple/red patches\n- Rash spreading rapidly\n\nThis may be a serious reaction like Stevens-Johnson Syndrome or anaphylaxis."
+    },
+    {
+      "heading": "When to See a Doctor",
+      "content": "Rash lasts more than 2–3 days\n\nIt’s spreading or very itchy\n\nYou have fever, fatigue, or body aches\n\nAny swelling or breathing difficulty\n\nYou're unsure if the rash is drug-related"
+    },
+    {
+      "heading": "Emergency Medicines (prescribed by doctor)",
+      "content": "Antihistamines – for itching/allergy relief\n\nSteroids (oral or cream) – for inflammation\n\nEpinephrine injection (EpiPen) – for severe allergic reactions\n\nIV fluids, hospital care – for severe skin reactions"
+    },
+    {
+      "heading": "What Not to Do",
+      "content": "Don’t take the drug again unless your doctor says it’s safe\n\nDon’t ignore even a small rash if it gets worse\n\nDon’t apply strong creams unless prescribed\n\nDon’t take new meds without telling your doctor about the rash"
+    }
+  ]
+}

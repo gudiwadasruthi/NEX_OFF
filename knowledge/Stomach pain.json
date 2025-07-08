@@ -1,0 +1,34 @@
+{
+  "title": "Stomach Pain",
+  "description": "Stomach pain can range from mild discomfort to severe, sharp pain caused by various factors such as indigestion, infections, or serious conditions like appendicitis or ulcers. Sometimes it signals an emergency that needs immediate medical attention.",
+  "sections": [
+    {
+      "heading": "Signs of a Stomach Pain Emergency",
+      "content": "Severe, sudden, or sharp pain (especially if intense and sudden), pain in the lower right abdomen (possible appendicitis), pain with vomiting or fever, pain that worsens or doesn’t improve, swelling or tenderness in the abdomen, blood in vomit or stools (dark or bright red), difficulty breathing or dizziness with pain, pain radiating to back, shoulder, or chest, inability to pass gas or have bowel movements (possible bowel obstruction)."
+    },
+    {
+      "heading": "When to Seek Emergency Help",
+      "content": "Seek immediate help if pain is severe, sharp, or cramping lasting over 30 minutes or worsening; pain in lower right abdomen (appendicitis); fever, vomiting, or diarrhea with pain; blood in vomit, stools, or urine; difficulty breathing, rapid heartbeat, or dizziness with pain; swelling or tenderness of abdomen; pain radiating to chest, back, or shoulder especially with sweating, dizziness, or nausea."
+    },
+    {
+      "heading": "Immediate Steps for Stomach Pain",
+      "content": "Stay Calm: Anxiety can worsen pain.\n Positioning: Lie down comfortably, possibly on side or knees to chest.\n Avoid Eating or Drinking: Until cause is known to avoid worsening.\n Apply Heat or Cold: Use heat for cramps/gas, cold for inflammation. Avoid heat if appendicitis suspected.\n Monitor Symptoms: Track pain type, location, and other symptoms like fever or nausea."
+    },
+    {
+      "heading": "What NOT to Do",
+      "content": "Do not take painkillers (ibuprofen, aspirin) before knowing the cause as it may mask symptoms or worsen conditions.\nDo not eat or drink if pain is severe, especially with vomiting or diarrhea.\nDo not delay medical help if pain is severe or accompanied by fever, vomiting, or blood in stool/vomit."
+    },
+    {
+      "heading": "Potential Causes of Severe Stomach Pain",
+      "content": "Appendicitis: Sudden severe pain moving to lower right abdomen, fever, nausea, vomiting.\nPeptic Ulcer: Burning pain worsened by eating/drinking, nausea, vomiting.\nGallstones: Sudden upper right abdominal pain after fatty foods, radiates to back/shoulder.\nGastrointestinal Bleeding: Pain with blood in stools or vomit.\nBowel Obstruction: Pain, bloating, inability to pass gas/stool, vomiting.\nHeart Attack: Pain radiating to chest, back, shoulder with sweating, dizziness, nausea.\nPancreatitis: Severe upper abdomen pain radiating to back, nausea, vomiting, fever."
+    },
+    {
+      "heading": "When to See a Doctor or Go to the ER",
+      "content": "Severe, sudden, sharp pain not improving.\nDifficulty breathing, chest pain, or sweating (possible heart attack).\nPain with fever, vomiting, or diarrhea lasting hours.\nBlood in vomit or stool, or black tarry stools.\nSwelling, bloating, or inability to pass gas or stool."
+    },
+    {
+      "heading": "Emergency Helplines (India)",
+      "content": "Emergency Medical Services: 112 (General emergency number)\nPoison Control: 91-11-2656 3333"
+    }
+  ]
+}

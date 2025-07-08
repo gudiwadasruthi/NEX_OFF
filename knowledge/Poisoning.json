@@ -1,0 +1,26 @@
+{
+  "title": "Poisoning",
+  "description": "Poisoning occurs when harmful substances are ingested, inhaled, injected, or absorbed into the body, causing adverse effects.",
+  "sections": [
+    {
+      "heading": "Definition",
+      "content": "Poisoning refers to the harmful effects caused by exposure to toxic substances. It may be accidental, intentional (as in overdoses), or environmental. Toxins can enter through ingestion, inhalation, skin contact, or injection. The effects vary depending on the substance, dose, and individual response. Symptoms can be immediate or delayed. Common sources include medications, cleaning agents, pesticides, plants, and foodborne toxins. It is a medical emergency requiring rapid identification and intervention. Poison control centers provide 24/7 guidance. Children are particularly vulnerable due to curiosity and lower body mass."
+    },
+    {
+      "heading": "Causes",
+      "content": "Common causes include accidental ingestion of medications, household cleaners, alcohol, and toxic plants. Carbon monoxide, insecticides, and industrial chemicals also contribute. Overdose of prescription or illicit drugs is a major cause in adults. Improper food storage or handling can lead to food poisoning. Exposure to heavy metals like lead or mercury can result in chronic toxicity. Intentional poisoning includes suicide attempts or criminal acts. Mislabeling or improper use of containers adds risk. Environmental disasters can also expose large populations. Awareness and education can reduce incidents significantly."
+    },
+    {
+      "heading": "Symptoms",
+      "content": "Symptoms depend on the substance involved. They may include vomiting, abdominal pain, confusion, difficulty breathing, convulsions, and unconsciousness. Skin contact may cause burns or rashes. Inhaled toxins can lead to respiratory distress. Slow-onset poisoning (e.g., lead) may present with fatigue, irritability, and developmental delays in children. Neurotoxic symptoms include dizziness, hallucinations, and coordination loss. Blue lips or nails indicate oxygen deprivation. Seizures and coma may follow in severe cases. Early recognition is critical. Time since exposure often influences severity."
+    },
+    {
+      "heading": "Treatment",
+      "content": "Initial treatment includes removing the person from the source and calling emergency services or a poison control center. Inducing vomiting is not recommended unless advised. Activated charcoal may be given to absorb the toxin in the stomach. Antidotes are available for specific poisons, such as **Naloxone** for opioid overdose or **Atropine** for pesticide poisoning. Supportive care includes IV fluids, oxygen, and mechanical ventilation if needed. Stomach pumping (gastric lavage) is rarely used and only in specific cases. In severe poisoning, dialysis may help remove toxins. Hospital observation is essential for monitoring complications. Prevention through safe storage and labeling is key."
+    },
+    {
+      "heading": "Medications",
+      "content": "Key antidotes and treatments include **Naloxone (Narcan)** for opioid overdose, which rapidly reverses respiratory depression. **Atropine** and **Pralidoxime** are used for organophosphate insecticide poisoning. **Activated Charcoal** is widely used to absorb ingested toxins. **Acetylcysteine** treats acetaminophen overdose. **Deferoxamine** chelates iron in cases of iron poisoning. **Flumazenil** reverses benzodiazepine sedation. Intravenous fluids and medications to control seizures or heart rhythm may also be administered. The choice of medication depends on the specific poison. Always consult medical professionals immediately in suspected poisoning cases."
+    }
+  ]
+}

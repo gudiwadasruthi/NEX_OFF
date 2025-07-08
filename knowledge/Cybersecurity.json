@@ -1,0 +1,30 @@
+{
+  "title": "Cybersecurity",
+  "description": "Practice of protecting systems, networks, and data from digital attacks.",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "content": "Cybersecurity encompasses technologies and practices to defend against malicious attacks. It has evolved with digital transformation and increasing cyber threats. The field addresses confidentiality, integrity, and availability of data. Cyber attacks can cause financial losses and reputational damage. Both technical and human factors contribute to vulnerabilities. Regulations like GDPR mandate specific security measures. The cybersecurity skills gap remains a global challenge. Emerging threats include AI-powered attacks and quantum computing risks."
+    },
+    {
+      "heading": "Key Features",
+      "content": "Defense-in-depth strategy uses multiple protection layers. Encryption protects data at rest and in transit. Identity and access management controls user permissions. Network security monitors traffic for anomalies. Endpoint protection secures devices like laptops and phones. Threat intelligence anticipates emerging attack vectors. Security operations centers provide 24/7 monitoring. Zero trust architecture verifies every access request."
+    },
+    {
+      "heading": "Subfields",
+      "content": "Network Security: Firewalls, intrusion detection systems. Application Security: Secure coding practices. Cloud Security: Protection for cloud environments. IoT Security: Securing connected devices. Cryptography: Encryption algorithms. Digital Forensics: Investigating cyber crimes. Risk Management: Assessing security posture. Ethical Hacking: Penetration testing for vulnerabilities."
+    },
+    {
+      "heading": "Applications",
+      "content": "Financial institutions protect against fraud and data breaches. Healthcare organizations secure patient medical records. Government agencies defend against nation-state attacks. Critical infrastructure protection for utilities and transportation. E-commerce platforms prevent payment system compromises. Educational institutions safeguard student data. Manufacturing plants secure industrial control systems. Individuals protect personal devices and online identities."
+    },
+    {
+      "heading": "Challenges",
+      "content": "Sophisticated ransomware attacks are increasingly common. Shortage of skilled cybersecurity professionals. Legacy systems with outdated security measures. Expanding attack surface from IoT proliferation. Difficulty patching vulnerabilities quickly. Insider threats from employees or contractors. Compliance with evolving regulations. Balancing security with user convenience."
+    },
+    {
+      "heading": "Advantages",
+      "content": "Protects sensitive organizational and customer data. Maintains business continuity during attacks. Preserves brand reputation and customer trust. Meets regulatory compliance requirements. Reduces financial losses from breaches. Enables secure digital transformation initiatives. Creates high-demand career opportunities. Fosters innovation in security technologies."
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "title": "Templates in C++",
+  "description": "Templates in C++ are a powerful feature that allow functions and classes to operate with generic types. This means you can write a function or class once and use it with different data types without rewriting the code. Templates enable generic programming, promoting code reusability and flexibility.",
+  "sections": [
+    {
+      "heading": " Definition",
+      "content": "Templates in C++ are a mechanism for writing generic and type-independent code. They allow functions and classes to operate with different data types without rewriting logic for each type."
+    },
+    {
+      "heading": " Key Features",
+      "content": "Generic Code: Write code that works for any data type.\nType-Safe: Compiler enforces type correctness at compile time.\nSingle Definition: Avoids code duplication for different types.\nSupport for Functions and Classes: Applicable to both functions and classes."
+    },
+    {
+      "heading": " Advantages",
+      "content": "Code Reusability: One template works for many types.\nType Independence: No need for multiple overloaded versions.\nCompile-Time Type Checking: Ensures correctness before runtime.\nEfficient: Code generated at compile time, with no runtime penalty.\nSimplifies Maintenance: Only one template version to maintain."
+    },
+    {
+      "heading": " Limitations / Challenges",
+      "content": "Error Messages: Can be difficult to understand.\nCode Bloat: Multiple instantiations can increase binary size.\nComplex Syntax: Especially in nested or advanced templates.\nLimited Runtime Polymorphism: Templates are compile-time only.\nFunction Templates: Cannot be partially specialized, only fully specialized or overloaded."
+    },
+    {
+      "heading": " Types of Templates",
+      "content": "Function Templates: Define generic functions applicable to various types.\nClass Templates: Create data structures or classes that work with different types.\nTemplate Specialization: Customize templates for specific types.\nVariadic Templates: Support for functions/classes with variable numbers of template arguments.\nNon-Type Template Parameters: Allow constant values (like ints) as parameters."
+    },
+    {
+      "heading": " Applications",
+      "content": "Standard Template Library (STL): Backbone of STL components.\nData Structures: Generic stacks, queues, linked lists.\nMathematical Libraries: Shared numeric operations across types.\nGeneric Algorithms: Sorting, searching, and more.\nEmbedded Systems: Compile-time optimizations using non-type parameters."
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "title": "Migraine",
+  "description": "A migraine is a type of headache that is usually intense and can cause nausea, vomiting, and sensitivity to light and sound. Migraines often last from a few hours to a couple of days and are typically one-sided.",
+  "sections": [
+    {
+      "heading": "Symptoms of a Migraine",
+      "content": "Severe throbbing or pulsing pain (usually on one side of the head), nausea and vomiting, sensitivity to light, sound, and smells, aura (visual disturbances like flashes of light, blind spots, or zigzag patterns before the headache starts), fatigue or dizziness, neck stiffness, blurred vision."
+    },
+    {
+      "heading": "Steps for Migraine Relief",
+      "content": "1) Find a quiet, dark place: Lie down in a dark, quiet room to reduce sensory overload.\n2) Apply cold or warm compress: Use a cold pack on forehead or neck for inflammation relief, or a warm towel on neck for muscle tension.\n3) Hydrate: Drink plenty of water and avoid caffeine or alcohol.\n4) Take over-the-counter pain relievers: Ibuprofen, acetaminophen, or aspirin if appropriate.\n5) Try relaxation techniques: Deep breathing or meditation to ease tension."
+    },
+    {
+      "heading": "Migraine Medication (Prescription)",
+      "content": "Doctors may prescribe triptans (eg, sumatriptan) to reduce pain and inflammation, anti-nausea medications for vomiting, or preventive medications such as beta-blockers, anti-seizure drugs, or antidepressants for chronic sufferers."
+    },
+    {
+      "heading": "Precautions to Prevent Migraines",
+      "content": "Identify triggers like certain foods, stress, strong smells, or lack of sleep by keeping a migraine diary.\nManage stress with yoga, meditation, or breathing exercises.\nMaintain regular sleep patterns.\nAvoid dehydration by drinking plenty of water.\nLimit caffeine intake."
+    },
+    {
+      "heading": "When to Seek Emergency Help",
+      "content": "If the migraine is the worst headache ever or feels different than usual.\nIf accompanied by difficulty speaking, walking, or weakness on one side (possible stroke signs).\nIf vision loss or severe nausea and vomiting occur.\nIf usual treatments don’t relieve pain or migraine lasts more than 72 hours."
+    },
+    {
+      "heading": "What Not to Do During a Migraine",
+      "content": "Avoid bright lights, loud noises, and strong smells.\nDo not skip prescribed migraine medications.\nAvoid strenuous activities; rest is essential."
+    },
+    {
+      "heading": "When to See a Doctor",
+      "content": "If migraines are frequent or interfere with daily life.\nIf new symptoms or patterns develop.\nIf usual treatments become ineffective."
+    }
+  ]
+}

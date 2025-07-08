@@ -1,0 +1,26 @@
+{
+  "title": "Sexually Transmitted Infection (STI)",
+  "description": "STIs are infections transmitted through sexual contact, caused by bacteria, viruses, or parasites.",
+  "sections": [
+    {
+      "heading": "Definition",
+      "content": "STIs are infections spread primarily through sexual activity, including vaginal, anal, and oral sex. They include diseases such as chlamydia, gonorrhea, syphilis, HIV/AIDS, and herpes. Many STIs can be asymptomatic, especially in early stages, increasing the risk of transmission. Untreated STIs can lead to serious health problems like infertility, chronic pain, and increased susceptibility to HIV. Prevention through safe sex practices is critical. Regular screening and early treatment reduce complications. Education and awareness are essential to reduce stigma and spread."
+    },
+    {
+      "heading": "Causes",
+      "content": "STIs are caused by various pathogens including bacteria (Chlamydia trachomatis, Neisseria gonorrhoeae), viruses (HPV, HIV, herpes simplex virus), and parasites (Trichomonas vaginalis). Transmission occurs via unprotected sexual contact, mother-to-child during birth, or blood transfusions in rare cases. Multiple partners and inconsistent condom use increase risk. Some infections persist latently, causing intermittent symptoms. High-risk populations include young adults, sex workers, and men who have sex with men. Co-infections with other STIs are common. Screening and partner notification are key prevention strategies."
+    },
+    {
+      "heading": "Symptoms",
+      "content": "Symptoms vary widely by infection and can include genital sores, discharge, itching, pain during urination, and pelvic pain. Some STIs cause systemic symptoms like fever or rash. Many individuals remain asymptomatic, unknowingly spreading infection. Women are often more affected due to anatomical susceptibility and may experience complications like pelvic inflammatory disease. Early detection through screening is critical. Untreated STIs may cause long-term reproductive damage. Behavioral symptoms such as reluctance to seek care may hinder diagnosis. Awareness of symptom variability improves early treatment."
+    },
+    {
+      "heading": "Diagnosis",
+      "content": "Diagnosis involves clinical examination and laboratory testing. Tests include swabs of affected areas, urine samples, blood tests, and nucleic acid amplification tests (NAATs). Rapid HIV and syphilis tests are widely used. Screening recommendations vary based on age, sex, and risk factors. Accurate history taking and partner notification enhance detection. Confidentiality is important to encourage testing. Testing during pregnancy prevents vertical transmission. Regular follow-up ensures treatment success and monitors reinfection. Multidisciplinary sexual health services improve outcomes."
+    },
+    {
+      "heading": "Medications",
+      "content": "Bacterial STIs like chlamydia and gonorrhea are treated with antibiotics such as **Azithromycin**, **Doxycycline**, and **Ceftriaxone**. Syphilis is treated with **Benzathine penicillin G**. Viral infections like herpes simplex are managed with antiviral medications such as **Acyclovir**, **Valacyclovir**, and **Famciclovir** to reduce symptoms and transmission risk. HIV treatment involves antiretroviral therapy (ART) with drugs like **Tenofovir**, **Emtricitabine**, and **Efavirenz**. Trichomoniasis is treated with **Metronidazole** or **Tinidazole**. Adherence to treatment and partner notification are critical to prevent reinfection. Regular monitoring and education improve long-term management."
+    }
+  ]
+}

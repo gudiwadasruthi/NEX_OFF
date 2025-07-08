@@ -1,0 +1,30 @@
+{
+  "title": "Electronic Health Records (EHR)",
+  "description": "Digital versions of patients’ paper charts that enable real-time, patient-centered records accessible to authorized healthcare providers.",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "content": "Electronic Health Records (EHR) are digital repositories of patients’ health information, replacing traditional paper charts. They facilitate seamless sharing of medical data across different healthcare providers and institutions. EHRs improve care coordination, reduce errors, and enhance patient safety. The transition to EHRs has been driven by advancements in health IT and regulatory incentives. They include comprehensive data such as medical history, diagnoses, medications, immunizations, and lab results. EHR systems are designed to support clinical decision-making and improve healthcare outcomes. Data privacy and security are critical concerns. Interoperability standards allow different EHR systems to communicate effectively."
+    },
+    {
+      "heading": "Key Features",
+      "content": "Real-time access to patient records anytime and anywhere. Clinical decision support tools embedded within EHRs. Automated alerts for allergies, drug interactions, and preventive care. Integration with laboratory and imaging systems. Patient portals enable access to personal health data. Secure messaging between patients and providers. Data analytics capabilities for population health management. Documentation templates standardize clinical notes. Billing and coding support for administrative tasks. Compliance with healthcare regulations like HIPAA."
+    },
+    {
+      "heading": "Subfields",
+      "content": "Clinical Documentation: Recording patient encounters.\nHealth Information Exchange (HIE): Sharing data across organizations.\nPatient Portals: Secure patient access to health records.\nTelehealth Integration: Connecting virtual care with EHRs.\nData Analytics: Extracting insights for quality improvement.\nInteroperability: Standards like HL7 and FHIR.\nSecurity and Privacy: Protecting sensitive health data.\nMobile EHR Applications: Access via smartphones and tablets.\nPatient-Generated Health Data: Incorporating wearable and home device data.\nEHR Usability: Improving interface design and workflow."
+    },
+    {
+      "heading": "Applications",
+      "content": "Improving clinical workflow efficiency. Supporting chronic disease management. Facilitating preventive care and screenings. Enhancing patient engagement and self-management. Streamlining billing and insurance claims. Enabling population health monitoring. Supporting research through de-identified data. Coordinating care across multiple providers. Reducing medication errors. Enabling telemedicine services."
+    },
+    {
+      "heading": "Challenges",
+      "content": "High implementation and maintenance costs. Complexity and learning curve for users. Data entry burden leading to clinician burnout. Ensuring data privacy and cybersecurity. Interoperability barriers between different EHR vendors. Resistance to change among healthcare staff. Risk of data breaches and unauthorized access. Variability in data quality and completeness. Legal and compliance complexities. Integration with legacy systems."
+    },
+    {
+      "heading": "Advantages",
+      "content": "Improves accuracy and availability of patient data. Enhances communication between care teams. Supports evidence-based decision-making. Increases patient safety through alerts and reminders. Facilitates continuity of care. Enables data-driven quality improvement. Provides tools for patient empowerment. Streamlines administrative tasks. Supports public health reporting. Encourages innovation in healthcare delivery."
+    }
+  ]
+}

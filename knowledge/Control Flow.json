@@ -1,0 +1,34 @@
+{
+  "title": "Control Flow",
+  "description": "Control Flow in programming refers to the order in which individual statements, instructions, or function calls are executed or evaluated. It determines how a program’s code progresses and makes decisions, repeats tasks, or branches into different execution paths based on conditions.",
+  "sections": [
+    {
+      "heading": "Definition",
+      "content": "Control flow determines how a computer program executes instructions. It allows decision-making, looping, branching, and exception handling, thereby enabling dynamic, interactive, and logical program behavior."
+    },
+    {
+      "heading": "Key Features",
+      "content": "•Enables decision-making in programs using conditional statements.\n• Allows repetition of code blocks via loops, reducing redundancy.\n• Supports altering the normal sequential execution to implement complex logic.\n• Includes constructs like if-else, switch/case, loops (for, while, do-while), and branching (break, continue, return).\n• Facilitates error handling and control over function exits."
+    },
+    {
+      "heading": "Limitations",
+      "content": "• Deeply nested logic makes code hard to read and maintain.\n• Improper loop use can cause infinite loops or unreachable code.\n• Complex branching logic may introduce subtle bugs and increase debugging time."
+    },
+    {
+      "heading": "Challenges",
+      "content": "• Designing efficient and readable control structures for large applications.\n• Avoiding common logic mistakes (eg, off-by-one errors).\n• Ensuring all possible execution paths are handled.\n• Maintaining balance between flexibility and simplicity."
+    },
+    {
+      "heading": "Advantages",
+      "content": "• Allows programs to handle varying user inputs and environments.\n• Makes code flexible, modular, and maintainable.\n• Reduces code repetition with loops.\n• Helps manage program logic efficiently with error-handling and branching."
+    },
+    {
+      "heading": "Types/Subfields (Control Flow Constructs)",
+      "content": "Control flow consists of several categories of statements that direct the program’s execution path. These include conditional statements, loops, branching, switch-case, and exception handling.\n\n1) Conditional Statements: \n• If Statement: Executes a block if a condition is true.\n• If-Else Statement: Executes one block if true, another if false.\n• Else-If Ladder: Handles multiple conditions in sequence.\n• Nested Ifs: Allows decision trees by placing ifs inside other ifs.\n\n2) Looping Constructs: \n• For Loop: Iterates a specific number of times. Best for known ranges (eg, lists).\n• While Loop: Executes while a condition remains true. Pre-condition checked.\n• Do-While Loop: Executes at least once. Condition checked after the body (not in Python but in other languages like C/C++).\n\n3) Branching Statements: \n• Break: Exits a loop or switch statement early.\n• Continue: Skips the current loop iteration and moves to the next.\n• Return: Exits a function and optionally returns a value.\n\n4) Switch/Case (Not in Python but common in C, Java): \n• Efficient for handling multiple discrete values.\n• Avoids long if-else chains.\n• Includes a default case when no match is found.\n• In Python, similar behavior is implemented using match-case (Python 3-10+).\n\n5) Exception Handling: \n• Try-Catch-Finally: Manages errors during execution.\n• Try block executes code that might throw an error.\n• Catch handles the exception gracefully.\n• Finally executes cleanup code, regardless of errors.\n• Improves robustness and prevents program crashes."
+    },
+    {
+      "heading": "Applications",
+      "content": "• User Input Validation: Checking correctness before proceeding.\n• Repeated Operations: Performing tasks in loops, such as processing items in a list.\n• Game Logic: Managing player moves and conditions.\n• Menu Navigation: Choosing actions based on user input.\n• Algorithm Steps: Sorting, searching, or data manipulation based on branching logic.\n• Error Handling: Avoiding crashes by handling exceptions cleanly."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "title": "Business Analytics (SQL, Tableau)",
+  "description": "Techniques and tools for analyzing business data to inform strategic and operational decisions.",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "content": "Business analytics involves the use of data analysis, statistical methods, and visualization to support business decision-making. SQL (Structured Query Language) is a foundational tool for querying and managing data stored in relational databases. Tableau is a leading data visualization platform that transforms raw data into interactive dashboards and reports. Combining SQL and Tableau allows analysts to extract, manipulate, and visually explore data efficiently. Business analytics supports identifying trends, forecasting, and measuring performance. It empowers stakeholders with actionable insights. The rise of big data and cloud computing has expanded analytics capabilities. Skills in SQL and Tableau are highly sought after across industries. Ethical data use and privacy are important considerations. Business analytics drives competitive advantage and innovation."
+    },
+    {
+      "heading": "Key Features",
+      "content": "SQL enables efficient data retrieval, filtering, and aggregation. Tableau provides drag-and-drop visualization creation. Supports multiple data sources and formats. Interactive dashboards with drill-down capabilities. Real-time data connectivity and refresh. Data blending and joining across tables. Sharing and collaboration features. Integration with advanced analytics and AI tools. Custom calculations and scripting. User-friendly interfaces for non-technical users."
+    },
+    {
+      "heading": "Applications",
+      "content": "Sales and marketing performance analysis. Customer segmentation and behavior tracking. Financial reporting and budgeting. Supply chain and inventory optimization. Human resources analytics. Product development and quality control. Risk management and compliance. Operational efficiency improvements. Market research and competitive analysis. Executive decision support and strategic planning."
+    },
+    {
+      "heading": "Challenges",
+      "content": "Ensuring data quality and consistency. Handling complex queries and large datasets. Balancing detail with visualization clarity. Training users with diverse skill levels. Integrating disparate data sources. Maintaining data security and privacy. Updating dashboards with changing requirements. Avoiding misinterpretation of data. Managing software licensing and costs. Keeping pace with evolving tools and techniques."
+    },
+    {
+      "heading": "Advantages",
+      "content": "Provides timely and accurate business insights. Enhances decision-making and strategic planning. Increases operational efficiency. Supports data-driven culture across organizations. Enables predictive and prescriptive analytics. Facilitates communication and collaboration. Improves customer understanding and targeting. Identifies risks and opportunities early. Scales across departments and industries. Fosters continuous improvement and innovation."
+    }
+  ]
+}
