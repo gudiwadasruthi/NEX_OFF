@@ -1,110 +1,125 @@
-# AI Chatbot Project (Offline, Online, and PDF Chat)
+# NEX_OFF - AI-Powered Chatbot with Offline Capabilities
 
-This project is a multi-modal AI assistant that works fully offline, online, and with PDF documents. It is organized for clarity and ease of use, supporting both text and voice chat, as well as document-based Q&A.
+## Table of Contents
+- [💡 About the Project](#-about-the-project)
+- [✨ Features](#-features)
+- [🖥️ Frontend](#-frontend)
+- [⚙️ Backend](#-backend)
+- [🚀 Getting Started](#-getting-started)
+- [🛠️ Run Backend (Docker)](#-run-backend-docker)
+- [📦 Deployment](#-deployment)
+- [🤝 Contributing](#-contributing)
+- [🙏 Acknowledgements](#-acknowledgements)
+- [📜 License](#-license)
 
-## Project Structure
+## 💡 About the Project
+NEX_OFF is an advanced AI-powered chatbot application that combines the power of local processing with cloud-based AI capabilities. Built with a modern tech stack, it offers seamless document processing, intelligent question answering, and natural language understanding both online and offline.
 
-- **offline/**: All files for the offline AI assistant (no internet required)
-- **online/**: All files for the online/cloud-based AI assistant
-- **chat_with_pdf/**: All files for the PDF chat feature (ask questions about PDFs)
-- **assets/**, **knowledge/**, **lib/**, **local_models/**, **uploaded_pdfs/**: Shared resources, models, and data
-- **package.json**, **package-lock.json**: Project dependencies and Electron app configuration
+## ✨ Features
+- **Document Intelligence**: Upload and process PDFs with advanced text extraction
+- **Hybrid AI**: Combine local RAG (Retrieval-Augmented Generation) with cloud-based LLMs
+- **Offline-First**: Full functionality without internet connectivity
+- **Speech Recognition**: Built-in speech-to-text using Vosk
+- **Cross-Platform**: Desktop application built with Electron.js
+- **Secure**: Local data storage with SQLite
+- **Responsive UI**: Clean, modern interface built with Bootstrap
 
-## Features
+## 🖥️ Frontend
+- **Framework**: Electron.js
+- **UI**: HTML5, CSS3, JavaScript (ES6+)
+- **Libraries**:
+  - Bootstrap 5.x - Responsive design
+  - PDF.js - PDF rendering
+  - Socket.io - Real-time communication
 
-- 🧠 **Offline AI Chat**: Local LLM-based chat, no internet needed
-- 🌐 **Online AI Chat**: Cloud-based chat (if enabled)
-- 📄 **PDF Chat**: Ask questions about uploaded PDF documents
-- 🔒 **Privacy**: All offline features run locally, no data leaves your device
+## ⚙️ Backend
+- **Language**: Python 3.8+
+- **Framework**: Flask
+- **AI/ML**:
+  - RAG (Retrieval-Augmented Generation)
+  - Groq LLM integration
+  - Vosk for speech recognition
+- **Database**: SQLite
+- **Dependencies**:
+  - Flask-CORS
+  - PyPDF2
+  - SQLAlchemy
 
----
+## 🚀 Getting Started
 
-## Setup Instructions
+### Prerequisites
+- Python 3.8 or higher
+- Node.js 14+ and npm
+- Git
+- 8GB RAM (16GB recommended for large models)
+- 2GB+ free disk space
 
-### 1. Prerequisites
-- **Node.js** (v16+ recommended)
-- **Python** (v3.8+ recommended)
-- **pip** (Python package manager)
-- **8GB RAM** (16GB recommended for large models)
-- **2GB+ free disk space**
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   cd NEX_OFF
+   ```
 
-### 2. Install Node/Electron Dependencies
-From the project root:
+2. Set up Python environment:
+   ```bash
+   python -m venv .venv
+   .venv\Scripts\activate  # On Windows
+   pip install -r requirements.txt
+   ```
+
+3. Install Node.js dependencies:
+   ```bash
+   npm install
+   ```
+
+### Running the Application
+1. Start the backend server:
+   ```bash
+   python offline/app.py
+   ```
+
+2. In a new terminal, start the Electron app:
+   ```bash
+   npm start
+   ```
+
+## 🛠️ Run Backend (Docker)
+
+### Build the Docker image:
 ```bash
-npm install
+docker build -t nexoff-backend .
 ```
 
-### 3. Install Python Dependencies
-From the `offline/` directory:
+### Run the container:
 ```bash
-cd offline
-pip install -r requirements.txt
+docker run -p 5000:5000 nexoff-backend
 ```
 
-### 4. Prepare Local Models (Offline Mode)
-- Download the required Hugging Face model (e.g., `all-MiniLM-L6-v2`) and place it in `local_models/` as described in the code comments.
-- Ensure the path in your Python code matches the local model directory.
-- Set the environment variable for offline transformers:
-  - On Windows (CMD):
-    ```cmd
-    set TRANSFORMERS_OFFLINE=1
-    ```
-  - On PowerShell:
-    ```powershell
-    $env:TRANSFORMERS_OFFLINE="1"
-    ```
+## 📦 Deployment
+For production deployment, consider the following:
+- Use Gunicorn or uWSGI for production WSGI server
+- Set up Nginx as a reverse proxy
+- Configure environment variables for sensitive data
+- Enable HTTPS with Let's Encrypt
 
-### 5. Running the App
-- **Offline/Electron App:**
-  - From the project root:
-    ```bash
-    npm start
-    ```
-- **PDF Chat (standalone):**
-  - Open `chat_with_pdf/pdf_chat_feature/pdf_chat.html` in your browser, or use the Electron app's navigation.
-- **API/Backend (if needed):**
-  - From `offline/`:
-    ```bash
-    python app.py
-    ```
+## 🤝 Contributing
+Contributions are welcome! Please follow these steps:
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 🙏 Acknowledgements
+- [Vosk](https://alphacephei.com/vosk/) for offline speech recognition
+- [PDF.js](https://mozilla.github.io/pdf.js/) for PDF rendering
+- [Bootstrap](https://getbootstrap.com/) for the UI components
+- [Flask](https://flask.palletsprojects.com/) for the backend framework
+- [Electron](https://www.electronjs.org/) for cross-platform desktop app
+
+## 📜 License
+Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
-
-## Folder Details
-
-### offline/
-- Electron main process, backend API, and all offline chat logic
-- Python scripts for LLM, RAG, and voice features
-
-### online/
-- HTML/JS for online chat (cloud-based)
-
-### chat_with_pdf/
-- PDF chat UI and backend scripts
-- `pdf_chat_feature/`: Main PDF chat logic and scripts
-- `sentence_chunker.py`, `semantic_chunker.py`: For chunking and embedding PDFs
-
-### assets/, knowledge/, lib/, local_models/, uploaded_pdfs/
-- Shared static files, knowledge bases, PDF.js, local ML models, and uploaded PDFs
-
----
-
-## Troubleshooting & FAQ
-
-- **Model not found / No internet:**
-  - Ensure the model is downloaded and the path is correct in your code.
-  - Set `TRANSFORMERS_OFFLINE=1` to prevent internet access attempts.
-- **Path issues (Windows):**
-  - If your path has spaces or parentheses, use quotes or escape them as needed.
-- **Voice not working:**
-  - Check your microphone and speaker permissions.
-- **PDF chat errors:**
-  - Ensure all dependencies are installed and the PDF is not corrupted.
-
----
-
-## License
-MIT License
-
-## Contributing
-Contributions are welcome! Please open an issue or submit a pull request. 
+*This project is maintained by [Your Name]. For support, please open an issue in the repository.*
