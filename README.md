@@ -1,4 +1,5 @@
 
+
 <a id="nex_off---ai-powered-chatbot-with-offline-capabilities"></a>
 
 <p align="center">
@@ -223,4 +224,3 @@ For production deployment, consider the following:
 - 🐧 Linux & macOS installer packages
 
 <p align="right">(<a href="#nex_off---ai-powered-chatbot-with-offline-capabilities">⬆ Back to top</a>)</p>
-
