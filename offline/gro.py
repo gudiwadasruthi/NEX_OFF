@@ -5,8 +5,26 @@ import re
 import html
 import os
 
-API_KEY = "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"
-MODEL = "llama3-70b-8192"
+def _load_env():
+    for env_path in [".env", os.path.join(os.path.dirname(__file__), ".env")]:
+        try:
+            if os.path.exists(env_path):
+                with open(env_path, "r", encoding="utf-8") as f:
+                    for line in f:
+                        s = line.strip()
+                        if not s or s.startswith("#") or "=" not in s:
+                            continue
+                        k, v = s.split("=", 1)
+                        k = k.strip()
+                        v = v.strip().strip('"').strip("'")
+                        os.environ.setdefault(k, v)
+        except Exception as e:
+            print(f"Warning: could not load env from {env_path}: {e}", file=sys.stderr)
+
+_load_env()
+
+API_KEY = os.getenv("GROQ_API_KEY", "").strip()
+MODEL = os.getenv("GROQ_MODEL", "llama-3.1-8b-instant").strip() or "llama-3.1-8b-instant"
 API_URL = "https://api.groq.com/openai/v1/chat/completions"
 
 headers = {
@@ -117,6 +135,10 @@ def query_groq(message, session_id="default", format_type="web"):
     global chat_histories
     # Load chat history at the start of each query
     chat_histories = load_chat_history()
+    if not API_KEY:
+        error_msg = "Configuration error: GROQ_API_KEY is not set"
+        print(error_msg, file=sys.stderr)
+        return error_msg
     
     # Initialize or get chat history for this session
     if session_id not in chat_histories:
@@ -201,7 +223,23 @@ FORMATTING RULES:
         else:
             return "Error: Unexpected response format from API"
 
+    except requests.exceptions.HTTPError as e:
+        status_code = e.response.status_code if getattr(e, 'response', None) is not None else 'N/A'
+        # Try to extract detailed error information from the response body
+        detail = None
+        if getattr(e, 'response', None) is not None:
+            try:
+                detail = e.response.json()
+            except Exception:
+                try:
+                    detail = e.response.text
+                except Exception:
+                    detail = None
+        error_msg = f"API error {status_code}: {detail}"
+        print(error_msg, file=sys.stderr)
+        return error_msg
     except requests.exceptions.RequestException as e:
+        # Generic network/requests error fallback
         error_msg = f"Error communicating with API: {str(e)}"
         print(error_msg, file=sys.stderr)
         return error_msg

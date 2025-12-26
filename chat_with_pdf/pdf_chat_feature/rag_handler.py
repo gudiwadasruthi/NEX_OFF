@@ -20,7 +20,13 @@ def get_model():
     global MODEL
     if MODEL is None:
         with contextlib.redirect_stderr(io.StringIO()):
-            MODEL = SentenceTransformer(r"local_models/models--sentence-transformers--all-MiniLM-L6-v2/snapshots/c9745ed1d9f207416be6d2e6f8de32d1f16199bf")
+            local_path = r"local_models/models--sentence-transformers--all-MiniLM-L6-v2/snapshots/c9745ed1d9f207416be6d2e6f8de32d1f16199bf"
+            if os.path.exists(local_path) and os.listdir(local_path):
+                MODEL = SentenceTransformer(local_path)
+            else:
+                if "TRANSFORMERS_OFFLINE" in os.environ:
+                    os.environ.pop("TRANSFORMERS_OFFLINE", None)
+                MODEL = SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2")
     return MODEL
 
 def embed_chunks(chunks_path, embeddings_path):

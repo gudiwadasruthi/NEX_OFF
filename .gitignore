@@ -6,6 +6,7 @@ local_models/
 
 # Ignore environment files
 .env
+offline
 
 # Ignore logs
 *.log
