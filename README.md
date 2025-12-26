@@ -32,7 +32,7 @@ AI-Powered Offline-First Chatbot with Document Intelligence
 - [📴 Offline vs Online Capabilities](#offline-vs-online-capabilities)
 - [📊 Results & Use Cases](#results--use-cases)
 - [🔒 Security & Privacy](#security--privacy)
-- [🚀 Roadmap](#roadmap)
+- [🚀 Future Enhancements](#future-enhancements)
 - [🛠️ Run Backend (Docker)](#run-backend-docker)
 - [📦 Deployment](#deployment)
 - [🤝 Contributing](#contributing)
@@ -215,7 +215,7 @@ For production deployment, consider the following:
 
 <p align="right">(<a href="#nex_off---ai-powered-chatbot-with-offline-capabilities">⬆ Back to top</a>)</p>
 
-## 🚀 Roadmap
+## 🚀 Future Enhancements
 
 - 🔌 Fully local LLM integration (no cloud dependency)
 - 🌍 Multi-language voice support
@@ -224,3 +224,24 @@ For production deployment, consider the following:
 - 🐧 Linux & macOS installer packages
 
 <p align="right">(<a href="#nex_off---ai-powered-chatbot-with-offline-capabilities">⬆ Back to top</a>)</p>
+
+## 🤝 Contributing
+Contributions are welcome! Please follow these steps:
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 🙏 Acknowledgements
+- [Vosk](https://alphacephei.com/vosk/) for offline speech recognition
+- [PDF.js](https://mozilla.github.io/pdf.js/) for PDF rendering
+- [Bootstrap](https://getbootstrap.com/) for the UI components
+- [Flask](https://flask.palletsprojects.com/) for the backend framework
+- [Electron](https://www.electronjs.org/) for cross-platform desktop app
+
+## 📜 License
+Distributed under the MIT License. See `LICENSE` for more information.
+
+---
+*This project is maintained by Gudiwada Sruthi. For support, please open an issue in the repository.*
