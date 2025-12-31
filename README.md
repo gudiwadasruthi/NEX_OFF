@@ -61,22 +61,44 @@ NEX_OFF is an advanced AI-powered chatbot application that combines the power of
 
 ## 🎥 Demo & Screenshots
 
-### 🔐 Login Page 
-![Login Page – Demo](assets/screenshots/login-demo.gif)
+### 🔐 Authentication Flow (Login)
+<p align="center">
+  <img src="assets/screenshots/login-demo.gif" width="70%">
+</p>
+<p align="center"><i>Secure login experience with smooth UI interactions</i></p>
 
-### Online Mode in Action
-![Online Mode – light mode](assets/screenshots/online-1.png)
-![Online Mode – dark mode](assets/screenshots/online-2.png)
+---
 
-### PDF Upload & Question Answering
-![PDF QA – light mode](assets/screenshots/pdf-qa-1.png)
-![PDF QA – dark mode](assets/screenshots/pdf-qa-2.png)
+### 🌐 Online Mode – Real-Time AI Chat
+<p align="center">
+  <img src="assets/screenshots/online-1.png" width="45%">
+  <img src="assets/screenshots/online-2.png" width="45%">
+</p>
+<p align="center"><i>Online AI assistant in Light and Dark modes</i></p>
 
-### Offline Mode in Action
-![Offline Mode – light mode](assets/screenshots/offline-1.png)
-![Offline Mode – dark mode](assets/screenshots/offline-2.png)
+---
 
-<p align="right">(<a href="#nex_off---ai-powered-chatbot-with-offline-capabilities">⬆ Back to top</a>)</p>
+### 📄 Chat with PDF – Upload & Question Answering
+<p align="center">
+  <img src="assets/screenshots/pdf-qa-1.png" width="45%">
+  <img src="assets/screenshots/pdf-qa-2.png" width="45%">
+</p>
+<p align="center"><i>Ask contextual questions directly from uploaded PDFs</i></p>
+
+---
+
+### 📴 Offline Mode – Fully Local AI Assistant
+<p align="center">
+  <img src="assets/screenshots/offline-1.png" width="45%">
+  <img src="assets/screenshots/offline-2.png" width="45%">
+</p>
+<p align="center"><i>Offline-first AI assistant running completely without internet</i></p>
+
+---
+
+<p align="right">
+  (<a href="#nex_off---ai-powered-chatbot-with-offline-capabilities">⬆ Back to top</a>)
+</p>
 
 ## ✨ Features
 - **Document Intelligence**: Upload and process PDFs with advanced text extraction
