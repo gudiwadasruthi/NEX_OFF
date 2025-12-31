@@ -63,36 +63,51 @@ NEX_OFF is an advanced AI-powered chatbot application that combines the power of
 
 ### 🔐 Authentication Flow (Login)
 <p align="center">
-  <img src="assets/screenshots/login-demo.gif" width="70%">
+  <img src="assets/screenshots/login-demo.gif" width="80%">
 </p>
 <p align="center"><i>Secure login experience with smooth UI interactions</i></p>
 
 ---
 
-### 🌐 Online Mode – Real-Time AI Chat
+### 🌐 Online Mode – Real-Time AI Chat (Light Mode)
 <p align="center">
-  <img src="assets/screenshots/online-1.png" width="45%">
-  <img src="assets/screenshots/online-2.png" width="45%">
+  <img src="assets/screenshots/online-1.png" width="85%">
 </p>
-<p align="center"><i>Online AI assistant in Light and Dark modes</i></p>
+<p align="center"><i>Online AI assistant in Light Mode</i></p>
+
+### 🌐 Online Mode – Real-Time AI Chat (Dark Mode)
+<p align="center">
+  <img src="assets/screenshots/online-2.png" width="85%">
+</p>
+<p align="center"><i>Online AI assistant in Dark Mode</i></p>
 
 ---
 
-### 📄 Chat with PDF – Upload & Question Answering
+### 📄 Chat with PDF – Upload & Question Answering (Light Mode)
 <p align="center">
-  <img src="assets/screenshots/pdf-qa-1.png" width="45%">
-  <img src="assets/screenshots/pdf-qa-2.png" width="45%">
+  <img src="assets/screenshots/pdf-qa-1.png" width="85%">
 </p>
-<p align="center"><i>Ask contextual questions directly from uploaded PDFs</i></p>
+<p align="center"><i>PDF upload and contextual question answering in Light Mode</i></p>
+
+### 📄 Chat with PDF – Upload & Question Answering (Dark Mode)
+<p align="center">
+  <img src="assets/screenshots/pdf-qa-2.png" width="85%">
+</p>
+<p align="center"><i>PDF-based question answering in Dark Mode</i></p>
 
 ---
 
-### 📴 Offline Mode – Fully Local AI Assistant
+### 📴 Offline Mode – Fully Local AI Assistant (Light Mode)
 <p align="center">
-  <img src="assets/screenshots/offline-1.png" width="45%">
-  <img src="assets/screenshots/offline-2.png" width="45%">
+  <img src="assets/screenshots/offline-1.png" width="85%">
 </p>
-<p align="center"><i>Offline-first AI assistant running completely without internet</i></p>
+<p align="center"><i>Offline AI assistant running fully on local system (Light Mode)</i></p>
+
+### 📴 Offline Mode – Fully Local AI Assistant (Dark Mode)
+<p align="center">
+  <img src="assets/screenshots/offline-2.png" width="85%">
+</p>
+<p align="center"><i>Offline-first AI assistant with Dark Mode enabled</i></p>
 
 ---
 
