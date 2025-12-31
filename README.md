@@ -3,7 +3,13 @@
 <a id="nex_off---ai-powered-chatbot-with-offline-capabilities"></a>
 
 <p align="center">
-  <img src="assets/banner.gif" alt="NEX_OFF Banner" width="85%">
+  <div class="video-container" id="videoContainer">
+    <video id="myVideo" autoplay muted>
+      <source src="assets/NEXOFF.mp4" type="video/mp4">
+      Your browser does not support HTML5 video.
+    </video>
+  </div>
+
   
 </p>
 
