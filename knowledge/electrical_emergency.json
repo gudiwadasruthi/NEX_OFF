@@ -1,0 +1,30 @@
+{
+  "title": "Electrical Emergency",
+  "description": "Electrical emergencies include electric shocks, power outages, and electrical fires. Knowing how to respond safely can prevent injuries and save lives.",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "content": "Electrical emergencies involve situations where electricity poses an immediate danger to people or property. These include electric shocks, electrical fires, downed power lines, and power outages affecting critical equipment. Electricity can cause severe burns, cardiac arrest, muscle contractions, and falls. In India, electrical accidents are a significant cause of injuries and fatalities, particularly during monsoon seasons and in areas with poor electrical infrastructure. Understanding electrical safety and proper emergency response is essential for everyone."
+    },
+    {
+      "heading": "Electric Shock Response",
+      "content": "If someone receives an electric shock, do not touch them directly unless you are certain the power is off. First, disconnect the power source if possible by turning off the main switch or unplugging the device. If you cannot disconnect the power, use a non-conductive object such as a dry wooden stick, plastic pipe, or rubber mat to separate the victim from the electrical source. Call emergency services (112 or 102) immediately. Once the victim is free from electricity, check for breathing and pulse, and begin CPR if necessary. Treat any burns by cooling with water and covering with a clean dressing. Do not move the victim if you suspect spinal injury unless there is immediate danger."
+    },
+    {
+      "heading": "Electrical Fire Response",
+      "content": "If an electrical fire occurs, do not use water to extinguish it as water conducts electricity. First, disconnect the power if you can do so safely. Use a Class C fire extinguisher designed for electrical fires, or baking soda for small fires. If you cannot safely extinguish the fire, evacuate immediately and call emergency services (101 or 112). Close doors behind you to slow the fire spread. Do not re-enter the building until fire officials declare it safe. If you must escape through smoke, stay low and crawl under the smoke. Never use elevators during a fire emergency."
+    },
+    {
+      "heading": "Downed Power Lines",
+      "content": "If you see a downed power line, stay at least 10 meters (33 feet) away from it. Assume all downed lines are energized and dangerous. Do not touch the line or anything in contact with it. Do not drive over downed power lines. If a power line falls on your vehicle, stay inside and do not attempt to exit unless the vehicle is on fire. If you must exit, jump clear without touching the vehicle and the ground simultaneously. Shuffle away with small steps keeping your feet together to prevent step potential. Report downed power lines to the electricity board or emergency services immediately. Warn others to stay away from the area."
+    },
+    {
+      "heading": "Power Outage Safety",
+      "content": "During a power outage, turn off and unplug sensitive electronic equipment to protect them from power surges when electricity is restored. Keep refrigerator and freezer doors closed to preserve food—food stays cold for about 4 hours in a refrigerator and 24-48 hours in a freezer. Use flashlights rather than candles to avoid fire risk. If using a generator, never operate it indoors or in enclosed spaces as it produces deadly carbon monoxide. Connect appliances directly to the generator, not to your home's electrical system. Check on neighbors, especially elderly or those who depend on medical equipment. Keep emergency supplies including batteries, radio, and non-perishable food."
+    },
+    {
+      "heading": "Electrical Safety Prevention",
+      "content": "Have your electrical system inspected regularly by a qualified electrician. Do not overload electrical outlets or use damaged cords and appliances. Use circuit breakers and fuses of the correct rating. Install Ground Fault Circuit Interrupters (GFCIs) in wet areas like bathrooms and kitchens. Keep electrical appliances away from water. Never touch electrical appliances with wet hands. Use child-proof outlets if you have young children. Ensure proper earthing/grounding of your electrical system. Replace old wiring that does not meet current safety standards. Follow all electrical codes and regulations."
+    }
+  ]
+}

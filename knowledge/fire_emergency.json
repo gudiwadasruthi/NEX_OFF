@@ -1,0 +1,30 @@
+{
+  "title": "Fire Emergency",
+  "description": "Fire emergencies can occur in homes, workplaces, and public spaces. Knowing how to prevent fires, respond safely, and evacuate can save lives and reduce injuries.",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "content": "Fire emergencies involve uncontrolled burning that threatens lives, property, and the environment. Fires can spread rapidly, producing heat, smoke, and toxic gases that are often more dangerous than flames themselves. Common causes include electrical faults, cooking accidents, heating equipment, smoking, and chemical reactions. In India, fire incidents in residential and commercial buildings result in significant casualties and property damage annually. Quick thinking and proper fire safety knowledge can make the difference between life and death during a fire emergency."
+    },
+    {
+      "heading": "Fire Prevention",
+      "content": "Install smoke detectors on every level of your home and test them monthly. Keep fire extinguishers in accessible locations and learn how to use them. Do not overload electrical outlets or use damaged cords. Keep flammable materials away from heat sources. Never leave cooking unattended, especially when using oil or high heat. Store matches and lighters out of reach of children. Ensure your building has proper fire exits and they are never blocked. Practice fire drills with your family regularly. Have an escape plan with two ways out of every room."
+    },
+    {
+      "heading": "During a Fire",
+      "content": "If you discover a fire, raise the alarm immediately by shouting 'Fire' and activating fire alarms if available. Call emergency services (101 or 112) from a safe location. If the fire is small and you have a fire extinguisher, attempt to put it out only if you can do so safely. If the fire is large or spreading, evacuate immediately. Do not stop to collect personal belongings. If smoke is present, stay low and crawl under the smoke to breathe cleaner air. Test doors with the back of your hand before opening—if hot, do not open. Close doors behind you to slow fire spread."
+    },
+    {
+      "heading": "Evacuation Safety",
+      "content": "Know your primary and secondary escape routes from every room. If you must escape through smoke, crawl low under the smoke where air is cleaner. Never use elevators during a fire—use stairs only. If your clothes catch fire, stop, drop to the ground, and roll to smother the flames. If you are trapped in a room, close the door, seal cracks with cloth, and signal for help from a window. Do not jump from windows unless it is a last resort. If you must jump, lower yourself as much as possible before dropping. Assist others who need help evacuating if you can do so safely."
+    },
+    {
+      "heading": "Using Fire Extinguishers",
+      "content": "Remember the PASS technique: Pull the pin to unlock the extinguisher. Aim at the base of the fire, not the flames. Squeeze the lever to discharge the extinguishing agent. Sweep from side to side until the fire appears out. Maintain a safe distance from the fire while using the extinguisher. Ensure you have an escape route behind you before attempting to fight a fire. If the fire does not go out quickly, evacuate immediately. Only use fire extinguishers on small, contained fires. Do not attempt to fight large or spreading fires yourself."
+    },
+    {
+      "heading": "After a Fire",
+      "content": "Do not re-enter a burned building until fire officials declare it safe. Fires can rekindle from hidden embers. Check for injuries and provide first aid if needed. Seek medical attention for smoke inhalation even if you feel fine. Contact your insurance company to report the damage. Do not eat or drink anything that may have been exposed to heat or smoke. Be cautious of structural damage, weakened floors, and hot surfaces. Document the damage with photographs for insurance purposes. Follow all instructions from fire officials and emergency responders."
+    }
+  ]
+}

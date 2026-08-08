@@ -1,0 +1,30 @@
+{
+  "title": "Wildfire Safety",
+  "description": "Wildfires are uncontrolled fires that spread rapidly through vegetation. Knowing how to prepare for, respond to, and recover from wildfires can protect lives and property in fire-prone areas.",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "content": "Wildfires are large, uncontrolled fires that spread quickly through vegetation such as forests, grasslands, or peatlands. They can be caused by natural factors like lightning or human activities including campfires, discarded cigarettes, and agricultural burning. Wildfires can move at high speeds and change direction unpredictably, making them extremely dangerous. India experiences forest fires particularly during dry seasons in states with significant forest cover. Wildfires threaten homes, wildlife, and human lives, and produce heavy smoke that can affect air quality over large areas."
+    },
+    {
+      "heading": "Before a Wildfire",
+      "content": "Create a defensible space around your home by clearing dry vegetation, leaves, and debris from at least 30 feet around buildings. Use fire-resistant materials for roofing and construction where possible. Keep gutters and roofs clear of leaves and needles. Store flammable materials away from your home. Create an emergency evacuation plan and practice it with your family. Prepare an emergency kit with food, water, medications, flashlight, battery-powered radio, first aid supplies, and important documents. Know your evacuation routes and have multiple options. Keep your vehicle fueled and ready to leave quickly."
+    },
+    {
+      "heading": "During a Wildfire",
+      "content": "If you receive an evacuation order, leave immediately. Do not wait to see how the fire develops. If you are trapped, call emergency services and give your location. Close all windows, doors, and vents to prevent smoke from entering. Move flammable furniture away from windows and doors. Turn off gas or propane supplies if time permits. If you are outdoors, try to find a body of water, rock area, or road to take shelter. Avoid canyons and natural chimneys that can funnel fire. If you must escape through smoke, stay low to the ground where air is cleaner. Cover your mouth and nose with a moist cloth to filter smoke."
+    },
+    {
+      "heading": "After a Wildfire",
+      "content": "Do not return to your home until authorities declare it safe. Be aware of hot spots, smoldering debris, and damaged structures that may still be dangerous. Check for embers and smoke in your home, including the attic and roof. Check for structural damage before entering. Do not drink tap water until officials confirm it is safe. Use a battery-powered flashlight to inspect your home—do not use candles or lighters due to possible gas leaks. Document damage with photographs for insurance purposes. Be cautious of weakened trees and power lines. Wear protective clothing during cleanup."
+    },
+    {
+      "heading": "Smoke Safety",
+      "content": "Wildfire smoke contains harmful particles and gases that can affect health even far from the fire. Stay indoors with windows and doors closed when smoke is heavy. Use air purifiers if available. Avoid strenuous outdoor activities during smoky conditions. People with asthma, heart disease, or other respiratory conditions should take extra precautions. Keep emergency medications readily available. If you must go outside during smoky conditions, wear an N95 respirator mask if available. Pay attention to local air quality reports and health advisories. Seek medical attention if you experience breathing difficulties, chest pain, or other smoke-related symptoms."
+    },
+    {
+      "heading": "Safety Precautions",
+      "content": "Never ignore wildfire evacuation orders. Do not attempt to fight a wildfire yourself—leave it to trained firefighters. Avoid burning debris or yard waste during dry or windy conditions. Completely extinguish campfires, cigarettes, and other open flames. Do not park vehicles on dry grass as hot exhaust can start fires. Report fires immediately to emergency services. Follow all instructions from fire officials and emergency responders. Be aware of fire restrictions in your area during dry seasons. Help neighbors evacuate if possible, especially elderly or disabled individuals. Keep emergency supplies accessible year-round in fire-prone areas."
+    }
+  ]
+}

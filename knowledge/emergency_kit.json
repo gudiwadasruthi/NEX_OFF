@@ -1,0 +1,30 @@
+{
+  "title": "Emergency Kit",
+  "description": "An emergency kit contains essential supplies to help you survive during disasters and emergencies. Having a well-prepared kit can provide critical support when regular services are unavailable.",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "content": "An emergency kit is a collection of basic items your household may need in the event of an emergency. During disasters, you may need to survive on your own for several days. Being prepared means having your own food, water, and other supplies to last for at least 72 hours. A well-stocked emergency kit can make a significant difference in your ability to cope with emergencies such as earthquakes, floods, cyclones, or power outages. In India, emergency preparedness is increasingly important due to various natural hazards and infrastructure challenges."
+    },
+    {
+      "heading": "Water and Food",
+      "content": "Store at least one gallon of water per person per day for at least three days, for drinking and sanitation. Include water purification tablets or a portable water filter. Store non-perishable food items such as canned goods, dry fruits, nuts, biscuits, and ready-to-eat meals. Choose foods that require no refrigeration, preparation, or cooking. Include a manual can opener. Replace food and water supplies every six months. Consider special dietary needs of family members. Include high-energy foods and comfort foods if possible. Pack food in waterproof containers."
+    },
+    {
+      "heading": "Medical and First Aid",
+      "content": "Include a comprehensive first aid kit with bandages, antiseptic wipes, adhesive tape, scissors, tweezers, and thermometer. Include personal medications for all family members with at least a week's supply. Include pain relievers, antacids, and basic over-the-counter medicines. Include prescription copies and medical history for each family member. Include extra eyeglasses or contact lenses. Include hearing aid batteries if needed. Include a face mask or N95 respirator for each person. Include hand sanitizer and soap. Include any specific medical equipment family members require."
+    },
+    {
+      "heading": "Lighting and Communication",
+      "content": "Include flashlights with extra batteries for each family member. Consider a solar-powered or hand-crank flashlight. Include a battery-powered or hand-crank radio to receive emergency broadcasts. Include extra batteries for all devices. Include a mobile phone with charger and backup power bank. Include a whistle to signal for help. Include a list of important emergency contact numbers. Include a local map with evacuation routes marked. Consider a solar charger for electronic devices. Include a waterproof bag to protect electronic items."
+    },
+    {
+      "heading": "Tools and Supplies",
+      "content": "Include a multi-tool or Swiss army knife. Include duct tape and rope for repairs. Include plastic sheeting or tarp for shelter. Include work gloves for protection during cleanup. Include garbage bags and plastic ties for sanitation. Include matches in a waterproof container. Include a fire extinguisher if possible. Include a wrench or pliers to turn off utilities. Include a sewing kit for repairs. Include cash in small denominations as ATMs may not work. Include copies of important documents in waterproof bags."
+    },
+    {
+      "heading": "Personal Items and Hygiene",
+      "content": "Include personal hygiene items such as toothbrush, toothpaste, soap, and toilet paper. Include feminine hygiene products if needed. Include diapers and wipes for infants. Include extra clothing and sturdy shoes for each family member. Include blankets or sleeping bags for warmth. Include rain gear or ponchos. Include sunglasses and sunscreen. Include insect repellent. Include comfort items for children such as toys or games. Include pet supplies including food, water, leash, and carrier if you have pets."
+    }
+  ]
+}

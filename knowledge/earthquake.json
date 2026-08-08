@@ -1,0 +1,30 @@
+{
+  "title": "Earthquake Safety",
+  "description": "Earthquakes are sudden ground shaking caused by movement in the Earth's crust. Knowing how to prepare, respond, and recover can save lives and reduce injuries.",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "content": "An earthquake is a sudden, rapid shaking of the ground caused by the breaking and shifting of rock beneath the Earth's surface. Earthquakes can cause buildings and bridges to collapse, disrupt gas and electric lines, and trigger landslides, avalanches, and tsunamis. The severity of an earthquake is measured by its magnitude and intensity. India is located in a seismically active zone, making earthquake preparedness essential for safety."
+    },
+    {
+      "heading": "Before an Earthquake",
+      "content": "Identify safe spots in each room such as under sturdy tables or against interior walls. Secure heavy furniture, cabinets, and appliances to walls. Store breakable items in low cabinets. Create an emergency kit with food, water, flashlight, battery-powered radio, first aid supplies, and important documents. Know how to turn off gas, electricity, and water mains. Practice earthquake drills with family members regularly. Identify evacuation routes and meeting points outside your home."
+    },
+    {
+      "heading": "During an Earthquake Indoors",
+      "content": "Drop, Cover, and Hold On immediately. Drop to your hands and knees to prevent being knocked down. Cover your head and neck with your arms and take shelter under a sturdy table or desk. If no shelter is available, crawl to an interior wall and protect your head and neck. Stay away from windows, glass doors, exterior walls, and anything that could fall. Hold on to your shelter until the shaking stops. Do not use elevators during an earthquake. If you are in bed, stay there and protect your head with a pillow."
+    },
+    {
+      "heading": "During an Earthquake Outdoors",
+      "content": "Move to an open area away from buildings, trees, streetlights, and power lines. If you are in a vehicle, stop as soon as safely possible but avoid bridges, overpasses, and buildings. Stay inside the vehicle until the shaking stops. If you are near a slope or mountain, move away to avoid landslides and rockfalls. Do not run through buildings during evacuation as falling debris can cause serious injury."
+    },
+    {
+      "heading": "After an Earthquake",
+      "content": "Stay calm and check yourself and others for injuries. Provide first aid if needed. Check for damage to your building and evacuate if you see cracks, leaning walls, or other structural damage. Be prepared for aftershocks, which can occur minutes, hours, or days after the main earthquake. Use a flashlight rather than matches or lighters to avoid igniting gas leaks. Listen to battery-powered radio for emergency information and instructions. Do not re-enter damaged buildings until authorities declare them safe."
+    },
+    {
+      "heading": "Safety Precautions",
+      "content": "Never run outside during shaking as falling objects pose significant risk. Do not use the elevator during or after an earthquake. Avoid standing in doorways as they are not stronger than other parts of modern buildings. If trapped, protect your mouth and nose with cloth to avoid dust inhalation. Tap on a pipe or wall so rescuers can hear you. Shout only as a last resort to avoid inhaling dangerous dust. Follow evacuation orders from local authorities immediately."
+    }
+  ]
+}
