@@ -23,6 +23,12 @@
       "email": "gudiwadasruthi5@gmai.com",
       "password": "88b0cb5050b180773db1ffdfee294139edd025d644c7ae81c6482830fe0db65e",
       "createdAt": "2026-08-08T16:33:12.774Z"
+    },
+    {
+      "username": "demo",
+      "email": "demo@nexoff.local",
+      "password": "ff96673205dc722320598ebf8f88325b2ac56922d5a2164b5765868274bc0d73",
+      "createdAt": "2026-08-09T00:00:00.000Z"
     }
   ]
 }

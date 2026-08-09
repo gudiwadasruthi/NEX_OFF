@@ -33,9 +33,84 @@
             border-radius: 12px;
             box-shadow: 0 0 24px 2px #fff;
             text-align: center;
-            width: 240px;
+            width: 280px;
             margin-left: -32px;
             animation: fadeIn 0.5s ease;
+        }
+
+        .demo-account {
+            width: 90%;
+            margin: 0 auto 16px;
+            padding: 14px 12px;
+            border: 1px dashed rgba(59, 182, 244, 0.6);
+            border-radius: 8px;
+            background: rgba(41, 98, 255, 0.08);
+            text-align: left;
+            font-size: 13px;
+            color: #ddd;
+        }
+
+        .demo-account h2 {
+            margin: 0 0 6px;
+            font-size: 15px;
+            color: #fff;
+            text-align: center;
+        }
+
+        .demo-account p {
+            margin: 0 0 8px;
+            font-size: 12px;
+            color: #bbb;
+            text-align: center;
+            line-height: 1.4;
+        }
+
+        .demo-account .demo-credential {
+            margin: 4px 0;
+            font-family: Consolas, 'Segoe UI', monospace;
+        }
+
+        .demo-account .demo-credential strong {
+            color: #ced2d7;
+            font-weight: 600;
+        }
+
+        button.demo-btn {
+            width: 100%;
+            margin-top: 10px;
+            padding: 10px;
+            font-size: 14px;
+            background: rgba(59, 182, 244, 0.15);
+            color: #3bb6f4;
+            border: 1px solid rgba(59, 182, 244, 0.5);
+        }
+
+        button.demo-btn:hover {
+            background: rgba(59, 182, 244, 0.25);
+            box-shadow: 0 4px 12px rgba(59, 182, 244, 0.2);
+        }
+
+        .login-form input:disabled,
+        .login-form button:disabled {
+            opacity: 0.85;
+        }
+
+        .auth-error {
+            width: 90%;
+            margin: 0 auto 8px;
+            padding: 10px 12px;
+            border-radius: 8px;
+            background: rgba(220, 53, 69, 0.15);
+            border: 1px solid rgba(220, 53, 69, 0.55);
+            color: #ffb4bc;
+            font-size: 13px;
+            line-height: 1.35;
+            text-align: center;
+            display: none;
+        }
+
+        .auth-error.visible {
+            display: block;
         }
 
         @keyframes fadeIn {
@@ -212,24 +287,34 @@
           
         <div class="login-container">
             <div class="logo">
-                <h1>Coding Crew</h1>
-                <p>AI Chat, Anytime. Anywhere, Offline ding ding</p>
+                <h1>NEX OFF</h1>
+                <p>AI That Works Beyond the Internet</p>
+            </div>
+
+            <div id="login-demo-section" class="demo-account">
+                <h2>Demo Account</h2>
+                <p>Use the credentials below to explore NEX_OFF.</p>
+                <p class="demo-credential"><strong>Username:</strong> demo</p>
+                <p class="demo-credential"><strong>Password:</strong> Demo@123</p>
+                <button type="button" id="use-demo-account" class="demo-btn">Use Demo Account</button>
             </div>
 
             <form id="login-form" class="login-form">
+                <div id="login-error" class="auth-error" role="alert" aria-live="polite"></div>
                 <div class="input-container">
-                    <input type="text" name="username" placeholder=" " required />
+                    <input type="text" id="login-username" name="username" placeholder=" " required autocomplete="username" />
                     <label>Username</label>
                 </div>
                 <div class="input-container">
-                    <input type="password" placeholder=" " required />
+                    <input type="password" id="login-password" placeholder=" " required autocomplete="current-password" />
                     <label>Password</label>
                 </div>
-                <button type="submit">Login</button>
+                <button type="submit" id="login-submit">Login</button>
                 <p class="form-toggle">Don't have an account? <a onclick="toggleForm('signup')">Sign Up</a></p>
             </form>
 
             <form id="signup-form" class="login-form hidden">
+                <div id="signup-error" class="auth-error" role="alert" aria-live="polite"></div>
                 <div class="input-container">
                     <input type="text" placeholder=" " required />
                     <label>Username</label>
@@ -255,21 +340,99 @@
     <script>
         const { ipcRenderer } = require('electron');
 
+        const DEMO_USERNAME = 'demo';
+        const DEMO_PASSWORD = 'Demo@123';
+
+        let loginAttemptInFlight = false;
+        let signupAttemptInFlight = false;
+        let activeAuthMode = 'login';
+
         function toggleForm(formType) {
             const loginForm = document.getElementById('login-form');
             const signupForm = document.getElementById('signup-form');
+            const loginDemoSection = document.getElementById('login-demo-section');
             const speechBubble = document.querySelector('.speech-bubble');
 
             if (formType === 'signup') {
                 loginForm.classList.add('hidden');
+                loginDemoSection.classList.add('hidden');
                 signupForm.classList.remove('hidden');
                 speechBubble.textContent = 'Create your account!';
+                activeAuthMode = 'signup';
+                hideAuthError('login');
             } else {
                 signupForm.classList.add('hidden');
                 loginForm.classList.remove('hidden');
+                loginDemoSection.classList.remove('hidden');
                 speechBubble.textContent = 'Welcome back!';
+                activeAuthMode = 'login';
+                hideAuthError('signup');
             }
             speechBubble.style.display = 'block';
+        }
+
+        function showAuthError(formType, message) {
+            const el = document.getElementById(formType === 'login' ? 'login-error' : 'signup-error');
+            if (!el) return;
+            el.textContent = message;
+            el.classList.add('visible');
+        }
+
+        function hideAuthError(formType) {
+            const el = document.getElementById(formType === 'login' ? 'login-error' : 'signup-error');
+            if (!el) return;
+            el.textContent = '';
+            el.classList.remove('visible');
+        }
+
+        function resetLoginFormInteractionState() {
+            const loginUsernameInput = document.getElementById('login-username');
+            const loginPasswordInput = document.getElementById('login-password');
+            const loginSubmitBtn = document.getElementById('login-submit');
+
+            loginAttemptInFlight = false;
+
+            if (loginUsernameInput) {
+                loginUsernameInput.disabled = false;
+                loginUsernameInput.readOnly = false;
+            }
+            if (loginPasswordInput) {
+                loginPasswordInput.disabled = false;
+                loginPasswordInput.readOnly = false;
+            }
+            if (loginSubmitBtn) {
+                loginSubmitBtn.disabled = false;
+            }
+        }
+
+        function resetSignupFormInteractionState() {
+            const signupSubmitBtn = document.querySelector('#signup-form button[type="submit"]');
+            const signupInputs = document.querySelectorAll('#signup-form input');
+
+            signupAttemptInFlight = false;
+
+            signupInputs.forEach((input) => {
+                input.disabled = false;
+                input.readOnly = false;
+            });
+            if (signupSubmitBtn) {
+                signupSubmitBtn.disabled = false;
+            }
+        }
+
+        function fillDemoCredentials() {
+            const loginUsernameInput = document.getElementById('login-username');
+            const loginPasswordInput = document.getElementById('login-password');
+
+            loginUsernameInput.value = DEMO_USERNAME;
+            loginPasswordInput.value = DEMO_PASSWORD;
+            hideAuthError('login');
+            updateSpeechBubble(DEMO_USERNAME, false);
+
+            loginUsernameInput.dispatchEvent(new Event('input', { bubbles: true }));
+            loginPasswordInput.dispatchEvent(new Event('input', { bubbles: true }));
+
+            loginUsernameInput.focus();
         }
 
         function updateSpeechBubble(username, isTyping) {
@@ -288,12 +451,25 @@
         document.addEventListener('DOMContentLoaded', () => {
             const loginForm = document.getElementById('login-form');
             const signupForm = document.getElementById('signup-form');
-            const loginUsernameInput = document.querySelector('#login-form input[type="text"]');
+            const loginUsernameInput = document.getElementById('login-username');
+            const loginPasswordInput = document.getElementById('login-password');
+            const loginSubmitBtn = document.getElementById('login-submit');
             const signupUsernameInput = document.querySelector('#signup-form input[type="text"]');
+            const useDemoBtn = document.getElementById('use-demo-account');
             let typingTimeout;
+
+            resetLoginFormInteractionState();
+            resetSignupFormInteractionState();
+
+            useDemoBtn.addEventListener('click', () => {
+                fillDemoCredentials();
+            });
 
             function handleTyping(e, input) {
                 clearTimeout(typingTimeout);
+                if (input === loginUsernameInput || input === loginPasswordInput) {
+                    hideAuthError('login');
+                }
                 updateSpeechBubble('', true);
                 typingTimeout = setTimeout(() => {
                     updateSpeechBubble(input.value, false);
@@ -301,6 +477,7 @@
             }
 
             loginUsernameInput.addEventListener('input', (e) => handleTyping(e, loginUsernameInput));
+            loginPasswordInput.addEventListener('input', (e) => handleTyping(e, loginPasswordInput));
             signupUsernameInput.addEventListener('input', (e) => handleTyping(e, signupUsernameInput));
 
             [loginUsernameInput, signupUsernameInput].forEach(input => {
@@ -313,37 +490,67 @@
 
             loginForm.addEventListener('submit', (e) => {
                 e.preventDefault();
-                const username = loginUsernameInput.value;
-                const password = loginForm.querySelector('input[type="password"]').value;
-                
-                // Send login request to main process
+                if (loginAttemptInFlight) {
+                    return;
+                }
+
+                const username = loginUsernameInput.value.trim();
+                const password = loginPasswordInput.value;
+
+                hideAuthError('login');
+                loginAttemptInFlight = true;
+                loginSubmitBtn.disabled = true;
+
                 ipcRenderer.send('login-attempt', { username, password });
             });
 
             signupForm.addEventListener('submit', (e) => {
                 e.preventDefault();
+                if (signupAttemptInFlight) {
+                    return;
+                }
+
                 const username = signupUsernameInput.value;
                 const email = signupForm.querySelector('input[type="email"]').value;
                 const password = signupForm.querySelectorAll('input[type="password"]')[0].value;
                 const confirmPassword = signupForm.querySelectorAll('input[type="password"]')[1].value;
 
+                hideAuthError('signup');
+
                 if (password !== confirmPassword) {
-                    alert('Passwords do not match!');
+                    showAuthError('signup', 'Passwords do not match!');
                     return;
                 }
 
-                // Send signup request to main process
+                signupAttemptInFlight = true;
+                signupForm.querySelector('button[type="submit"]').disabled = true;
                 ipcRenderer.send('signup-attempt', { username, email, password });
             });
         });
 
-        // Listen for authentication response
+        ipcRenderer.removeAllListeners('auth-response');
         ipcRenderer.on('auth-response', (event, { success, message }) => {
+            if (activeAuthMode === 'signup') {
+                resetSignupFormInteractionState();
+                if (success) {
+                    window.location.href = 'index.html';
+                } else {
+                    showAuthError('signup', message);
+                }
+                return;
+            }
+
+            resetLoginFormInteractionState();
+
             if (success) {
-                // Redirect to main chat interface
                 window.location.href = 'index.html';
             } else {
-                alert(message);
+                showAuthError('login', message);
+                const loginPasswordInput = document.getElementById('login-password');
+                if (loginPasswordInput) {
+                    loginPasswordInput.value = '';
+                    loginPasswordInput.focus();
+                }
             }
         });
     </script>
