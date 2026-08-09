@@ -13,7 +13,7 @@ logging.basicConfig(
 )
 
 class SentenceRAGEngine:
-    def __init__(self, chunk_file='chat_with_pdf/sentence_chunks.jsonl'):
+    def __init__(self, chunk_file='knowledge_processing/sentence_chunks.jsonl'):
         self.chunk_file = chunk_file
         self.chunks = self.load_chunks()
         self.last_topic = None

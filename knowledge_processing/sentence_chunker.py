@@ -59,4 +59,4 @@ def chunk_knowledge_files(knowledge_folder, output_file):
 
 # Example usage
 if __name__ == "__main__":
-    chunk_knowledge_files("knowledge", "sentence_chunks.jsonl")
+    chunk_knowledge_files("knowledge", "knowledge_processing/sentence_chunks.jsonl")

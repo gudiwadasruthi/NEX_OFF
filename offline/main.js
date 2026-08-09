@@ -85,7 +85,14 @@ ipcMain.on('signup-attempt', (event, { username, email, password }) => {
 
 // Handle chat messages using local Python process
 ipcMain.on('chat-message', (event, message) => {
-    const pythonProcess = spawn('python', ['offline/llm_model.py', message]);
+    const projectRoot = path.join(__dirname, '..');
+    const pythonProcess = spawn(
+        'python',
+        [path.join('offline', 'llm_model.py'), message],
+        {
+            cwd: projectRoot
+        }
+    );
     
     let response = '';
     
