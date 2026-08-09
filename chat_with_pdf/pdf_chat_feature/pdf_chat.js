@@ -83,7 +83,8 @@ pdfSubmitBtn.addEventListener('click', async () => {
         const arrayBuffer = await file.arrayBuffer();
         fs.writeFileSync(savePath, Buffer.from(arrayBuffer));
 
-        const pythonPath = 'python';
+        const projectRoot = path.join(__dirname, '..', '..');
+        const pythonPath = path.join(projectRoot, '.venv', 'Scripts', 'python.exe');
         const chunkerScriptPath = path.join(__dirname, 'semantic_chunker.py');
         const ragScriptPath = path.join(__dirname, 'rag_handler.py');
 
@@ -160,7 +161,8 @@ askQuestionBtn.addEventListener('click', async () => {
     askQuestionBtn.disabled = true;
     answerDisplay.style.display = 'none';
 
-    const pythonPath = 'python';
+    const projectRoot = path.join(__dirname, '..', '..');
+    const pythonPath = path.join(projectRoot, '.venv', 'Scripts', 'python.exe');
     const ragScriptPath = path.join(__dirname, 'rag_handler.py');
 
     execFile(pythonPath, [ragScriptPath, "answer", currentPdfPaths.chunks, currentPdfPaths.embeddings, question], (error, stdout, stderr) => {

@@ -1,16 +1,67 @@
-# Ignore dependencies
+# Node.js dependencies
 node_modules/
 
-# Ignore local models
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Local models and data
 local_models/
+vosk-model-*/
+uploaded_pdfs/
+*_chunks.jsonl
 
-# Ignore environment files
+# Environment files
 .env
-offline
+.env.local
+offline/__pycache__/
+online/__pycache__/
+offline/chat_history.json
+offline/users.json
 
-# Ignore logs
+# Logs
 *.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
-# Ignore OS files
+# OS files
 .DS_Store
 Thumbs.db
+Desktop.ini
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Electron
+out/
+dist/
+*.asar
