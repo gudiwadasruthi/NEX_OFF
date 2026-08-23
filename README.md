@@ -146,16 +146,41 @@ NEX_OFF is an advanced AI-powered chatbot application that combines the power of
 
 ## 🧠 System Architecture
 
-![Architecture Diagram](assets/architecture.png)
+NEX_OFF supports two distinct operational modes — **Offline** and **Online** — each with its own data pipeline and AI inference strategy.
 
-### Workflow Overview
-1. User interacts via Electron desktop UI
-2. Frontend communicates with Flask backend
-3. PDFs are processed and chunked locally
-4. RAG engine retrieves relevant context
-5. Local or cloud LLM generates responses
-6. SQLite stores conversation & metadata
-7. Vosk enables offline speech input
+---
+
+### 📴 Offline Architecture
+
+<p align="center">
+  <img src="assets/offline_architecture.png" alt="NEX_OFF Offline Architecture" width="90%">
+</p>
+<p align="center"><i>Fully local pipeline — No internet or external API required. Query → Retrieve → Generate → Respond, entirely on-device using the local RAG engine and knowledge base.</i></p>
+
+**Offline Workflow:**
+1. User types a query in the Electron.js desktop app
+2. Flask backend receives and processes the query
+3. Offline RAG engine cleans, normalizes, and prepares the query
+4. Knowledge retrieval searches the local knowledge base (Education, Emergency, General)
+5. Relevance/similarity scoring ranks the best matching chunks
+6. Response is formatted and returned to the UI — 100% on-device, no data leaves the machine
+
+---
+
+### 🌐 Online Architecture
+
+<p align="center">
+  <img src="assets/oniline_architecture.png" alt="NEX_OFF Online Architecture" width="90%">
+</p>
+<p align="center"><i>Internet-connected pipeline — Uses Groq API for ultra-fast LLM inference with streaming responses. Conversation history and preferences remain stored locally.</i></p>
+
+**Online Workflow:**
+1. User selects Online Mode and types a query in the Electron.js desktop app
+2. Flask backend validates, processes, and builds the prompt with conversation context
+3. An HTTPS request is sent to the **Groq Cloud Platform** for LLM inference
+4. Groq streams the response token by token back to the backend
+5. Response processing layer handles formatting, errors, and conversation history
+6. Final streamed response is displayed in the UI; local data (SQLite) stores chat history
 
 <p align="right">(<a href="#nex_off---ai-powered-chatbot-with-offline-capabilities">⬆ Back to top</a>)</p>
 

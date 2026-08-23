@@ -1,4 +1,9 @@
 import sys
+
+# Force UTF-8 encoding for standard output to handle emojis on Windows
+if hasattr(sys.stdout, 'reconfigure'):
+    sys.stdout.reconfigure(encoding='utf-8')
+
 import requests
 import json
 import re
@@ -147,47 +152,13 @@ def query_groq(message, session_id="default", format_type="web"):
     # Add user message to history
     chat_histories[session_id].append({"role": "user", "content": message})
     
-    system_prompt = """You are a helpful, friendly AI assistant.
+    system_prompt = """You are a helpful, friendly AI assistant. Keep your answers short, clear and to the point.
 
-For greetings and casual conversation:
-- Respond naturally and conversationally
-- Be friendly and concise
-- No need for bullet points or sections
-
-For technical or educational topics, use this structure:
-Topic Name
-
-Main Concepts:
-• First major concept
-  • Supporting detail
-  • Additional detail
-• Second major concept
-  • Related detail
-  • Supporting information
-
-Technical Details:
-• Implementation aspect 1
-  • How it works
-  • When to use it
-• Implementation aspect 2
-  • Specific details
-  • Best practices
-
-Applications:
-• Use case 1
-  • Example
-  • Benefits
-• Use case 2
-  • Example
-  • Benefits
-
-FORMATTING RULES:
-1. Use bullet points (•) for ALL list items
-2. Indent sub-points with 2 spaces
-3. Keep consistent spacing between sections
-4. Use plain text for headings
-5. Headers should end with a colon (:)
-6. Always end with a friendly note."""
+- For greetings and casual chat: reply briefly and conversationally. No lists or sections needed.
+- For simple factual questions: give a direct, concise answer in 1-3 sentences.
+- Only use bullet points or sections when the user explicitly asks for a detailed breakdown or step-by-step guide.
+- Never pad answers with unnecessary categories, headers, or sub-sections.
+- Do not repeat or rephrase the question back to the user."""
 
     # Prepare messages with history
     messages = [{"role": "system", "content": system_prompt}]
